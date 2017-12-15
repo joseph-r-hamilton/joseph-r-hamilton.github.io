@@ -27,15 +27,18 @@ In any case, I need to continue taking Jekyll for a spin - especially with regar
 Ah yes....
 
 1. Follow the guide to create a blog... DONE the rest for tomorrow.
-+ Add a post
-- Create a development branch
-- Use Jekyll locally on laptop
-- Use Jekyll locally on home network
-- Experiment with themes 
+1. Add a post
+1. Create a development branch
+1. Use Jekyll locally on laptop
+1. Use Jekyll locally on home network
+1. Experiment with themes 
 
 Now why is markdown doing that?  Sigh... well, I'm learning markdown here too.  But seriously, it looks nasty to start a numbered list with lower case roman numerals.  OK... a [bug](https://github.com/github/markup/issues/991).  Lovely.  Glad I picked up a [markdown editor](https://remarkableapp.github.io/) despite how likely I will be using vi or any ole' text editor.  Unless... this is a problem only IN the markdown editor...  No.  This editor supports multiple "styles" and this works fine in styles other than GitHub.
 
 Sheesh.  Let's push it and check...
+
+OK.  Good news and bad news.  As I expected, the GitHub hosted rendition of the Jekyll produced blog is using whatever CSS I specified or none at all.  So it does what it would do as raw HTML.  The bad news?  The HTML produced is different.  Sigh... so markdown is apparently widely open to interpretation?  Hmm...
+
 
 
 
