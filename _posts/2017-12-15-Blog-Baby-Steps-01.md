@@ -2,6 +2,7 @@
 layout: post
 title: "Blog Baby Steps - Step 01"
 date: 2017-12-15
+categories: blog
 ---
 
 
@@ -18,7 +19,7 @@ Here's what I have been doing lately:
 * write text
 
 
-I left off the last bullet which would have said something like save file and exit vi... for a reason... cause I never do that.  Just like having Firefox open with dozens of tabs, with tabbed terminals, I can just leave the stinking text file open... forever.
+I left off the last bullet which would have said something like save file and exit vi... for a reason... 'cause I never do that.  Just like having Firefox open with dozens of tabs, with tabbed terminals, I can just leave the stinking text file open... forever.
 
 I like what I'm seeing with Jekyll.  But it seems pretty clear to me that I'm going to end up wrapping my usual practice up to auto-generate the post files.  We'll see...
 
@@ -33,7 +34,7 @@ Ah yes....
 1. Use Jekyll locally on home network
 1. Experiment with themes 
 
-Now why is markdown doing that?  Sigh... well, I'm learning markdown here too.  But seriously, it looks nasty to start a numbered list with lower case roman numerals.  OK... a [bug](https://github.com/github/markup/issues/991).  Lovely.  Glad I picked up a [markdown editor](https://remarkableapp.github.io/) despite how likely I will be using vi or any ole' text editor.  Unless... this is a problem only IN the markdown editor...  No.  This editor supports multiple "styles" and this works fine in styles other than GitHub.
+Now why is markdown doing that?  Sigh... well, I'm learning markdown here too.  But seriously, it looks nasty to start a numbered list with lower case roman numerals.  OK... a [bug](https://github.com/github/markup/issues/991).  Lovely.  Glad I picked up a [markdown editor](https://remarkableapp.github.io/) despite how likely I will be using vi or any ole' text editor.  Unless... this is a problem only IN the markdown editor...  No.  This editor supports multiple "styles" and this works fine in styles other than "GitHub".
 
 Sheesh.  Let's push it and check...
 
