@@ -1,11 +1,11 @@
-2
+version: 2
 jobs:
   build:
-
-  branches:
-    only:
-      - development
-
-  steps:
-    - checkout
-    - run: bundle install
+    working_directory: ~/jekyll
+    docker:
+      - image: circleci/ruby:2.4.2
+    steps:
+      - checkout
+      - run:
+          name: Prepare
+          command: 'bundle install'
