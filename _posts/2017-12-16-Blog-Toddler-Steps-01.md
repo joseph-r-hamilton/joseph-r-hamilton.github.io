@@ -36,6 +36,16 @@ There may have been more proper ways to do that with git.  But that'll do, pig..
 
 Next, I'll follow [these instructions from GitHub](https://github.com/DevProgress/onboarding/wiki/Using-Circle-CI-with-Github-Pages-for-Continuous-Delivery), remembering to keep in mind which branches are which.
 
+The following changes aside from this guide were required:
+
+* Changed deploy script name to deploy-site.sh
+* Change "gh-pages" to "master" in deploy-site.sh
+* Put the CircleCI config file as .circleci/config.yml in development branch
+* [Update the CircleCI config file to version 2.0](https://circleci.com/docs/2.0/migrating-from-1-2/)
+
+
+
+
 
 
 

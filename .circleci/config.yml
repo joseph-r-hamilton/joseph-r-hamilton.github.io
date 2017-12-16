@@ -1,5 +1,11 @@
-deployment:
-  production:
-    branch: development
-    commands:
-    - ./scripts/deploy-site.sh build
+2
+jobs:
+  build:
+
+  branches:
+    only:
+      - development
+
+  steps:
+    - checkout
+    - run: bundle install
