@@ -1,0 +1,5 @@
+deployment:
+  production:
+    branch: development
+    commands:
+    - ./scripts/deploy-site.sh build

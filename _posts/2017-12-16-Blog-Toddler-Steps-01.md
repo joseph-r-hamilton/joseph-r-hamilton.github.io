@@ -34,6 +34,10 @@ $ git push
 ```
 There may have been more proper ways to do that with git.  But that'll do, pig... that'll do...
 
+Next, I'll follow [these instructions from GitHub](https://github.com/DevProgress/onboarding/wiki/Using-Circle-CI-with-Github-Pages-for-Continuous-Delivery), remembering to keep in mind which branches are which.
+
+
+
 
 
 
