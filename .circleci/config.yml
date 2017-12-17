@@ -22,9 +22,10 @@ jobs:
           command: 'scripts/deploy-site.sh'
 workflows:
   version: 2
-  jobs:
-    - build:
-        filters:
-          branches:
-            only:
-              - development
+  build:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - development
