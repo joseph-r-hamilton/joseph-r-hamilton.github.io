@@ -20,3 +20,11 @@ jobs:
       - run:
           name: Deploy
           command: 'scripts/deploy-site.sh'
+workflows:
+  version: 2
+  jobs:
+    - build:
+        filters:
+          branches:
+            only:
+              - development
