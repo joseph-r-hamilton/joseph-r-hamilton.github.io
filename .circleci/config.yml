@@ -5,6 +5,8 @@ jobs:
     branches:
       only:
         - development
+      ignore:
+        - master
     docker:
       - image: circleci/ruby:2.4.2
     steps:
