@@ -12,3 +12,6 @@ jobs:
       - run:
           name: Build
           command: 'bundle exec jekyll build'
+      - run:
+          name: Deploy
+          command: 'scripts/deploy-site.sh'

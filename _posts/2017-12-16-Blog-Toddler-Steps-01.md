@@ -34,16 +34,11 @@ $ git push
 ```
 There may have been more proper ways to do that with git.  But that'll do, pig... that'll do...
 
-Next, I'll follow [these instructions from GitHub](https://github.com/DevProgress/onboarding/wiki/Using-Circle-CI-with-Github-Pages-for-Continuous-Delivery), remembering to keep in mind which branches are which.
+There are quite a number of examples and guides out there.  I haven't found one quite suitable here.  The Jekyll guide is using the CircleCI version 1.  One benefit of using version 2 is that CircleCI finds and uses its config in the development branch directly.
 
-The following changes aside from this guide were required:
+I found [these instructions from GitHub](https://github.com/DevProgress/onboarding/wiki/Using-Circle-CI-with-Github-Pages-for-Continuous-Delivery), to be rather interesting because of the use of another specific GitHub account for write access - rather than giving CircleCI write access to all your repositories.
 
-* Changed deploy script name to deploy-site.sh
-* Change "gh-pages" to "master" in deploy-site.sh
-* Put the CircleCI config file as .circleci/config.yml in development branch
-* [Update the CircleCI config file to version 2.0](https://circleci.com/docs/2.0/migrating-from-1-2/)
-
-
+The idea is strange to me.  But it seems once you hook everything and everyone together, CircleCI knows what to use.  Let's see how this works...
 
 
 
