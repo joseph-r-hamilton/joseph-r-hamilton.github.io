@@ -36,7 +36,7 @@ There may have been more proper ways to do that with git.  But that'll do, pig..
 
 There are quite a number of examples and guides out there.  I haven't found one quite suitable here.  The Jekyll guide is using the CircleCI version 1.  One benefit of using version 2 is that CircleCI finds and uses its config in the development branch directly.
 
-I found [these instructions from GitHub](https://github.com/DevProgress/onboarding/wiki/Using-Circle-CI-with-Github-Pages-for-Continuous-Delivery), to be rather interesting because of the use of another specific GitHub account for write access - rather than giving CircleCI write access to all your repositories.
+I found [these instructions from GitHub](https://github.com/DevProgress/onboarding/wiki/Using-Circle-CI-with-Github-Pages-for-Continuous-Delivery), to be rather interesting because of the use of another specific GitHub account for write access - rather than giving CircleCI write access to all your repositories.  CircleCI has [a page describing this](https://circleci.com/docs/1.0/github-security-ssh-keys/#machine-user-keys)
 
 The idea is strange to me.  But it seems once you hook everything and everyone together, CircleCI knows what to use.  Let's see how this works...
 

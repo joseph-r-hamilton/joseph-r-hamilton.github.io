@@ -40,8 +40,7 @@ cp -a "../${siteSource}/." .
 git add -A
 # now commit, ignoring branch master doesn't seem to work, so trying skip
 #git commit --allow-empty -m "Deploy to GitHub pages [ci skip]"
-#git commit --allow-empty -m "Deploy to GitHub pages - Revision ${CIRCLE_BUILD_NUM} [ci skip]"
-git commit --allow-empty -m "Deploy to GitHub pages - Revision ${CIRCLE_BUILD_NUM}"
+git commit --allow-empty -m "Deploy to GitHub pages - Revision ${CIRCLE_BUILD_NUM} [ci skip]"
 # and push, but send any output to /dev/null to hide anything sensitive
 git push --force --quiet origin master
 # go back to where we started and remove the master git repo we made and used
