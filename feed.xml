@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://joseph-r-hamilton.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://joseph-r-hamilton.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2017-12-17T04:00:54+00:00</updated><id>https://joseph-r-hamilton.github.io/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Blog Toddler Steps - Step 01</title><link href="https://joseph-r-hamilton.github.io/blog/2017/12/16/Blog-Toddler-Steps-01/" rel="alternate" type="text/html" title="Blog Toddler Steps - Step 01" /><published>2017-12-16T00:00:00+00:00</published><updated>2017-12-16T00:00:00+00:00</updated><id>https://joseph-r-hamilton.github.io/blog/2017/12/16/Blog-Toddler-Steps-01</id><content type="html" xml:base="https://joseph-r-hamilton.github.io/blog/2017/12/16/Blog-Toddler-Steps-01/">&lt;p&gt;Well… using Jekyll… I mean actually actively using it is going to be a bit more involved than I may have originally thought.&lt;/p&gt;
+
+&lt;p&gt;I have chosen do pursue a path of using Jekyll in a manner that frees me to be able to toss in themes and plugins at will.  But this requires that I fall back to my earlier view that I would end up maintaining two repositories: one for the input to Jekyll and another for the output.&lt;/p&gt;
+
+&lt;p&gt;Let me first toss in some notes on what I’ve been doing locally to choose a theme and build a site.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I chose to start with &lt;a href=&quot;https://qwtel.com/hydejack/&quot;&gt;HydeJack&lt;/a&gt; which builds upon &lt;a href=&quot;http://jekyllthemes.org/themes/hyde/&quot;&gt;Hyde&lt;/a&gt;.  I was also interested in &lt;a href=&quot;http://jekyllthemes.org/themes/lanyon/&quot;&gt;Lanyon&lt;/a&gt; which builds upon &lt;a href=&quot;http://getpoole.com/&quot;&gt;Poole&lt;/a&gt;.  Lanyon provides a toggle for the sidebar.  Still waffling on that… If I want it I can probably build it.&lt;/li&gt;
+  &lt;li&gt;While playing around with Hydejack, I added an icon for HackerRank.  HydeJack’s documentation details how to go about doing that using &lt;a href=&quot;https://icomoon.io/app/&quot;&gt;IcoMoon&lt;/a&gt;.  I grabbed the icon for HackerRank from a collection available at &lt;a href=&quot;https://icomoon.io/app/&quot;&gt;socicon&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;I am likely to use &lt;a href=&quot;https://travis-ci.org/&quot;&gt;TravisCI&lt;/a&gt; to manage things. &lt;a href=&quot;https://jekyllrb.com/docs/continuous-integration/&quot;&gt;Jekyll suggests a handful of Continuous Integration options&lt;/a&gt;.  &lt;a href=&quot;https://circleci.com/&quot;&gt;CircleCI&lt;/a&gt; ranks higher on &lt;a href=&quot;https://www.slant.co/versus/625/627/~circleci_vs_travis&quot;&gt;Slant&lt;/a&gt; at the moment.  But I believe if you narrow the scope to Jekyll on GitHub Pages, TravisCI probably pulls ahead.&lt;/li&gt;
+  &lt;li&gt;But…. you know what?  I &lt;strong&gt;will be&lt;/strong&gt; doing more than just blogging, more than just Jekyll.  Let’s back up and ponder.  Part of the reason for chosing Jekyll for blogging at all was it’s focus on Markdown and tight integration with GitHub.  More and deeper experience with Git is more significant than playing with Jekyll.  Similarly, for just Jekyll TravisCI looks best.  But the more I look at the differences between what TravisCI and CircleCI support, the more CircleCI wins out if I consider Data Science projects.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So… let’s get going with CircleCI.&lt;/p&gt;
+
+&lt;p&gt;There are are several guides out there.  But one thing to keep in mind is how GitHub Pages works differs.  GitHub Pages gives each user a single site plus a site for every repository.  For “every repository” the &lt;em&gt;master&lt;/em&gt; branch contains the stuff and the website is in the &lt;em&gt;gh-pages&lt;/em&gt; branch.  For that special single site, the &lt;em&gt;master&lt;/em&gt; branch is the website.  Most of these guides for CircleCI, Jekyll and GitHub are for grabbing from &lt;em&gt;master&lt;/em&gt;, processing and sending output to &lt;em&gt;gh-pages&lt;/em&gt;.  For this single user site, I’ll use the &lt;em&gt;development&lt;/em&gt; branch and push to the &lt;em&gt;master&lt;/em&gt; branch.&lt;/p&gt;
+
+&lt;p&gt;I’d cloned the HydeJack theme and have been working there.  Let’s replace the development branch with that:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;mv development development.old
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;mv hydejack-starter-kit development
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;development
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rsync &lt;span class=&quot;nt&quot;&gt;-aq&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--del&lt;/span&gt; ../development.old/.git/ .git
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;There may have been more proper ways to do that with git.  But that’ll do, pig… that’ll do…&lt;/p&gt;
+
+&lt;p&gt;There are quite a number of examples and guides out there.  I haven’t found one quite suitable here.  The Jekyll guide is using the CircleCI version 1.  One benefit of using version 2 is that CircleCI finds and uses its config in the development branch directly.&lt;/p&gt;
+
+&lt;p&gt;I found &lt;a href=&quot;https://github.com/DevProgress/onboarding/wiki/Using-Circle-CI-with-Github-Pages-for-Continuous-Delivery&quot;&gt;these instructions from GitHub&lt;/a&gt;, to be rather interesting because of the use of another specific GitHub account for write access - rather than giving CircleCI write access to all your repositories.&lt;/p&gt;
+
+&lt;p&gt;The idea is strange to me.  But it seems once you hook everything and everyone together, CircleCI knows what to use.  Let’s see how this works…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Jekyll CircleCI GitHub" /><summary type="html">Well… using Jekyll… I mean actually actively using it is going to be a bit more involved than I may have originally thought.</summary></entry><entry><title type="html">Blog Baby Steps - Step 02</title><link href="https://joseph-r-hamilton.github.io/blog/2017/12/15/Blog-Baby-Steps-02/" rel="alternate" type="text/html" title="Blog Baby Steps - Step 02" /><published>2017-12-15T00:00:00+00:00</published><updated>2017-12-15T00:00:00+00:00</updated><id>https://joseph-r-hamilton.github.io/blog/2017/12/15/Blog-Baby-Steps-02</id><content type="html" xml:base="https://joseph-r-hamilton.github.io/blog/2017/12/15/Blog-Baby-Steps-02/">&lt;p&gt;Progressing through some baby steps…&lt;/p&gt;
+
+&lt;p&gt;Spawned a development branch.  Pulled it down.&lt;/p&gt;
+
+&lt;p&gt;Found and fixed a bug with layout for posts.&lt;/p&gt;
+
+&lt;p&gt;Corrected something for the RSS feed (layout to “null”).&lt;/p&gt;
+
+&lt;p&gt;Alright… I’ve been using Jekyll locally on the laptop.  Took a bit to get used to how this should work and flow.  But the warnings one can see by doing this guided me to the fixes above.&lt;/p&gt;
+
+&lt;p&gt;Now… let’s try to push this and pull it from the home network…&lt;/p&gt;
+
+&lt;p&gt;Piece of cake.  Hadn’t set up authentication for git yet in the home network.  Good to get
+that out of the way.&lt;/p&gt;
+
+&lt;p&gt;So, the next thing to do here is to experiment with themes.  Color, flair, special effects and
+all sorts of bells and whistles may prove distracting.  But there are a few “needs” here.
+To me these are critical:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use of categories
+    &lt;ul&gt;
+      &lt;li&gt;Search on categories&lt;/li&gt;
+      &lt;li&gt;Sidebar (or something) listing categories&lt;/li&gt;
+      &lt;li&gt;Heirarchical category management&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Search by Date&lt;/li&gt;
+  &lt;li&gt;Pagination&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But let’s just start with the distracting fun stuff.&lt;/p&gt;
+
+&lt;p&gt;Hmm… experimentation with themes seems to show I need the github-pages gem and it’s not
+installed.  Woah.  It pulls quite a lot with it.  And for some reason, it’s taking forever
+on the home network.&lt;/p&gt;
+
+&lt;p&gt;And that was pointless.  Well… no.  It was unsuccessful.  Well… no.  It just introduced
+some &lt;em&gt;issues&lt;/em&gt;.  Punching in github-pages added quite a lot to Gemfile.lock.  You end up
+with multiple gem versions.  The “correct” thing to do is to force ruby to use the versions
+specificed in the lock file by calling “bundle exec jekyll serve” rather than “jekyll serve”.&lt;/p&gt;
+
+&lt;p&gt;Next, however, there is going to be a limitation of what will be supported via hosting on
+GitHub Pages.  Not at all sure this matters.  I haven’t even tried any themes yet.  But
+something to consider.  The solution is straightforward if I find I need something more:
+just use jekyll locally to produce the content and then push that.&lt;/p&gt;
+
+&lt;p&gt;Let’s try at least one them before pushing and switching back to the laptop…&lt;/p&gt;
+
+&lt;p&gt;Ouch.  OK.  This is NOT what I expected.  I was spoiled before, I guess.  I was expecting
+something like changing skins on any number of things… where it would be a relatively
+minor one-line change thing.  It is not at all this easy.  I found I liked one of the
+themes supported directly by GitHub Pages.  And I can serve it locally… but copying
+over the data and configuration from another existing Jekyll site is manual and tedious.&lt;/p&gt;
+
+&lt;p&gt;Worse yet, a bit of research into plugins and such strongly suggests to me I’ll need
+to use plugins not supported innately on GitHub Pages.&lt;/p&gt;
+
+&lt;p&gt;Beginning to explore next steps…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Progressing through some baby steps…</summary></entry><entry><title type="html">Blog Baby Steps - Step 01</title><link href="https://joseph-r-hamilton.github.io/blog/2017/12/15/Blog-Baby-Steps-01/" rel="alternate" type="text/html" title="Blog Baby Steps - Step 01" /><published>2017-12-15T00:00:00+00:00</published><updated>2017-12-15T00:00:00+00:00</updated><id>https://joseph-r-hamilton.github.io/blog/2017/12/15/Blog-Baby-Steps-01</id><content type="html" xml:base="https://joseph-r-hamilton.github.io/blog/2017/12/15/Blog-Baby-Steps-01/">&lt;p&gt;This is going to be interesting.&lt;/p&gt;
+
+&lt;p&gt;I have evolved or devolved a bit with regards to blogging.  Blogging serves many purposes.  But if your primary purpose is something akin to a diary or a personal log for future reference,  anything akin to WordPress ends up being a bit of overkill.&lt;/p&gt;
+
+&lt;p&gt;I really resonated with &lt;a href=&quot;http://jmcglone.com/notes/2014/05/03/using-github-to-create-and-host-a-personal-website&quot;&gt;the comments in the Jekyll-Github-Blog guide&lt;/a&gt;.  It isn’t that hard at all to setup a LAMP stack or whatever to get a blog going.  And it’s not &lt;strong&gt;that&lt;/strong&gt; hard to manage the migrations, updates, changes in database, hardware changes, dying disk drives, etc.  But at some point, you ask yourself “why am I doing this?”.&lt;/p&gt;
+
+&lt;p&gt;Here’s what I have been doing lately:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;$ vi this_or_that_logfile&lt;/li&gt;
+  &lt;li&gt;!!date (punch in that timestamp)&lt;/li&gt;
+  &lt;li&gt;write text&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I left off the last bullet which would have said something like save file and exit vi… for a reason… ‘cause I never do that.  Just like having Firefox open with dozens of tabs, with tabbed terminals, I can just leave the stinking text file open… forever.&lt;/p&gt;
+
+&lt;p&gt;I like what I’m seeing with Jekyll.  But it seems pretty clear to me that I’m going to end up wrapping my usual practice up to auto-generate the post files.  We’ll see…&lt;/p&gt;
+
+&lt;p&gt;In any case, I need to continue taking Jekyll for a spin - especially with regards how to use it with GitHub pages.  So what are my next few baby steps?  Hang on… let me slide over to my aforementioned text file and see what I’d noted…&lt;/p&gt;
+
+&lt;p&gt;Ah yes….&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Follow the guide to create a blog… DONE the rest for tomorrow.&lt;/li&gt;
+  &lt;li&gt;Add a post&lt;/li&gt;
+  &lt;li&gt;Create a development branch&lt;/li&gt;
+  &lt;li&gt;Use Jekyll locally on laptop&lt;/li&gt;
+  &lt;li&gt;Use Jekyll locally on home network&lt;/li&gt;
+  &lt;li&gt;Experiment with themes&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now why is markdown doing that?  Sigh… well, I’m learning markdown here too.  But seriously, it looks nasty to start a numbered list with lower case roman numerals.  OK… a &lt;a href=&quot;https://github.com/github/markup/issues/991&quot;&gt;bug&lt;/a&gt;.  Lovely.  Glad I picked up a &lt;a href=&quot;https://remarkableapp.github.io/&quot;&gt;markdown editor&lt;/a&gt; despite how likely I will be using vi or any ole’ text editor.  Unless… this is a problem only IN the markdown editor…  No.  This editor supports multiple “styles” and this works fine in styles other than “GitHub”.&lt;/p&gt;
+
+&lt;p&gt;Sheesh.  Let’s push it and check…&lt;/p&gt;
+
+&lt;p&gt;OK.  Good news and bad news.  As I expected, the GitHub hosted rendition of the Jekyll produced blog is using whatever CSS I specified or none at all.  So it does what it would do as raw HTML.  The bad news?  The HTML produced is different.  Sigh… so markdown is apparently widely open to interpretation?  Hmm…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">This is going to be interesting.</summary></entry><entry><title type="html">Joseph Hamilton Launches Site</title><link href="https://joseph-r-hamilton.github.io/blog/2017/12/14/Beginnings/" rel="alternate" type="text/html" title="Joseph Hamilton Launches Site" /><published>2017-12-14T00:00:00+00:00</published><updated>2017-12-14T00:00:00+00:00</updated><id>https://joseph-r-hamilton.github.io/blog/2017/12/14/Beginnings</id><content type="html" xml:base="https://joseph-r-hamilton.github.io/blog/2017/12/14/Beginnings/">&lt;p&gt;Starting a new website/blog using Jekyll…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Starting a new website/blog using Jekyll…</summary></entry></feed>
