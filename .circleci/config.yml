@@ -2,11 +2,6 @@ version: 2
 jobs:
   build:
     working_directory: ~/jekyll
-    branches:
-      only:
-        - development
-      ignore:
-        - master
     docker:
       - image: circleci/ruby:2.4.2
     steps:
