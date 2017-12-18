@@ -1,1 +1,1 @@
-Sitemap: https://joseph-r-hamilton.github.io/sitemap.xml
+Sitemap: /sitemap.xml
