@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/category/hydejack/</loc>
-<lastmod>2017-12-18T00:20:07+00:00</lastmod>
+<lastmod>2017-12-18T00:40:12+00:00</lastmod>
 </url>
 <url>
 <loc>/tag/example/</loc>
-<lastmod>2017-12-18T00:20:07+00:00</lastmod>
+<lastmod>2017-12-18T00:40:12+00:00</lastmod>
 </url>
 <url>
 <loc>/blog/2017/12/14/Beginnings/</loc>
@@ -29,6 +29,10 @@
 <lastmod>2017-12-17T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>/hackerrank/2017/12/17/HackerRank/</loc>
+<lastmod>2017-12-17T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>/about/</loc>
 </url>
 <url>
@@ -36,5 +40,8 @@
 </url>
 <url>
 <loc>/assets/bower_components/html5shiv/MIT%20and%20GPL2%20licenses/</loc>
+</url>
+<url>
+<loc>/page-2/</loc>
 </url>
 </urlset>
