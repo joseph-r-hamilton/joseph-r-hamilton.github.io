@@ -22,4 +22,4 @@ jobs:
           command: 'htmlproofer ./_site --check-html --url-ignore https://www.linkedin.com/in/joseph-r-hamilton'
       - run:
           name: Deploy
-          command: 'scripts/deploy-site.sh'
+          command: '_scripts/deploy-site.sh'
