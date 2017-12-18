@@ -3,7 +3,7 @@ layout: post
 title: "Blog Toddler Steps - Step 01"
 date: 2017-12-16
 categories: blog
-tags: [Jekyll CircleCI GitHub]
+tags: [Jekyll, CircleCI, GitHub]
 ---
 
 Well... using Jekyll... I mean actually actively using it is going to be a bit more involved than I may have originally thought.

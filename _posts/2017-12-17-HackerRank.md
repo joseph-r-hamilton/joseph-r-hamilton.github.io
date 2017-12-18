@@ -3,7 +3,7 @@ layout: post
 title: "HackerRank"
 date: 2017-12-17
 categories: HackerRank
-tags: [Javascript Training]
+tags: [Javascript, Training]
 ---
 
 I **love** HackerRank.

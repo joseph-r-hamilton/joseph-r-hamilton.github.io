@@ -3,7 +3,7 @@ layout: post
 title: "Blog Toddler Steps - Step 02"
 date: 2017-12-17
 categories: blog
-tags: [Jekyll CircleCI GitHub]
+tags: [Jekyll, CircleCI, GitHub]
 ---
 
 Having lots of fun with CircleCI.
