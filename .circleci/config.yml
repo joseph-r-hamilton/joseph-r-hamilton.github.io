@@ -1,0 +1,25 @@
+version: 2
+jobs:
+  build:
+    branches:
+      ignore:
+        - master
+    working_directory: ~/jekyll
+    docker:
+      - image: circleci/ruby:2.4.2
+    environment:
+      - NOKOGIRI_USE_SYSTEM_LIBRARIES: true 
+    steps:
+      - checkout
+      - run:
+          name: Prepare
+          command: 'bundle install'
+      - run:
+          name: Build
+          command: 'bundle exec jekyll build'
+      - run:
+          name: Test
+          command: 'htmlproofer ./_site --check-html --url-ignore https://www.linkedin.com/in/joseph-r-hamilton'
+      - run:
+          name: Deploy
+          command: 'scripts/deploy-site.sh'
