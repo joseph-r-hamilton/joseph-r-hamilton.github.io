@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Title"
+title: "Ruby on HackerRank"
 date: 2017-12-19
 categories: HackerRank
 tags: [Ruby]
