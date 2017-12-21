@@ -1,5 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2017-12-18T06:14:28+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">HackerRank</title><link href="/hackerrank/2017/12/17/HackerRank/" rel="alternate" type="text/html" title="HackerRank" /><published>2017-12-17T00:00:00+00:00</published><updated>2017-12-17T00:00:00+00:00</updated><id>/hackerrank/2017/12/17/HackerRank</id><content type="html" xml:base="/hackerrank/2017/12/17/HackerRank/">&lt;p&gt;I &lt;strong&gt;love&lt;/strong&gt; HackerRank.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2017-12-21T03:42:02+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Title</title><link href="/hackerrank/2017/12/19/HackerRank-Ruby/" rel="alternate" type="text/html" title="Title" /><published>2017-12-19T00:00:00+00:00</published><updated>2017-12-19T00:00:00+00:00</updated><id>/hackerrank/2017/12/19/HackerRank-Ruby</id><content type="html" xml:base="/hackerrank/2017/12/19/HackerRank-Ruby/">&lt;p&gt;I chose to burn through the Ruby track in HackerRank today.&lt;/p&gt;
+
+&lt;p&gt;Recent exploration into plugins for Jekyll impressed upon me the need to brush up on and extend my knowledge with Ruby.&lt;/p&gt;
+
+&lt;p&gt;I feel like Neo in Matrix when he exclaimed “I know Kung Fu!!”  I completed the entire track with the exception of one “Medium” level challenge.  Of course, this doesn’t make me an immediate Ruby expert.  But this certainly filled in the gaps with regards to syntax and such.  I’ll be much more able to read and digest Jekyll plugins.&lt;/p&gt;
+
+&lt;p&gt;For Jekyll, I next need to read up on Liquid… and tear into exactly how Jekyll does what it does.&lt;/p&gt;
+
+&lt;p&gt;I’ll finish the final Ruby challenge tomorrow.  It’s an exercise with Prime Palindromes.  What &lt;strong&gt;IS&lt;/strong&gt; it about programming tests and tutorials and this fixation on palindromes?  I get it that it helps reinforce concepts of control flow and optimization.  But sheesh.&lt;/p&gt;
+
+&lt;p&gt;In any case, I’ll rough up my plan here before I attack it tomorrow:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Earlier in the track I created a primality tester.  I need to enhance that to keep it’s store of primes as a memory so as not to keep recreating it.&lt;/li&gt;
+  &lt;li&gt;Next, I’ll try to take the path of iterating through all palindromes of given length and then test for prime rather than iterate through primes and check palindrome.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;EDIT:  It’s tomorrow.&lt;/p&gt;
+
+&lt;p&gt;Chuckle… some days are busier than others with plain ole’ life.  Yesterday I could focus on Ruby.  Today I couldn’t even get around to this till late evening.&lt;/p&gt;
+
+&lt;p&gt;In any case, I knocked out that final Ruby challenge!&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Ruby" /><summary type="html">I chose to burn through the Ruby track in HackerRank today.</summary></entry><entry><title type="html">HackerRank</title><link href="/hackerrank/2017/12/17/HackerRank/" rel="alternate" type="text/html" title="HackerRank" /><published>2017-12-17T00:00:00+00:00</published><updated>2017-12-17T00:00:00+00:00</updated><id>/hackerrank/2017/12/17/HackerRank</id><content type="html" xml:base="/hackerrank/2017/12/17/HackerRank/">&lt;p&gt;I &lt;strong&gt;love&lt;/strong&gt; HackerRank.&lt;/p&gt;
 
 &lt;p&gt;I’m dropping a note here for a few reasons.  First, I need some blog posts as I move to test or implement desired functionality.  I have an idea of what I need the blog to be able to support.   But to be able to try it out, I have to fluff out the number of posts and categories and tags in play.&lt;/p&gt;
 
