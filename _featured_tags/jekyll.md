@@ -1,5 +1,13 @@
 ---
-layout: list
+layout: list_paged
+pagination: 
+  enabled: true
+  per_page: 2
+  collection: posts
+  tag: Jekyll
+  trail: 
+    before: 2 # The number of links before the current page
+    after: 2  # The number of links after the current page
 title: Jekyll
 slug: Jekyll
 menu: false

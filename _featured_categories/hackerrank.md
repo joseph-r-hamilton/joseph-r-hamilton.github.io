@@ -1,6 +1,14 @@
 ---
 # Featured categories need to have the `list` layout.
-layout: list
+layout: list_paged
+pagination: 
+  enabled: true
+  per_page: 2
+  collection: posts
+  category: HackerRank
+  trail: 
+    before: 2 # The number of links before the current page
+    after: 2  # The number of links after the current page
 
 # The title of the category's page.
 title: HackerRank
