@@ -6,13 +6,13 @@ categories: [Training, PH_525_series]
 tags: [Statistics, Harvard, R, Python, Rodeo, Spyder]
 ---
 
-It's time to shift gears a bit.  I need to start **using* this blog, not just play with it.
+It's time to shift gears a bit.  I need to start *using* this blog, not just play with it.
 
 I've about a month left before starting the **Metis Data Science Bootcamp**.  One of the things I'd slotted to do in December was to work through this online course series from Harvard.  The Metis Boocamp is exclusively Python.  A number of these MOOCs and books focus on R.  I have found one book that does both Python and R.
 
 For this course, I'm going to try to replicate work in Python.
 
-The Harvard course is a 6 part series that parallels the book *Data Analysis for the Life Sciences*.  I was drawn to the series when searching for a refresher on Linear Algebra.  That's course 2 of 6.  I chose to use HackerRank for the review and will now push through the entire series, time permitting.
+The Harvard course is a 6 part series that parallels the book *Data Analysis for the Life Sciences*.  I was drawn to the series when searching for a refresher on Linear Algebra.  That's course 2 of 6.  I chose to use HackerRank for the Linear Algebra review and will now push through the entire Harvard series, time permitting.
 
 The course starts with the R tutorial.  In order to load packages, I had to back out and load some more stuff in Anaconda:
 
