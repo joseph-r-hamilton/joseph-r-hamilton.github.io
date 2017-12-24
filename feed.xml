@@ -1,5 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2017-12-23T13:37:52+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Stats Series</title><link href="/training/ph_525_series/2017/12/22/Stats-Series/" rel="alternate" type="text/html" title="Stats Series" /><published>2017-12-22T00:00:00+00:00</published><updated>2017-12-22T00:00:00+00:00</updated><id>/training/ph_525_series/2017/12/22/Stats-Series</id><content type="html" xml:base="/training/ph_525_series/2017/12/22/Stats-Series/">&lt;p&gt;It’s time to shift gears a bit.  I need to start &lt;em&gt;using&lt;/em&gt; this blog, not just play with it.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2017-12-24T03:31:17+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Swirling Round and Round</title><link href="/training/2017/12/23/Swirling-Round-and-Round/" rel="alternate" type="text/html" title="Swirling Round and Round" /><published>2017-12-23T00:00:00+00:00</published><updated>2017-12-23T00:00:00+00:00</updated><id>/training/2017/12/23/Swirling-Round-and-Round</id><content type="html" xml:base="/training/2017/12/23/Swirling-Round-and-Round/">&lt;p&gt;I just stumbled atop a couple things that may prove helpful or may just be an entertaining distraction.&lt;/p&gt;
+
+&lt;p&gt;I’m working through a MOOC that uses R.  SInce the upcoming Bootcamp is exclusively Python, I’m mirroring the work in Python.  But to follow along I need to learn R.  I’d been bouncing in and out of Swirl to get what I needed for the moment (kinda in a “I know what need, these concepts aren’t new to me… I just need to know your syntax, silly tutorial program!”).  Swirl asks at the beginning if you want the tutorial or the “&lt;a href=&quot;https://github.com/swirldev/swirl_courses&quot;&gt;Swirl repository&lt;/a&gt;”.  I’d glanced at it before.  But this morning I actually looked at it.  And dear heavens if it isn’t a slew of stuff parallel to a lot of these Stats and Data Science courses.&lt;/p&gt;
+
+&lt;p&gt;Woah.&lt;/p&gt;
+
+&lt;p&gt;So… given my current focus on mirroring R and Python work, I just had to scratch a curiosity and sure enough I found &lt;a href=&quot;https://github.com/alexander-bauer/swirlypy&quot;&gt;Swirlypy&lt;/a&gt;.  I’ll have to play with this.  Many people who’ve been pining for something like this seem to want a basic Python tutorial.  The structure and program is here but the library seems empty.&lt;/p&gt;
+
+&lt;p&gt;How hard would it be to port the R swirl courses?&lt;/p&gt;
+
+&lt;p&gt;Alright.  I’ve got a slightly better sense of the scope of the task.  First, this is how to run things.&lt;/p&gt;
+
+&lt;p&gt;Step one - get the package.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$SOMEDIR&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://github.com/alexander-bauer/swirlypy
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now, in python…&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SOMEDIR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;swirlypy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# Full path to location&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;swirlypy&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;course&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;course&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Course&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;load&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;COURSEDIR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;execute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The repostiory comes with a sample courses.  So I just did “SOMEDIR/swirlypy/courses/intro”.&lt;/p&gt;
+
+&lt;p&gt;It works, after a fashion.&lt;/p&gt;
+
+&lt;p&gt;There’s a ton of similarity between this and swirl.  The courses are YAML files for both.  The general structure is similar.  The challenge is the types of questions supported.&lt;/p&gt;
+
+&lt;p&gt;It seems swirl itself is not that old.  The effort to create swirlypy started almost immediately after the start of swirl.  But development of swirlypy stopped and swirl went another year or so of active development.&lt;/p&gt;
+
+&lt;p&gt;This may be insane… but I want to take  a crack at this.  It would be good practice with git, matplotlib and stats stuff in general.&lt;/p&gt;
+
+&lt;p&gt;Although I’ve set up rpy2, it probably wouldn’t be wise to depend on R directly like this.  When using the data sets, these can be found online such has &lt;a href=&quot;https://vincentarelbundock.github.io/Rdatasets/datasets.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I grabbed &lt;a href=&quot;https://github.com/swirldev/swirl_courses&quot;&gt;the Swirl Courses&lt;/a&gt; respository.  Let’s try to port what’s listed there as “Overview of Statistics”.  And… because it’ll be a huge focus of the next few months, let’s try to incorporate pandas in even this simple data analysis…&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;subprocess&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;check_output&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;
+
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;chdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getcwd&lt;/span&gt;
+
+
+&lt;span class=&quot;n&quot;&gt;chdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;swirl_courses/Open_Intro/Overview_of_Statistics&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;check_output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'grep &quot;^- Class&quot; *yaml'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                      &lt;span class=&quot;n&quot;&gt;shell&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;universal_newlines&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_replace&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'- Class: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;regex&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inplace&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value_counts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;                   &lt;span class=&quot;mi&quot;&gt;58&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;figure&lt;/span&gt;                 &lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;cmd_question&lt;/span&gt;           &lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;mult_question&lt;/span&gt;          &lt;span class=&quot;mi&quot;&gt;14&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;exact_question&lt;/span&gt;          &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;video&lt;/span&gt;                   &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;range_question&lt;/span&gt;          &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;text_order_question&lt;/span&gt;     &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;text_many_question&lt;/span&gt;      &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;meta&lt;/span&gt;                    &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;text_question&lt;/span&gt;           &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I believe many of those will be straightforward extensions of classes already built in swirlypy.  The real challenge and the high runner is &lt;em&gt;figure&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I may start with some of the easier ones to get going.  Text out to be a straight drop in.&lt;/p&gt;
+
+&lt;p&gt;More later…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Swirl" /><category term="Swirlpy" /><category term="R" /><category term="Python" /><summary type="html">I just stumbled atop a couple things that may prove helpful or may just be an entertaining distraction.</summary></entry><entry><title type="html">Stats Series</title><link href="/training/ph_525_series/2017/12/22/Stats-Series/" rel="alternate" type="text/html" title="Stats Series" /><published>2017-12-22T00:00:00+00:00</published><updated>2017-12-22T00:00:00+00:00</updated><id>/training/ph_525_series/2017/12/22/Stats-Series</id><content type="html" xml:base="/training/ph_525_series/2017/12/22/Stats-Series/">&lt;p&gt;It’s time to shift gears a bit.  I need to start &lt;em&gt;using&lt;/em&gt; this blog, not just play with it.&lt;/p&gt;
 
 &lt;p&gt;I’ve about a month left before starting the &lt;strong&gt;Metis Data Science Bootcamp&lt;/strong&gt;.  One of the things I’d slotted to do in December was to work through this online course series from Harvard.  The Metis Boocamp is exclusively Python.  A number of these MOOCs and books focus on R.  I have found one book that does both Python and R.&lt;/p&gt;
 
