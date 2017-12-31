@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2017-12-28T22:59:51+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2017-12-31T04:50:59+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
 </subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Stats Series - Progress</title><link href="/training/ph_525_series/2017/12/28/Stats-Series-Progress/" rel="alternate" type="text/html" title="Stats Series - Progress" /><published>2017-12-28T00:00:00+00:00</published><updated>2017-12-28T00:00:00+00:00</updated><id>/training/ph_525_series/2017/12/28/Stats-Series-Progress</id><content type="html" xml:base="/training/ph_525_series/2017/12/28/Stats-Series-Progress/">&lt;p&gt;Yay!&lt;/p&gt;
 
 &lt;p&gt;Halfway through the first course!&lt;/p&gt;
@@ -9,7 +9,31 @@
 
 &lt;p&gt;Although I have had real problem so far replicating everything in Python, including all the related plots, there is no easy way to make the respective random number generators behave the same way.  I can set seeds for both to keep answers consistent in both.  But they rarely match.&lt;/p&gt;
 
-&lt;p&gt;Another thing this helps is forcing me to reflect more on understanding what’s really going on rather than just relying on functions and formulae.  There’s an enormous danger here with power of these stats functions.  Statistics builds upon assumptions and methods in a quick chain.  If you just jump to a particular formula without understanding all of what led you to use that formula, you may not appreciate the assumptions nor be as able to change approaches when appropriate.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Statistics" /><category term="Harvard" /><category term="R" /><category term="Python" /><category term="Spyder" /><category term="Jupyter" /><summary type="html">Yay!</summary></entry><entry><title type="html">Swirling Round and Round</title><link href="/training/2017/12/23/Swirling-Round-and-Round/" rel="alternate" type="text/html" title="Swirling Round and Round" /><published>2017-12-23T00:00:00+00:00</published><updated>2017-12-23T00:00:00+00:00</updated><id>/training/2017/12/23/Swirling-Round-and-Round</id><content type="html" xml:base="/training/2017/12/23/Swirling-Round-and-Round/">&lt;p&gt;I just stumbled atop a couple things that may prove helpful or may just be an entertaining distraction.&lt;/p&gt;
+&lt;p&gt;Another thing this helps is forcing me to reflect more on understanding what’s really going on rather than just relying on functions and formulae.  There’s an enormous danger here with power of these stats functions.  Statistics builds upon assumptions and methods in a quick chain.  If you just jump to a particular formula without understanding all of what led you to use that formula, you may not appreciate the assumptions nor be as able to change approaches when appropriate.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Statistics" /><category term="Harvard" /><category term="R" /><category term="Python" /><category term="Spyder" /><category term="Jupyter" /><summary type="html">Yay!</summary></entry><entry><title type="html">Rodeo - First Impressions</title><link href="/rodeo/2017/12/28/Rodeo-First-Impressions/" rel="alternate" type="text/html" title="Rodeo - First Impressions" /><published>2017-12-28T00:00:00+00:00</published><updated>2017-12-28T00:00:00+00:00</updated><id>/rodeo/2017/12/28/Rodeo-First-Impressions</id><content type="html" xml:base="/rodeo/2017/12/28/Rodeo-First-Impressions/">&lt;p&gt;OK… I’m starting to &lt;strong&gt;use&lt;/strong&gt; Rodeo, not just toy with it.&lt;/p&gt;
+
+&lt;p&gt;I realized there was no “Project” functionality yet.  But it seemed really odd that there was no way to
+set the current working directory so it was connected to the location of the file.  This isn’t a bug,
+though some have argued the case on GitHub.  It just takes getting used to.  You just use the directory
+chooser of the console pane to get where you want to be.&lt;/p&gt;
+
+&lt;p&gt;That felt like a negative.  But if so, it’s easily outweighed by a huge benefit - the editor has &lt;em&gt;vim&lt;/em&gt;
+and &lt;em&gt;emacs&lt;/em&gt; bindings!!&lt;/p&gt;
+
+&lt;p&gt;Ironically, the IDE that’s been giving me the most grief has been RStudio.  That sucker core dumps if
+just breathe funny.  And it’s weird.  For some projects, it just works fine.  For others, SOMETHING
+repeatably crashes it.  The trouble is that it’s repeatable for a period.  Something in the environment
+is such that R crashes.  But when that environment thing isn’t there, RStudio is fine.  That sort of
+problem is devilishly difficult to chase or report.  It seems there’s something related to the Clipboard
+that’s at play.&lt;/p&gt;
+
+&lt;p&gt;Hmmm… or… it actually seems dependent on what is being pasted.  It seems to be most common when
+pasting a command that involves reading/accessing a file and the filepath is invalid.  But…  it is
+oddly not 100% repeatable.  It will eventually do it it without crashing.  It is weird.&lt;/p&gt;
+
+&lt;p&gt;But…back to Rodeo.  It sort of grows on you.  I &lt;strong&gt;like&lt;/strong&gt; the vim binding but I keep forgetting it’s
+there because I’m bouncing between so many things.  In a lot of ways, though, it seems a work in progress.
+I’ve seen some folk comment they don’t want to see it become bloated like Spyder.  I had to chuckle.
+I didn’t consider Spyder bloated at all.  Have these guys used Komodo or Eclipse?&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Rodeo" /><category term="Python" /><category term="RStudio" /><summary type="html">OK… I’m starting to use Rodeo, not just toy with it.</summary></entry><entry><title type="html">Swirling Round and Round</title><link href="/training/2017/12/23/Swirling-Round-and-Round/" rel="alternate" type="text/html" title="Swirling Round and Round" /><published>2017-12-23T00:00:00+00:00</published><updated>2017-12-23T00:00:00+00:00</updated><id>/training/2017/12/23/Swirling-Round-and-Round</id><content type="html" xml:base="/training/2017/12/23/Swirling-Round-and-Round/">&lt;p&gt;I just stumbled atop a couple things that may prove helpful or may just be an entertaining distraction.&lt;/p&gt;
 
 &lt;p&gt;I’m working through a MOOC that uses R.  SInce the upcoming Bootcamp is exclusively Python, I’m mirroring the work in Python.  But to follow along I need to learn R.  I’d been bouncing in and out of Swirl to get what I needed for the moment (kinda in a “I know what need, these concepts aren’t new to me… I just need to know your syntax, silly tutorial program!”).  Swirl asks at the beginning if you want the tutorial or the “&lt;a href=&quot;https://github.com/swirldev/swirl_courses&quot;&gt;Swirl repository&lt;/a&gt;”.  I’d glanced at it before.  But this morning I actually looked at it.  And dear heavens if it isn’t a slew of stuff parallel to a lot of these Stats and Data Science courses.&lt;/p&gt;
 
@@ -295,39 +319,4 @@ over the data and configuration from another existing Jekyll site is manual and 
 &lt;p&gt;Worse yet, a bit of research into plugins and such strongly suggests to me I’ll need
 to use plugins not supported innately on GitHub Pages.&lt;/p&gt;
 
-&lt;p&gt;Beginning to explore next steps…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Progressing through some baby steps…</summary></entry><entry><title type="html">Blog Baby Steps - Step 01</title><link href="/blog/2017/12/15/Blog-Baby-Steps-01/" rel="alternate" type="text/html" title="Blog Baby Steps - Step 01" /><published>2017-12-15T00:00:00+00:00</published><updated>2017-12-15T00:00:00+00:00</updated><id>/blog/2017/12/15/Blog-Baby-Steps-01</id><content type="html" xml:base="/blog/2017/12/15/Blog-Baby-Steps-01/">&lt;p&gt;This is going to be interesting.&lt;/p&gt;
-
-&lt;p&gt;I have evolved or devolved a bit with regards to blogging.  Blogging serves many purposes.  But if your primary purpose is something akin to a diary or a personal log for future reference,  anything akin to WordPress ends up being a bit of overkill.&lt;/p&gt;
-
-&lt;p&gt;I really resonated with &lt;a href=&quot;http://jmcglone.com/notes/2014/05/03/using-github-to-create-and-host-a-personal-website&quot;&gt;the comments in the Jekyll-Github-Blog guide&lt;/a&gt;.  It isn’t that hard at all to setup a LAMP stack or whatever to get a blog going.  And it’s not &lt;strong&gt;that&lt;/strong&gt; hard to manage the migrations, updates, changes in database, hardware changes, dying disk drives, etc.  But at some point, you ask yourself “why am I doing this?”.&lt;/p&gt;
-
-&lt;p&gt;Here’s what I have been doing lately:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;$ vi this_or_that_logfile&lt;/li&gt;
-  &lt;li&gt;!!date (punch in that timestamp)&lt;/li&gt;
-  &lt;li&gt;write text&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I left off the last bullet which would have said something like save file and exit vi… for a reason… ‘cause I never do that.  Just like having Firefox open with dozens of tabs, with tabbed terminals, I can just leave the stinking text file open… forever.&lt;/p&gt;
-
-&lt;p&gt;I like what I’m seeing with Jekyll.  But it seems pretty clear to me that I’m going to end up wrapping my usual practice up to auto-generate the post files.  We’ll see…&lt;/p&gt;
-
-&lt;p&gt;In any case, I need to continue taking Jekyll for a spin - especially with regards how to use it with GitHub pages.  So what are my next few baby steps?  Hang on… let me slide over to my aforementioned text file and see what I’d noted…&lt;/p&gt;
-
-&lt;p&gt;Ah yes….&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Follow the guide to create a blog… DONE the rest for tomorrow.&lt;/li&gt;
-  &lt;li&gt;Add a post&lt;/li&gt;
-  &lt;li&gt;Create a development branch&lt;/li&gt;
-  &lt;li&gt;Use Jekyll locally on laptop&lt;/li&gt;
-  &lt;li&gt;Use Jekyll locally on home network&lt;/li&gt;
-  &lt;li&gt;Experiment with themes&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Now why is markdown doing that?  Sigh… well, I’m learning markdown here too.  But seriously, it looks nasty to start a numbered list with lower case roman numerals.  OK… a &lt;a href=&quot;https://github.com/github/markup/issues/991&quot;&gt;bug&lt;/a&gt;.  Lovely.  Glad I picked up a &lt;a href=&quot;https://remarkableapp.github.io/&quot;&gt;markdown editor&lt;/a&gt; despite how likely I will be using vi or any ole’ text editor.  Unless… this is a problem only IN the markdown editor…  No.  This editor supports multiple “styles” and this works fine in styles other than “GitHub”.&lt;/p&gt;
-
-&lt;p&gt;Sheesh.  Let’s push it and check…&lt;/p&gt;
-
-&lt;p&gt;OK.  Good news and bad news.  As I expected, the GitHub hosted rendition of the Jekyll produced blog is using whatever CSS I specified or none at all.  So it does what it would do as raw HTML.  The bad news?  The HTML produced is different.  Sigh… so markdown is apparently widely open to interpretation?  Hmm…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">This is going to be interesting.</summary></entry></feed>
+&lt;p&gt;Beginning to explore next steps…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Progressing through some baby steps…</summary></entry></feed>
