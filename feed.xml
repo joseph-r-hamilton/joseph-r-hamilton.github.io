@@ -1,5 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2017-12-31T04:50:59+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Stats Series - Progress</title><link href="/training/ph_525_series/2017/12/28/Stats-Series-Progress/" rel="alternate" type="text/html" title="Stats Series - Progress" /><published>2017-12-28T00:00:00+00:00</published><updated>2017-12-28T00:00:00+00:00</updated><id>/training/ph_525_series/2017/12/28/Stats-Series-Progress</id><content type="html" xml:base="/training/ph_525_series/2017/12/28/Stats-Series-Progress/">&lt;p&gt;Yay!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-02T04:48:09+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Happy New Year</title><link href="/blog/2018/01/01/Happy-New-Year/" rel="alternate" type="text/html" title="Happy New Year" /><published>2018-01-01T00:00:00+00:00</published><updated>2018-01-01T00:00:00+00:00</updated><id>/blog/2018/01/01/Happy-New-Year</id><content type="html" xml:base="/blog/2018/01/01/Happy-New-Year/">&lt;p&gt;Happy New Year!!&lt;/p&gt;
+
+&lt;p&gt;A LOT is changing for me this year.&lt;/p&gt;
+
+&lt;p&gt;I am in the midst of a career transition.&lt;/p&gt;
+
+&lt;p&gt;I am agressively pursuing training in a variety of forms.&lt;/p&gt;
+
+&lt;p&gt;I may end up sliding into working contracts as a Consultant either in place of or in addition to traditional employment.&lt;/p&gt;
+
+&lt;p&gt;Who knows.&lt;/p&gt;
+
+&lt;p&gt;But I was reminded today that you have to be prepared.  Specifically, you have to be prepared for when your machines and data fail… which means you have to have a backup plan.  It probably also would be wise for me to reboot more often… at least to be sure things will reboot.&lt;/p&gt;
+
+&lt;p&gt;The new Linux Virtual Machine I’m using for my MOOC studies and Data Science work went belly up.  It was the weirdest thing.  But it was a wonderful object lesson to be careful about how you interpret data.  What one could &lt;strong&gt;SEE&lt;/strong&gt; seemed to be odd errors mostly related to networking when it seemed to fail booting.  Playing with the NIC didn’t do anything.  Only when I booted from a (virtual) DVD-ROM and chrooted into drive to check the logs did I find out what the problem really was… and that the system had indeed booted, complete with networking.  What had failed was SDDM.  Somehow SDDM had gotten updated without a dependency.  A full system upgrade and all was fine…&lt;/p&gt;
+
+&lt;p&gt;but…&lt;/p&gt;
+
+&lt;p&gt;It was a good reminder I need a robust recovery plan for my work.&lt;/p&gt;
+
+&lt;p&gt;So that’s my task for the moment.  I’m setting up rsnapshot which will facilitate recovering from my own mistakes.  And I’ll be implementing a cloud backup as well.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Backup" /><summary type="html">Happy New Year!!</summary></entry><entry><title type="html">Stats Series - Progress</title><link href="/training/ph_525_series/2017/12/28/Stats-Series-Progress/" rel="alternate" type="text/html" title="Stats Series - Progress" /><published>2017-12-28T00:00:00+00:00</published><updated>2017-12-28T00:00:00+00:00</updated><id>/training/ph_525_series/2017/12/28/Stats-Series-Progress</id><content type="html" xml:base="/training/ph_525_series/2017/12/28/Stats-Series-Progress/">&lt;p&gt;Yay!&lt;/p&gt;
 
 &lt;p&gt;Halfway through the first course!&lt;/p&gt;
 
@@ -261,62 +281,4 @@ I didn’t consider Spyder bloated at all.  Have these guys used Komodo or Eclip
 
 &lt;p&gt;I found &lt;a href=&quot;https://github.com/DevProgress/onboarding/wiki/Using-Circle-CI-with-Github-Pages-for-Continuous-Delivery&quot;&gt;these instructions from GitHub&lt;/a&gt;, to be rather interesting because of the use of another specific GitHub account for write access - rather than giving CircleCI write access to all your repositories.  CircleCI has &lt;a href=&quot;https://circleci.com/docs/1.0/github-security-ssh-keys/#machine-user-keys&quot;&gt;a page describing this&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;The idea is strange to me.  But it seems once you hook everything and everyone together, CircleCI knows what to use.  Let’s see how this works…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Jekyll" /><category term="CircleCI" /><category term="GitHub" /><summary type="html">Well… using Jekyll… I mean actually actively using it is going to be a bit more involved than I may have originally thought.</summary></entry><entry><title type="html">Blog Baby Steps - Step 02</title><link href="/blog/2017/12/15/Blog-Baby-Steps-02/" rel="alternate" type="text/html" title="Blog Baby Steps - Step 02" /><published>2017-12-15T00:00:00+00:00</published><updated>2017-12-15T00:00:00+00:00</updated><id>/blog/2017/12/15/Blog-Baby-Steps-02</id><content type="html" xml:base="/blog/2017/12/15/Blog-Baby-Steps-02/">&lt;p&gt;Progressing through some baby steps…&lt;/p&gt;
-
-&lt;p&gt;Spawned a development branch.  Pulled it down.&lt;/p&gt;
-
-&lt;p&gt;Found and fixed a bug with layout for posts.&lt;/p&gt;
-
-&lt;p&gt;Corrected something for the RSS feed (layout to “null”).&lt;/p&gt;
-
-&lt;p&gt;Alright… I’ve been using Jekyll locally on the laptop.  Took a bit to get used to how this should work and flow.  But the warnings one can see by doing this guided me to the fixes above.&lt;/p&gt;
-
-&lt;p&gt;Now… let’s try to push this and pull it from the home network…&lt;/p&gt;
-
-&lt;p&gt;Piece of cake.  Hadn’t set up authentication for git yet in the home network.  Good to get
-that out of the way.&lt;/p&gt;
-
-&lt;p&gt;So, the next thing to do here is to experiment with themes.  Color, flair, special effects and
-all sorts of bells and whistles may prove distracting.  But there are a few “needs” here.
-To me these are critical:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Use of categories
-    &lt;ul&gt;
-      &lt;li&gt;Search on categories&lt;/li&gt;
-      &lt;li&gt;Sidebar (or something) listing categories&lt;/li&gt;
-      &lt;li&gt;Heirarchical category management&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Search by Date&lt;/li&gt;
-  &lt;li&gt;Pagination&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;But let’s just start with the distracting fun stuff.&lt;/p&gt;
-
-&lt;p&gt;Hmm… experimentation with themes seems to show I need the github-pages gem and it’s not
-installed.  Woah.  It pulls quite a lot with it.  And for some reason, it’s taking forever
-on the home network.&lt;/p&gt;
-
-&lt;p&gt;And that was pointless.  Well… no.  It was unsuccessful.  Well… no.  It just introduced
-some &lt;em&gt;issues&lt;/em&gt;.  Punching in github-pages added quite a lot to Gemfile.lock.  You end up
-with multiple gem versions.  The “correct” thing to do is to force ruby to use the versions
-specificed in the lock file by calling “bundle exec jekyll serve” rather than “jekyll serve”.&lt;/p&gt;
-
-&lt;p&gt;Next, however, there is going to be a limitation of what will be supported via hosting on
-GitHub Pages.  Not at all sure this matters.  I haven’t even tried any themes yet.  But
-something to consider.  The solution is straightforward if I find I need something more:
-just use jekyll locally to produce the content and then push that.&lt;/p&gt;
-
-&lt;p&gt;Let’s try at least one them before pushing and switching back to the laptop…&lt;/p&gt;
-
-&lt;p&gt;Ouch.  OK.  This is NOT what I expected.  I was spoiled before, I guess.  I was expecting
-something like changing skins on any number of things… where it would be a relatively
-minor one-line change thing.  It is not at all this easy.  I found I liked one of the
-themes supported directly by GitHub Pages.  And I can serve it locally… but copying
-over the data and configuration from another existing Jekyll site is manual and tedious.&lt;/p&gt;
-
-&lt;p&gt;Worse yet, a bit of research into plugins and such strongly suggests to me I’ll need
-to use plugins not supported innately on GitHub Pages.&lt;/p&gt;
-
-&lt;p&gt;Beginning to explore next steps…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Progressing through some baby steps…</summary></entry></feed>
+&lt;p&gt;The idea is strange to me.  But it seems once you hook everything and everyone together, CircleCI knows what to use.  Let’s see how this works…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Jekyll" /><category term="CircleCI" /><category term="GitHub" /><summary type="html">Well… using Jekyll… I mean actually actively using it is going to be a bit more involved than I may have originally thought.</summary></entry></feed>

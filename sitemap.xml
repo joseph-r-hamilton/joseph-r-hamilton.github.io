@@ -49,6 +49,10 @@
 <lastmod>2017-12-28T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>/blog/2018/01/01/Happy-New-Year/</loc>
+<lastmod>2018-01-01T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>/about/</loc>
 </url>
 <url>
@@ -62,6 +66,9 @@
 </url>
 <url>
 <loc>/category/blog/page/3/</loc>
+</url>
+<url>
+<loc>/category/blog/page/4/</loc>
 </url>
 <url>
 <loc>/tag/circleci/</loc>
@@ -80,6 +87,9 @@
 </url>
 <url>
 <loc>/page/3/</loc>
+</url>
+<url>
+<loc>/page/4/</loc>
 </url>
 <url>
 <loc>/tag/javascript/</loc>
