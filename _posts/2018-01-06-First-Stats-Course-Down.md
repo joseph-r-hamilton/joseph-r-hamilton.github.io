@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stats Series - Progress"
+title: "Stats Series - First Course Done"
 date: 2018-01-06
 categories: [Training, PH_525_series]
 tags: [Statistics, Harvard, R, Python, Spyder, Rodeo, Jupyter]
