@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-02T04:48:09+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Happy New Year</title><link href="/blog/2018/01/01/Happy-New-Year/" rel="alternate" type="text/html" title="Happy New Year" /><published>2018-01-01T00:00:00+00:00</published><updated>2018-01-01T00:00:00+00:00</updated><id>/blog/2018/01/01/Happy-New-Year</id><content type="html" xml:base="/blog/2018/01/01/Happy-New-Year/">&lt;p&gt;Happy New Year!!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-07T05:56:48+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Stats Series - Progress</title><link href="/training/ph_525_series/2018/01/06/First-Stats-Course-Down/" rel="alternate" type="text/html" title="Stats Series - Progress" /><published>2018-01-06T00:00:00+00:00</published><updated>2018-01-06T00:00:00+00:00</updated><id>/training/ph_525_series/2018/01/06/First-Stats-Course-Down</id><content type="html" xml:base="/training/ph_525_series/2018/01/06/First-Stats-Course-Down/">&lt;p&gt;Wow!&lt;/p&gt;
+
+&lt;p&gt;I am &lt;strong&gt;DONE&lt;/strong&gt; with the first course: Statistics and R.&lt;/p&gt;
+
+&lt;p&gt;I had no significant problem mirroring the entire coursework in R and Python.&lt;/p&gt;
+
+&lt;p&gt;But… I learned to be wary of the Python module that lets you directly interface to R.  Oh it &lt;em&gt;works&lt;/em&gt; well enough.  Well… it works great in Spyder and Jupyter since the paths are all set up via Anaconda.  I’ve not gotten Rodeo to agree where R is.  But… there are some interesting oddities when trying to convert the data sets available innately in R.  It doesn’t always do what you expect.  To be safe, it’s often better just to dump it to CSV and read it back in from Python.&lt;/p&gt;
+
+&lt;p&gt;Time to move on to the second course: Introduction to Linear Models and Matrix Algebra.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Statistics" /><category term="Harvard" /><category term="R" /><category term="Python" /><category term="Spyder" /><category term="Rodeo" /><category term="Jupyter" /><summary type="html">Wow!</summary></entry><entry><title type="html">Happy New Year</title><link href="/blog/2018/01/01/Happy-New-Year/" rel="alternate" type="text/html" title="Happy New Year" /><published>2018-01-01T00:00:00+00:00</published><updated>2018-01-01T00:00:00+00:00</updated><id>/blog/2018/01/01/Happy-New-Year</id><content type="html" xml:base="/blog/2018/01/01/Happy-New-Year/">&lt;p&gt;Happy New Year!!&lt;/p&gt;
 
 &lt;p&gt;A LOT is changing for me this year.&lt;/p&gt;
 
@@ -248,37 +256,4 @@ I didn’t consider Spyder bloated at all.  Have these guys used Komodo or Eclip
 
 &lt;p&gt;Pushed to my fork.  Tested with CircleCI managing the test and deploy.&lt;/p&gt;
 
-&lt;p&gt;Lastly, I created a pull request to send the fix upstream.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Jekyll" /><category term="CircleCI" /><category term="GitHub" /><summary type="html">Having lots of fun with CircleCI.</summary></entry><entry><title type="html">Blog Toddler Steps - Step 01</title><link href="/blog/2017/12/16/Blog-Toddler-Steps-01/" rel="alternate" type="text/html" title="Blog Toddler Steps - Step 01" /><published>2017-12-16T00:00:00+00:00</published><updated>2017-12-16T00:00:00+00:00</updated><id>/blog/2017/12/16/Blog-Toddler-Steps-01</id><content type="html" xml:base="/blog/2017/12/16/Blog-Toddler-Steps-01/">&lt;p&gt;Well… using Jekyll… I mean actually actively using it is going to be a bit more involved than I may have originally thought.&lt;/p&gt;
-
-&lt;p&gt;I have chosen do pursue a path of using Jekyll in a manner that frees me to be able to toss in themes and plugins at will.  But this requires that I fall back to my earlier view that I would end up maintaining two repositories: one for the input to Jekyll and another for the output.&lt;/p&gt;
-
-&lt;p&gt;Let me first toss in some notes on what I’ve been doing locally to choose a theme and build a site.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I chose to start with &lt;a href=&quot;https://qwtel.com/hydejack/&quot;&gt;HydeJack&lt;/a&gt; which builds upon &lt;a href=&quot;http://jekyllthemes.org/themes/hyde/&quot;&gt;Hyde&lt;/a&gt;.  I was also interested in &lt;a href=&quot;http://jekyllthemes.org/themes/lanyon/&quot;&gt;Lanyon&lt;/a&gt; which builds upon &lt;a href=&quot;http://getpoole.com/&quot;&gt;Poole&lt;/a&gt;.  Lanyon provides a toggle for the sidebar.  Still waffling on that… If I want it I can probably build it.&lt;/li&gt;
-  &lt;li&gt;While playing around with Hydejack, I added an icon for HackerRank.  HydeJack’s documentation details how to go about doing that using &lt;a href=&quot;https://icomoon.io/app/&quot;&gt;IcoMoon&lt;/a&gt;.  I grabbed the icon for HackerRank from a collection available at &lt;a href=&quot;https://icomoon.io/app/&quot;&gt;socicon&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;I am likely to use &lt;a href=&quot;https://travis-ci.org/&quot;&gt;TravisCI&lt;/a&gt; to manage things. &lt;a href=&quot;https://jekyllrb.com/docs/continuous-integration/&quot;&gt;Jekyll suggests a handful of Continuous Integration options&lt;/a&gt;.  &lt;a href=&quot;https://circleci.com/&quot;&gt;CircleCI&lt;/a&gt; ranks higher on &lt;a href=&quot;https://www.slant.co/versus/625/627/~circleci_vs_travis&quot;&gt;Slant&lt;/a&gt; at the moment.  But I believe if you narrow the scope to Jekyll on GitHub Pages, TravisCI probably pulls ahead.&lt;/li&gt;
-  &lt;li&gt;But…. you know what?  I &lt;strong&gt;will be&lt;/strong&gt; doing more than just blogging, more than just Jekyll.  Let’s back up and ponder.  Part of the reason for chosing Jekyll for blogging at all was it’s focus on Markdown and tight integration with GitHub.  More and deeper experience with Git is more significant than playing with Jekyll.  Similarly, for just Jekyll TravisCI looks best.  But the more I look at the differences between what TravisCI and CircleCI support, the more CircleCI wins out if I consider Data Science projects.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So… let’s get going with CircleCI.&lt;/p&gt;
-
-&lt;p&gt;There are are several guides out there.  But one thing to keep in mind is how GitHub Pages works differs.  GitHub Pages gives each user a single site plus a site for every repository.  For “every repository” the &lt;em&gt;master&lt;/em&gt; branch contains the stuff and the website is in the &lt;em&gt;gh-pages&lt;/em&gt; branch.  For that special single site, the &lt;em&gt;master&lt;/em&gt; branch is the website.  Most of these guides for CircleCI, Jekyll and GitHub are for grabbing from &lt;em&gt;master&lt;/em&gt;, processing and sending output to &lt;em&gt;gh-pages&lt;/em&gt;.  For this single user site, I’ll use the &lt;em&gt;development&lt;/em&gt; branch and push to the &lt;em&gt;master&lt;/em&gt; branch.&lt;/p&gt;
-
-&lt;p&gt;I’d cloned the HydeJack theme and have been working there.  Let’s replace the development branch with that:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;mv development development.old
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;mv hydejack-starter-kit development
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;development
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rsync &lt;span class=&quot;nt&quot;&gt;-aq&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--del&lt;/span&gt; ../development.old/.git/ .git
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;There may have been more proper ways to do that with git.  But that’ll do, pig… that’ll do…&lt;/p&gt;
-
-&lt;p&gt;There are quite a number of examples and guides out there.  I haven’t found one quite suitable here.  The Jekyll guide is using the CircleCI version 1.  One benefit of using version 2 is that CircleCI finds and uses its config in the development branch directly.&lt;/p&gt;
-
-&lt;p&gt;I found &lt;a href=&quot;https://github.com/DevProgress/onboarding/wiki/Using-Circle-CI-with-Github-Pages-for-Continuous-Delivery&quot;&gt;these instructions from GitHub&lt;/a&gt;, to be rather interesting because of the use of another specific GitHub account for write access - rather than giving CircleCI write access to all your repositories.  CircleCI has &lt;a href=&quot;https://circleci.com/docs/1.0/github-security-ssh-keys/#machine-user-keys&quot;&gt;a page describing this&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The idea is strange to me.  But it seems once you hook everything and everyone together, CircleCI knows what to use.  Let’s see how this works…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Jekyll" /><category term="CircleCI" /><category term="GitHub" /><summary type="html">Well… using Jekyll… I mean actually actively using it is going to be a bit more involved than I may have originally thought.</summary></entry></feed>
+&lt;p&gt;Lastly, I created a pull request to send the fix upstream.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Jekyll" /><category term="CircleCI" /><category term="GitHub" /><summary type="html">Having lots of fun with CircleCI.</summary></entry></feed>
