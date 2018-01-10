@@ -1,5 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-09T17:46:13+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Stats Series - Course Two Halfway Point</title><link href="/training/ph_525_series/2018/01/09/Course-Two-Halfway/" rel="alternate" type="text/html" title="Stats Series - Course Two Halfway Point" /><published>2018-01-09T00:00:00+00:00</published><updated>2018-01-09T00:00:00+00:00</updated><id>/training/ph_525_series/2018/01/09/Course-Two-Halfway</id><content type="html" xml:base="/training/ph_525_series/2018/01/09/Course-Two-Halfway/">&lt;p&gt;Just concluded Week 2 of 4!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-10T20:23:55+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Dry Run Report</title><link href="/metis/2018/01/10/Dry-Run-Report/" rel="alternate" type="text/html" title="Dry Run Report" /><published>2018-01-10T00:00:00+00:00</published><updated>2018-01-10T00:00:00+00:00</updated><id>/metis/2018/01/10/Dry-Run-Report</id><content type="html" xml:base="/metis/2018/01/10/Dry-Run-Report/">&lt;p&gt;I have journeyed to downtown Chicago today.&lt;/p&gt;
+
+&lt;p&gt;I will be joining the 2018 Winter Cohort of the Metis Data Science Bootcamp.&lt;/p&gt;
+
+&lt;p&gt;The actual activities begin next Tuesday.&lt;/p&gt;
+
+&lt;p&gt;But it seemed very prudent to make a number of dry run commutes to work out the kinks.  I’ve been collaborating with Metis for a couple months now
+in the sense that I’ve been coming to their facility for a number of meetups and events.  For all of that I simply drove.  Driving to/from Chicago
+in rush hour times is a rather undesirable task, but the real kicker is the expense for parking.  To pay the evening rate for an evening meetup is
+a lot different than paying every day for a full day’s parking.  In a real sense a car in downtown Chicago is a liability.&lt;/p&gt;
+
+&lt;p&gt;I actually came down last Friday.  I made that a leisurely affair.  I left shortly before noon.  I brought my young son… who actually helped because he was familiar with mini-DisplayPort adapters.  I haven’t needed to use that sort of connector between laptops and monitors before.  After an our or so playing around with basics of hooking up to the network and external monitors and whatnot, we returned.  Again, it was at our leisure.  We popped into a number of stores along the way back.&lt;/p&gt;
+
+&lt;p&gt;Today I’m trying to match real times.  And (as I kind of expected) I missed my train.  It took a lot longer to find parking at the train station which was also a lot further away.  I thought it was far away last time.  Sheesh!!  But that’s why I’m doing these dry runs.  Nathan, the Metis Chicago Program Manager informs me this cohort will be changing the schedule a bit.  So Friday, I’ll actually take a different train and attempt to get get here by 9am.  Nobody may be here.  Again, there’s no reason for anyone to be here at the moment.  But if so, I’ll just pop on over to UIC and work from there.&lt;/p&gt;
+
+&lt;p&gt;I’ve plopped myself down at a workstation.  I may pick up an adapter to be able to use more than one external monitor.  I’ll be continuing work on the blog and the MOOC I’m pursuing… at least till Nathan boots me out.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">I have journeyed to downtown Chicago today.</summary></entry><entry><title type="html">Blog Enhancements</title><link href="/blog/2018/01/10/Blog-Enhancements/" rel="alternate" type="text/html" title="Blog Enhancements" /><published>2018-01-10T00:00:00+00:00</published><updated>2018-01-10T00:00:00+00:00</updated><id>/blog/2018/01/10/Blog-Enhancements</id><content type="html" xml:base="/blog/2018/01/10/Blog-Enhancements/">&lt;p&gt;I took a brief pause between the first and second courses in this Harvard series to take another look
+at a couple of things.  One of the things I need to wrestle with quickly is how to handle projects on
+this blog.&lt;/p&gt;
+
+&lt;p&gt;At the moment, I’m using the HydeJack theme.  I could upgrade to the Pro version to get some additional
+support for projects.  But I’m not certain I want that.&lt;/p&gt;
+
+&lt;p&gt;I went off on a journey on the web to see how others are using Hydejack or Jekyll in general for projects.
+I found a ton of orphaned sites.  Lots of people seem to be starting or barely starting blogs and then
+abandoning them.  I may have said earlier, but I find this blog is actually primarily for &lt;strong&gt;ME&lt;/strong&gt;.  If
+others are reading this, that’s great.  And this does serve as a bit of a showcase.  But I know from
+experience the value of being able to look backwards at logs, journals, etc., of your own work.&lt;/p&gt;
+
+&lt;p&gt;Sadly, I’ve also found very little really effective use of these project sections, tabs, pages or whatnot.
+But I did find a few.  So I have to ponder what I want.&lt;/p&gt;
+
+&lt;p&gt;I am also reminded I need to go back and fluff out tags and categories.  They end up a bit “messy” in
+the site layout if I don’t.&lt;/p&gt;
+
+&lt;p&gt;I also reviewed the blogs created by the 2017 Fall Cohort of the Metis Bootcamp.  These were &lt;strong&gt;very&lt;/strong&gt;
+project-centric actually.  Maybe I’m just chatty.  But again, experience has taught me that it’s actually
+very valuable to be able to look backwards after several months and years to see exactly what I was doing.&lt;/p&gt;
+
+&lt;p&gt;In any case, there really does seem to be a fairly consistent pattern here of portraying projects:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use a front-page of sorts which either uses a picture and one-liner for each project as a link to a more robust page for that project.&lt;/li&gt;
+  &lt;li&gt;Each project is summarized as a single page which is essentially a summary of the overall project with a focus on the results.&lt;/li&gt;
+  &lt;li&gt;Some pages includes links to the previous and next projects.&lt;/li&gt;
+  &lt;li&gt;Some folk used the blog as their mechanism to portray their projects.  But then the blog served almost no other purpose.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So… what do I want?&lt;/p&gt;
+
+&lt;p&gt;Looking back at some of the better examples I’ve found using Hydejack Pro…  I found one that rather easily
+incorporated links between the (single) post and the project page.  I could do almost the same thing using
+a dedicated category page.  In the interest of time, I probably should just upgrade.  I likely won’t take
+advantage of everything in Pro.  I’ve found an “Intro” I like better.  I only hesitate because I’d probably
+benefit more from building my own stuff in Jekyll.  But I know full well that could eat up a lot of time.&lt;/p&gt;
+
+&lt;p&gt;I need to move quickly here.  Before the Metis Bootcamp starts, I would like to have back-created a page and some posts related to a project I did last year.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Time passes…&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;OK.  I’m now halfway through the second course and taking some time to work on the blog.  For the purpose
+of working in the project functionality, I elevated the previous post on SwirlyPy to a project.  I &lt;strong&gt;do&lt;/strong&gt; hope to
+keep working on that till it works well enough to serve my needs and help others.&lt;/p&gt;
+
+&lt;p&gt;While chasing this I found some eye-candy I also want.  But… I’ve reached a point where I have what I want with
+regards to the project pages connecting to and from the related blog posts.  So, I’m pushing.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Projects" /><summary type="html">I took a brief pause between the first and second courses in this Harvard series to take another look at a couple of things. One of the things I need to wrestle with quickly is how to handle projects on this blog.</summary></entry><entry><title type="html">Stats Series - Course Two Halfway Point</title><link href="/training/ph_525_series/2018/01/09/Course-Two-Halfway/" rel="alternate" type="text/html" title="Stats Series - Course Two Halfway Point" /><published>2018-01-09T00:00:00+00:00</published><updated>2018-01-09T00:00:00+00:00</updated><id>/training/ph_525_series/2018/01/09/Course-Two-Halfway</id><content type="html" xml:base="/training/ph_525_series/2018/01/09/Course-Two-Halfway/">&lt;p&gt;Just concluded Week 2 of 4!&lt;/p&gt;
 
 &lt;p&gt;I had followed recommendations to this Harvard series when looking for some coursework on Linear Algebra.
 That’s this second course in this series.  I chose to back up and do the first course beforehand.  That
@@ -85,7 +149,7 @@ oddly not 100% repeatable.  It will eventually do it it without crashing.  It is
 &lt;p&gt;But…back to Rodeo.  It sort of grows on you.  I &lt;strong&gt;like&lt;/strong&gt; the vim binding but I keep forgetting it’s
 there because I’m bouncing between so many things.  In a lot of ways, though, it seems a work in progress.
 I’ve seen some folk comment they don’t want to see it become bloated like Spyder.  I had to chuckle.
-I didn’t consider Spyder bloated at all.  Have these guys used Komodo or Eclipse?&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Rodeo" /><category term="Python" /><category term="RStudio" /><summary type="html">OK… I’m starting to use Rodeo, not just toy with it.</summary></entry><entry><title type="html">Swirling Round and Round</title><link href="/training/2017/12/23/Swirling-Round-and-Round/" rel="alternate" type="text/html" title="Swirling Round and Round" /><published>2017-12-23T00:00:00+00:00</published><updated>2017-12-23T00:00:00+00:00</updated><id>/training/2017/12/23/Swirling-Round-and-Round</id><content type="html" xml:base="/training/2017/12/23/Swirling-Round-and-Round/">&lt;p&gt;I just stumbled atop a couple things that may prove helpful or may just be an entertaining distraction.&lt;/p&gt;
+I didn’t consider Spyder bloated at all.  Have these guys used Komodo or Eclipse?&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Rodeo" /><category term="Python" /><category term="RStudio" /><summary type="html">OK… I’m starting to use Rodeo, not just toy with it.</summary></entry><entry><title type="html">Swirling Round and Round</title><link href="/project/swirlypy/2017/12/23/Swirling-Round-and-Round/" rel="alternate" type="text/html" title="Swirling Round and Round" /><published>2017-12-23T00:00:00+00:00</published><updated>2017-12-23T00:00:00+00:00</updated><id>/project/swirlypy/2017/12/23/Swirling-Round-and-Round</id><content type="html" xml:base="/project/swirlypy/2017/12/23/Swirling-Round-and-Round/">&lt;p&gt;I just stumbled atop a couple things that may prove helpful or may just be an entertaining distraction.&lt;/p&gt;
 
 &lt;p&gt;I’m working through a MOOC that uses R.  SInce the upcoming Bootcamp is exclusively Python, I’m mirroring the work in Python.  But to follow along I need to learn R.  I’d been bouncing in and out of Swirl to get what I needed for the moment (kinda in a “I know what need, these concepts aren’t new to me… I just need to know your syntax, silly tutorial program!”).  Swirl asks at the beginning if you want the tutorial or the “&lt;a href=&quot;https://github.com/swirldev/swirl_courses&quot;&gt;Swirl repository&lt;/a&gt;”.  I’d glanced at it before.  But this morning I actually looked at it.  And dear heavens if it isn’t a slew of stuff parallel to a lot of these Stats and Data Science courses.&lt;/p&gt;
 
@@ -154,7 +218,7 @@ I didn’t consider Spyder bloated at all.  Have these guys used Komodo or Eclip
 
 &lt;p&gt;I may start with some of the easier ones to get going.  Text out to be a straight drop in.&lt;/p&gt;
 
-&lt;p&gt;More later…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Swirl" /><category term="Swirlpy" /><category term="R" /><category term="Python" /><summary type="html">I just stumbled atop a couple things that may prove helpful or may just be an entertaining distraction.</summary></entry><entry><title type="html">Stats Series</title><link href="/training/ph_525_series/2017/12/22/Stats-Series/" rel="alternate" type="text/html" title="Stats Series" /><published>2017-12-22T00:00:00+00:00</published><updated>2017-12-22T00:00:00+00:00</updated><id>/training/ph_525_series/2017/12/22/Stats-Series</id><content type="html" xml:base="/training/ph_525_series/2017/12/22/Stats-Series/">&lt;p&gt;It’s time to shift gears a bit.  I need to start &lt;em&gt;using&lt;/em&gt; this blog, not just play with it.&lt;/p&gt;
+&lt;p&gt;More later…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Swirl" /><category term="SwirlyPy" /><category term="R" /><category term="Python" /><summary type="html">I just stumbled atop a couple things that may prove helpful or may just be an entertaining distraction.</summary></entry><entry><title type="html">Stats Series</title><link href="/training/ph_525_series/2017/12/22/Stats-Series/" rel="alternate" type="text/html" title="Stats Series" /><published>2017-12-22T00:00:00+00:00</published><updated>2017-12-22T00:00:00+00:00</updated><id>/training/ph_525_series/2017/12/22/Stats-Series</id><content type="html" xml:base="/training/ph_525_series/2017/12/22/Stats-Series/">&lt;p&gt;It’s time to shift gears a bit.  I need to start &lt;em&gt;using&lt;/em&gt; this blog, not just play with it.&lt;/p&gt;
 
 &lt;p&gt;I’ve about a month left before starting the &lt;strong&gt;Metis Data Science Bootcamp&lt;/strong&gt;.  One of the things I’d slotted to do in December was to work through this online course series from Harvard.  The Metis Boocamp is exclusively Python.  A number of these MOOCs and books focus on R.  I have found one book that does both Python and R.&lt;/p&gt;
 
@@ -228,33 +292,4 @@ I didn’t consider Spyder bloated at all.  Have these guys used Komodo or Eclip
 
 &lt;p&gt;But… back to slugs…  HydeJack is using the slug parameter to connect the category to the &lt;em&gt;featured_category&lt;/em&gt; collection.  So, ironically, it does need to remain case sensitive.&lt;/p&gt;
 
-&lt;p&gt;Well… I’ve gotten my feet wet with Jekyll plugins and modifying things through the Liquid templating.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Jekyll" /><category term="Ruby" /><category term="Liquid" /><summary type="html">Exploring how to work Jekyll to accomplish what I want with this site…</summary></entry><entry><title type="html">Ruby on HackerRank</title><link href="/hackerrank/2017/12/19/HackerRank-Ruby/" rel="alternate" type="text/html" title="Ruby on HackerRank" /><published>2017-12-19T00:00:00+00:00</published><updated>2017-12-19T00:00:00+00:00</updated><id>/hackerrank/2017/12/19/HackerRank-Ruby</id><content type="html" xml:base="/hackerrank/2017/12/19/HackerRank-Ruby/">&lt;p&gt;I chose to burn through the Ruby track in HackerRank today.&lt;/p&gt;
-
-&lt;p&gt;Recent exploration into plugins for Jekyll impressed upon me the need to brush up on and extend my knowledge with Ruby.&lt;/p&gt;
-
-&lt;p&gt;I feel like Neo in Matrix when he exclaimed “I know Kung Fu!!”  I completed the entire track with the exception of one “Medium” level challenge.  Of course, this doesn’t make me an immediate Ruby expert.  But this certainly filled in the gaps with regards to syntax and such.  I’ll be much more able to read and digest Jekyll plugins.&lt;/p&gt;
-
-&lt;p&gt;For Jekyll, I next need to read up on Liquid… and tear into exactly how Jekyll does what it does.&lt;/p&gt;
-
-&lt;p&gt;I’ll finish the final Ruby challenge tomorrow.  It’s an exercise with Prime Palindromes.  What &lt;strong&gt;IS&lt;/strong&gt; it about programming tests and tutorials and this fixation on palindromes?  I get it that it helps reinforce concepts of control flow and optimization.  But sheesh.&lt;/p&gt;
-
-&lt;p&gt;In any case, I’ll rough up my plan here before I attack it tomorrow:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Earlier in the track I created a primality tester.  I need to enhance that to keep it’s store of primes as a memory so as not to keep recreating it.&lt;/li&gt;
-  &lt;li&gt;Next, I’ll try to take the path of iterating through all palindromes of given length and then test for prime rather than iterate through primes and check palindrome.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;EDIT:  It’s tomorrow.&lt;/p&gt;
-
-&lt;p&gt;Chuckle… some days are busier than others with plain ole’ life.  Yesterday I could focus on Ruby.  Today I couldn’t even get around to this till late evening.&lt;/p&gt;
-
-&lt;p&gt;In any case, I knocked out that final Ruby challenge!&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Ruby" /><summary type="html">I chose to burn through the Ruby track in HackerRank today.</summary></entry><entry><title type="html">HackerRank</title><link href="/hackerrank/2017/12/17/HackerRank/" rel="alternate" type="text/html" title="HackerRank" /><published>2017-12-17T00:00:00+00:00</published><updated>2017-12-17T00:00:00+00:00</updated><id>/hackerrank/2017/12/17/HackerRank</id><content type="html" xml:base="/hackerrank/2017/12/17/HackerRank/">&lt;p&gt;I &lt;strong&gt;love&lt;/strong&gt; HackerRank.&lt;/p&gt;
-
-&lt;p&gt;I’m dropping a note here for a few reasons.  First, I need some blog posts as I move to test or implement desired functionality.  I have an idea of what I need the blog to be able to support.   But to be able to try it out, I have to fluff out the number of posts and categories and tags in play.&lt;/p&gt;
-
-&lt;p&gt;Next, I’m going to start back posting by yanking notes from other stores or just back creating based on when I did or completed various things.&lt;/p&gt;
-
-&lt;p&gt;But right now, this is just a brief note on &lt;a href=&quot;https://www.hackerrank.com/&quot;&gt;HackerRank&lt;/a&gt; and what I’ve been doing with it.  I was introduced to HackerRank at one of the Metis meetings discussing the Bootcamp.  It was listed as one of the ways to prepare.  In order to get used to it, I started on the tracks of things I already knew.  I pushed through and completed the Linux Shell and Python tracks fairly quickly.  Then I started focusing on the things that seemed most appropriate to prepare for the Metis Bootcamp.&lt;/p&gt;
-
-&lt;p&gt;At the moment, I’m progressing through the “10 days of Javascript” track to refresh on Javascript before bouncing to other sites to work more on both Javascript and CSS in preparation for D3.  For some reason, it gave me access to all of it at once.  When I did the “10 days of Statistics” it opened more each day.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Javascript" /><category term="Training" /><summary type="html">I love HackerRank.</summary></entry></feed>
+&lt;p&gt;Well… I’ve gotten my feet wet with Jekyll plugins and modifying things through the Liquid templating.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Jekyll" /><category term="Ruby" /><category term="Liquid" /><summary type="html">Exploring how to work Jekyll to accomplish what I want with this site…</summary></entry></feed>
