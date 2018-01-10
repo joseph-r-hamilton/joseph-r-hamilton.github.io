@@ -1,0 +1,5 @@
+{% assign dump = include.dump %}
+<script type="text/javascript">
+ console.log("Dumping");
+ console.log({{ dump | jsonify }});
+</script>

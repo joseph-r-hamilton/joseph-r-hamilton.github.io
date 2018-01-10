@@ -138,11 +138,11 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /category/:name/
+    permalink:         /category/:path/
     output:            false
 
   featured_tags:
-    permalink:         /tag/:name/
+    permalink:         /tag/:path/
     output:            false
 
   projects:
@@ -183,7 +183,8 @@ plugins:
 # theme: jekyll-theme-hydejack
 #remote_theme: qwtel/hydejack@gem-7.4.2
 #remote_theme: joseph-r-hamilton/hydejack@gem-7.4.2
-remote_theme: joseph-r-hamilton/hydejack
+#remote_theme: joseph-r-hamilton/hydejack
+remote_theme: joseph-r-hamilton/hello-world@theme
 
 
 # SEO Tag

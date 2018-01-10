@@ -2,8 +2,8 @@
 layout: post
 title: "Swirling Round and Round"
 date: 2017-12-23
-categories: Training
-tags: [Swirl, Swirlpy, R, Python]
+categories: [Project, SwirlyPy]
+tags: [Swirl, SwirlyPy, R, Python]
 ---
 
 I just stumbled atop a couple things that may prove helpful or may just be an entertaining distraction.
