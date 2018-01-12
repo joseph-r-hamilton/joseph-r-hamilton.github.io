@@ -16,6 +16,7 @@ hide_description: true
 
 # Setting `menu` will generate an entry in the sidebar.
 menu: true
+order: 2
 ---
 
 I have had a several phases of my career as a part of my journey towards Data Science.
