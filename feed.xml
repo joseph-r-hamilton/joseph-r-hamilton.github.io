@@ -1,5 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-12T04:07:45+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Blog Adolescence</title><link href="/blog/2018/01/11/Blog-Adolescence/" rel="alternate" type="text/html" title="Blog Adolescence" /><published>2018-01-11T00:00:00+00:00</published><updated>2018-01-11T00:00:00+00:00</updated><id>/blog/2018/01/11/Blog-Adolescence</id><content type="html" xml:base="/blog/2018/01/11/Blog-Adolescence/">&lt;p&gt;The blog has a new front door.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-12T21:45:24+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Last Dry Run</title><link href="/metis/2018/01/12/Last-Dry-Run/" rel="alternate" type="text/html" title="Last Dry Run" /><published>2018-01-12T00:00:00+00:00</published><updated>2018-01-12T00:00:00+00:00</updated><id>/metis/2018/01/12/Last-Dry-Run</id><content type="html" xml:base="/metis/2018/01/12/Last-Dry-Run/">&lt;p&gt;I have been working at the Metis site today.&lt;/p&gt;
+
+&lt;p&gt;I caught an earlier train immediately after dropping my daughter off at high school.  It is still rather close
+and depends on finding parking and walking to the train stop in time.  But that’s the express train.  It is
+actually about two-thirds the travel time.  If I miss that one, the next available train should get me
+down here in time before things start for the day.&lt;/p&gt;
+
+&lt;p&gt;Last night I caught a curiosity.  I find a remark that a particular event shouldn’t be deemed terribly
+noteworthy because it’s still within the customary 5% confidence level.  That seemed like something I could
+try to replicate.  I continued that effort today.  For a while I was conviced the comment was wrong
+because the significance seemed much greater.  The trouble was that I had missed an implicit assumption
+about the data table I was reading.  I replicated the work properly and had to agree with the comment.&lt;/p&gt;
+
+&lt;p&gt;What was good about this endeavor, this curiosity, was that I was able to go “out there” and find the
+data and bring it back through data cleaning, munging, through Pandas and use the same techniques I’ve
+been learning in these MOOCs.&lt;/p&gt;
+
+&lt;p&gt;This is the sort of thing I foresee we’ll be doing a lot in this Metis Bootcamp.  Take the techniques
+and go out in the wild to see what fun we can have.&lt;/p&gt;
+
+&lt;p&gt;Today, the actual instructors are down here.  They’re working through their overall plans since it will
+be a team taught experience.  I had a bit of time to talk.  But like Wednesday, I’m not really supposed
+to be here.  So when or if they leave, I’ll have to pack up and head out.&lt;/p&gt;
+
+&lt;p&gt;I also made good progress in the MOOC.  I should have no problem finishing up the second course before
+the bootcamp.  But I may not be able to keep up even a slowed pace on the next two courses.  David (one
+of the instructors) was rather skeptical of that idea.  No worries.  The main idea behind the Harvard
+series was to prepare me for the bootcamp.  If the bootcamp demands preempts it, this will be fine.&lt;/p&gt;
+
+&lt;p&gt;The recent work in this MOOC was interesting.  I had to learn a new Python module as I mirror the
+work.  The module is patsy.  It was rather specifically built to mimic or match the functionality
+in R.  But… it is slightly different enough to have given me a bit of work to understand it.  The
+interesting thing is apparently there are some ways it improved upon the behavior in R.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">I have been working at the Metis site today.</summary></entry><entry><title type="html">Blog Adolescence</title><link href="/blog/2018/01/11/Blog-Adolescence/" rel="alternate" type="text/html" title="Blog Adolescence" /><published>2018-01-11T00:00:00+00:00</published><updated>2018-01-11T00:00:00+00:00</updated><id>/blog/2018/01/11/Blog-Adolescence</id><content type="html" xml:base="/blog/2018/01/11/Blog-Adolescence/">&lt;p&gt;The blog has a new front door.&lt;/p&gt;
 
 &lt;p&gt;I may have spent more time on this than I should have.  But it was worthy as an expereince of learning
 more about Jekyll, Liquid, SCSS/SASS, etc.&lt;/p&gt;
@@ -243,27 +275,4 @@ I didn’t consider Spyder bloated at all.  Have these guys used Komodo or Eclip
 
 &lt;p&gt;I may start with some of the easier ones to get going.  Text out to be a straight drop in.&lt;/p&gt;
 
-&lt;p&gt;More later…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Swirl" /><category term="SwirlyPy" /><category term="R" /><category term="Python" /><summary type="html">I just stumbled atop a couple things that may prove helpful or may just be an entertaining distraction.</summary></entry><entry><title type="html">Stats Series</title><link href="/training/ph_525_series/2017/12/22/Stats-Series/" rel="alternate" type="text/html" title="Stats Series" /><published>2017-12-22T00:00:00+00:00</published><updated>2017-12-22T00:00:00+00:00</updated><id>/training/ph_525_series/2017/12/22/Stats-Series</id><content type="html" xml:base="/training/ph_525_series/2017/12/22/Stats-Series/">&lt;p&gt;It’s time to shift gears a bit.  I need to start &lt;em&gt;using&lt;/em&gt; this blog, not just play with it.&lt;/p&gt;
-
-&lt;p&gt;I’ve about a month left before starting the &lt;strong&gt;Metis Data Science Bootcamp&lt;/strong&gt;.  One of the things I’d slotted to do in December was to work through this online course series from Harvard.  The Metis Boocamp is exclusively Python.  A number of these MOOCs and books focus on R.  I have found one book that does both Python and R.&lt;/p&gt;
-
-&lt;p&gt;For this course, I’m going to try to replicate work in Python.&lt;/p&gt;
-
-&lt;p&gt;The Harvard course is a 6 part series that parallels the book &lt;em&gt;Data Analysis for the Life Sciences&lt;/em&gt;.  I was drawn to the series when searching for a refresher on Linear Algebra.  That’s course 2 of 6.  I chose to use HackerRank for the Linear Algebra review and will now push through the entire Harvard series, time permitting.&lt;/p&gt;
-
-&lt;p&gt;The course starts with the R tutorial.  In order to load packages, I had to back out and load some more stuff in Anaconda:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;conda install gcc_linux-64
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;conda install gxx_linux-64
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Then I was able to proceed with&lt;/p&gt;
-&lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;install.packages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;swirl&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;install.packages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;rafalib&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The first exercise in PHP 525.1x is a “First Assessment: Run Swirl Exercises”.  It’s essentially a quiz on basics of R syntax which you get through &lt;em&gt;swirl&lt;/em&gt; - the R tutorial.&lt;/p&gt;
-
-&lt;p&gt;I used RStudio for swirl.  But then I fired up two parallel Jupyter notebooks - one for R and another for Python.  I installed &lt;a href=&quot;https://rpy2.bitbucket.io/&quot;&gt;rpy2&lt;/a&gt; and was even able to call the “version” command from Python to confirm the version of R.  But the main benefit of this was the access the standard datasets in R.&lt;/p&gt;
-
-&lt;p&gt;They fairly strongly encouraged an approach of projects in RStudio.  I will try to mirror that in Python.  This should be a good chance to test out both Rodeo, which seems most akin to RStudio and Spyder.  The questions for this next exercise seem simple enough that notebooks will still work fine.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Statistics" /><category term="Harvard" /><category term="R" /><category term="Python" /><category term="Rodeo" /><category term="Spyder" /><summary type="html">It’s time to shift gears a bit. I need to start using this blog, not just play with it.</summary></entry></feed>
+&lt;p&gt;More later…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Swirl" /><category term="SwirlyPy" /><category term="R" /><category term="Python" /><summary type="html">I just stumbled atop a couple things that may prove helpful or may just be an entertaining distraction.</summary></entry></feed>
