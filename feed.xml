@@ -1,5 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-12T21:45:24+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Last Dry Run</title><link href="/metis/2018/01/12/Last-Dry-Run/" rel="alternate" type="text/html" title="Last Dry Run" /><published>2018-01-12T00:00:00+00:00</published><updated>2018-01-12T00:00:00+00:00</updated><id>/metis/2018/01/12/Last-Dry-Run</id><content type="html" xml:base="/metis/2018/01/12/Last-Dry-Run/">&lt;p&gt;I have been working at the Metis site today.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-15T23:50:46+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Stats Series - Course Two Wrapup</title><link href="/training/ph_525_series/2018/01/15/Course-Two-Wrapup/" rel="alternate" type="text/html" title="Stats Series - Course Two Wrapup" /><published>2018-01-15T00:00:00+00:00</published><updated>2018-01-15T00:00:00+00:00</updated><id>/training/ph_525_series/2018/01/15/Course-Two-Wrapup</id><content type="html" xml:base="/training/ph_525_series/2018/01/15/Course-Two-Wrapup/">&lt;p&gt;Finished with Course Two!!&lt;/p&gt;
+
+&lt;p&gt;I have finished the second course in the Harvard series.&lt;/p&gt;
+
+&lt;p&gt;I’ve given some thought with regards to “what next”.&lt;/p&gt;
+
+&lt;p&gt;In general, I consider this course series and the book it’s tied to is a very worthwhile experience
+overall.  Nonetheless, I’m not entirely certain this was what I expected or that it met my needs
+with regards to a refresher on Linear Algebra.&lt;/p&gt;
+
+&lt;p&gt;I did not get “past” where I’d gotten with my earlier work on HackerRank.  But I certainly went deeper. 
+Furthermore, I got a better grounding in how to connect this sort of regression overall to basic
+statistics.  And this certainly showed how to use this relative to experiments.&lt;/p&gt;
+
+&lt;p&gt;But…&lt;/p&gt;
+
+&lt;p&gt;That’s the entire thing.  This whole Harvard series is focused on this one aspect of using statistics.&lt;/p&gt;
+
+&lt;p&gt;When I fall back and compare the context of this text and course series relative to the Metis Bootcamp
+curriculum I can easily see a difference between depth and breadth.  Then when I compare the Metis Bootcamp
+curriculum to the broad overview of Data Science topics in general, I can see that even that is but a sampling.&lt;/p&gt;
+
+&lt;p&gt;So… I’m going to pause entirely on the Harvard series for a while.  Instead, I’m going to focus on the
+topics covered by the Bootcamp while pushing through a couple other textbooks in the background.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Statistics" /><category term="Harvard" /><summary type="html">Finished with Course Two!!</summary></entry><entry><title type="html">Bootcamp - Final Prep</title><link href="/metis/2018/01/15/Bootcamp-Final-Prep/" rel="alternate" type="text/html" title="Bootcamp - Final Prep" /><published>2018-01-15T00:00:00+00:00</published><updated>2018-01-15T00:00:00+00:00</updated><id>/metis/2018/01/15/Bootcamp-Final-Prep</id><content type="html" xml:base="/metis/2018/01/15/Bootcamp-Final-Prep/">&lt;p&gt;Just one last day before the bootcamp begins.&lt;/p&gt;
+
+&lt;p&gt;I’ve more or less attained what I’d set out to do to prepare.  I finished the first two courses
+in the Harvard series.  I’ve brought the blog to a point where it will serve me during the bootcamp.&lt;/p&gt;
+
+&lt;p&gt;There remains any number of things I could have done.  But the time is up!&lt;/p&gt;
+
+&lt;p&gt;So today I’ve been tackling a number of normal life things.&lt;/p&gt;
+
+&lt;p&gt;I also backed up the virtual machine I’m using for the bootcamp in a low-tech manner.  I simply copied
+the entire thing to a USB stick.  This is the 3rd level of what I implemented.  I’ve got an rsync set to
+run daily to dump to another part of the host storage.  I’ve got similar timers to give me period
+snapshots.  Next, I’ve got a timer to backup to the cloud.  I plan to copy to the USB stick on a weekly
+basis.  All of this should keep me from too much delay from anything from shooting myself in the foot
+to theft of the laptop.&lt;/p&gt;
+
+&lt;p&gt;From this point on, it’s just time to jump on in and roll with things.  I’l looking forward to it!&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Just one last day before the bootcamp begins.</summary></entry><entry><title type="html">Last Dry Run</title><link href="/metis/2018/01/12/Last-Dry-Run/" rel="alternate" type="text/html" title="Last Dry Run" /><published>2018-01-12T00:00:00+00:00</published><updated>2018-01-12T00:00:00+00:00</updated><id>/metis/2018/01/12/Last-Dry-Run</id><content type="html" xml:base="/metis/2018/01/12/Last-Dry-Run/">&lt;p&gt;I have been working at the Metis site today.&lt;/p&gt;
 
 &lt;p&gt;I caught an earlier train immediately after dropping my daughter off at high school.  It is still rather close
 and depends on finding parking and walking to the train stop in time.  But that’s the express train.  It is
@@ -31,7 +70,30 @@ series was to prepare me for the bootcamp.  If the bootcamp demands preempts it,
 &lt;p&gt;The recent work in this MOOC was interesting.  I had to learn a new Python module as I mirror the
 work.  The module is patsy.  It was rather specifically built to mimic or match the functionality
 in R.  But… it is slightly different enough to have given me a bit of work to understand it.  The
-interesting thing is apparently there are some ways it improved upon the behavior in R.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">I have been working at the Metis site today.</summary></entry><entry><title type="html">Blog Adolescence</title><link href="/blog/2018/01/11/Blog-Adolescence/" rel="alternate" type="text/html" title="Blog Adolescence" /><published>2018-01-11T00:00:00+00:00</published><updated>2018-01-11T00:00:00+00:00</updated><id>/blog/2018/01/11/Blog-Adolescence</id><content type="html" xml:base="/blog/2018/01/11/Blog-Adolescence/">&lt;p&gt;The blog has a new front door.&lt;/p&gt;
+interesting thing is apparently there are some ways it improved upon the behavior in R.&lt;/p&gt;
+
+&lt;p&gt;EDIT…&lt;/p&gt;
+
+&lt;p&gt;Now, there are a couple of things for this dry run that are simply different from previous trips.&lt;/p&gt;
+
+&lt;p&gt;How could I have truly tested the main experiences of the commute if I didn’t do of the typical
+commuter things?  It’d be like going to the Alps and not any skiing.  Or going to South Africa and
+visiting no wildlife.&lt;/p&gt;
+
+&lt;p&gt;What experience have I been avoiding?&lt;/p&gt;
+
+&lt;p&gt;Using the laptop while on the train.&lt;/p&gt;
+
+&lt;p&gt;To be honest, I am not certain I’ll be doing more if it.  I’ve seen folk doing it.  Maybe I’ll be more
+like everyone else when I have stuff I want to wrap up or explore.  But, you just end up being so
+cramped and squished.  But I’ve proven it in, so to speak.  I’m typing this up as others board the
+train.&lt;/p&gt;
+
+&lt;p&gt;The other thing is that this was the first time I’m returning in the same pattern as I’ll be doing
+for the next few weeks.  I made the walk in 18 minutes.  Doable at a fast clip.  But pointless.
+There’s an oddity with the train schedules.  There are lots of trains outbound between five and six.
+But half or more have express segments, passing many stops including mine.  If I don’t get on a train
+shortly after 5, the next viable one is at about a quarter to six.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">I have been working at the Metis site today.</summary></entry><entry><title type="html">Blog Adolescence</title><link href="/blog/2018/01/11/Blog-Adolescence/" rel="alternate" type="text/html" title="Blog Adolescence" /><published>2018-01-11T00:00:00+00:00</published><updated>2018-01-11T00:00:00+00:00</updated><id>/blog/2018/01/11/Blog-Adolescence</id><content type="html" xml:base="/blog/2018/01/11/Blog-Adolescence/">&lt;p&gt;The blog has a new front door.&lt;/p&gt;
 
 &lt;p&gt;I may have spent more time on this than I should have.  But it was worthy as an expereince of learning
 more about Jekyll, Liquid, SCSS/SASS, etc.&lt;/p&gt;
@@ -182,97 +244,4 @@ good for what I’m doing at the moment though.&lt;/p&gt;</content><author><name
 
 &lt;p&gt;Although I have had real problem so far replicating everything in Python, including all the related plots, there is no easy way to make the respective random number generators behave the same way.  I can set seeds for both to keep answers consistent in both.  But they rarely match.&lt;/p&gt;
 
-&lt;p&gt;Another thing this helps is forcing me to reflect more on understanding what’s really going on rather than just relying on functions and formulae.  There’s an enormous danger here with power of these stats functions.  Statistics builds upon assumptions and methods in a quick chain.  If you just jump to a particular formula without understanding all of what led you to use that formula, you may not appreciate the assumptions nor be as able to change approaches when appropriate.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Statistics" /><category term="Harvard" /><category term="R" /><category term="Python" /><category term="Spyder" /><category term="Jupyter" /><summary type="html">Yay!</summary></entry><entry><title type="html">Rodeo - First Impressions</title><link href="/rodeo/2017/12/28/Rodeo-First-Impressions/" rel="alternate" type="text/html" title="Rodeo - First Impressions" /><published>2017-12-28T00:00:00+00:00</published><updated>2017-12-28T00:00:00+00:00</updated><id>/rodeo/2017/12/28/Rodeo-First-Impressions</id><content type="html" xml:base="/rodeo/2017/12/28/Rodeo-First-Impressions/">&lt;p&gt;OK… I’m starting to &lt;strong&gt;use&lt;/strong&gt; Rodeo, not just toy with it.&lt;/p&gt;
-
-&lt;p&gt;I realized there was no “Project” functionality yet.  But it seemed really odd that there was no way to
-set the current working directory so it was connected to the location of the file.  This isn’t a bug,
-though some have argued the case on GitHub.  It just takes getting used to.  You just use the directory
-chooser of the console pane to get where you want to be.&lt;/p&gt;
-
-&lt;p&gt;That felt like a negative.  But if so, it’s easily outweighed by a huge benefit - the editor has &lt;em&gt;vim&lt;/em&gt;
-and &lt;em&gt;emacs&lt;/em&gt; bindings!!&lt;/p&gt;
-
-&lt;p&gt;Ironically, the IDE that’s been giving me the most grief has been RStudio.  That sucker core dumps if
-just breathe funny.  And it’s weird.  For some projects, it just works fine.  For others, SOMETHING
-repeatably crashes it.  The trouble is that it’s repeatable for a period.  Something in the environment
-is such that R crashes.  But when that environment thing isn’t there, RStudio is fine.  That sort of
-problem is devilishly difficult to chase or report.  It seems there’s something related to the Clipboard
-that’s at play.&lt;/p&gt;
-
-&lt;p&gt;Hmmm… or… it actually seems dependent on what is being pasted.  It seems to be most common when
-pasting a command that involves reading/accessing a file and the filepath is invalid.  But…  it is
-oddly not 100% repeatable.  It will eventually do it it without crashing.  It is weird.&lt;/p&gt;
-
-&lt;p&gt;But…back to Rodeo.  It sort of grows on you.  I &lt;strong&gt;like&lt;/strong&gt; the vim binding but I keep forgetting it’s
-there because I’m bouncing between so many things.  In a lot of ways, though, it seems a work in progress.
-I’ve seen some folk comment they don’t want to see it become bloated like Spyder.  I had to chuckle.
-I didn’t consider Spyder bloated at all.  Have these guys used Komodo or Eclipse?&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Rodeo" /><category term="Python" /><category term="RStudio" /><summary type="html">OK… I’m starting to use Rodeo, not just toy with it.</summary></entry><entry><title type="html">Swirling Round and Round</title><link href="/project/swirlypy/2017/12/23/Swirling-Round-and-Round/" rel="alternate" type="text/html" title="Swirling Round and Round" /><published>2017-12-23T00:00:00+00:00</published><updated>2017-12-23T00:00:00+00:00</updated><id>/project/swirlypy/2017/12/23/Swirling-Round-and-Round</id><content type="html" xml:base="/project/swirlypy/2017/12/23/Swirling-Round-and-Round/">&lt;p&gt;I just stumbled atop a couple things that may prove helpful or may just be an entertaining distraction.&lt;/p&gt;
-
-&lt;p&gt;I’m working through a MOOC that uses R.  SInce the upcoming Bootcamp is exclusively Python, I’m mirroring the work in Python.  But to follow along I need to learn R.  I’d been bouncing in and out of Swirl to get what I needed for the moment (kinda in a “I know what need, these concepts aren’t new to me… I just need to know your syntax, silly tutorial program!”).  Swirl asks at the beginning if you want the tutorial or the “&lt;a href=&quot;https://github.com/swirldev/swirl_courses&quot;&gt;Swirl repository&lt;/a&gt;”.  I’d glanced at it before.  But this morning I actually looked at it.  And dear heavens if it isn’t a slew of stuff parallel to a lot of these Stats and Data Science courses.&lt;/p&gt;
-
-&lt;p&gt;Woah.&lt;/p&gt;
-
-&lt;p&gt;So… given my current focus on mirroring R and Python work, I just had to scratch a curiosity and sure enough I found &lt;a href=&quot;https://github.com/alexander-bauer/swirlypy&quot;&gt;Swirlypy&lt;/a&gt;.  I’ll have to play with this.  Many people who’ve been pining for something like this seem to want a basic Python tutorial.  The structure and program is here but the library seems empty.&lt;/p&gt;
-
-&lt;p&gt;How hard would it be to port the R swirl courses?&lt;/p&gt;
-
-&lt;p&gt;Alright.  I’ve got a slightly better sense of the scope of the task.  First, this is how to run things.&lt;/p&gt;
-
-&lt;p&gt;Step one - get the package.&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$SOMEDIR&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://github.com/alexander-bauer/swirlypy
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Now, in python…&lt;/p&gt;
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sys&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SOMEDIR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;swirlypy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# Full path to location&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;swirlypy&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;course&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;course&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Course&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;load&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;COURSEDIR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;execute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;The repostiory comes with a sample courses.  So I just did “SOMEDIR/swirlypy/courses/intro”.&lt;/p&gt;
-
-&lt;p&gt;It works, after a fashion.&lt;/p&gt;
-
-&lt;p&gt;There’s a ton of similarity between this and swirl.  The courses are YAML files for both.  The general structure is similar.  The challenge is the types of questions supported.&lt;/p&gt;
-
-&lt;p&gt;It seems swirl itself is not that old.  The effort to create swirlypy started almost immediately after the start of swirl.  But development of swirlypy stopped and swirl went another year or so of active development.&lt;/p&gt;
-
-&lt;p&gt;This may be insane… but I want to take  a crack at this.  It would be good practice with git, matplotlib and stats stuff in general.&lt;/p&gt;
-
-&lt;p&gt;Although I’ve set up rpy2, it probably wouldn’t be wise to depend on R directly like this.  When using the data sets, these can be found online such has &lt;a href=&quot;https://vincentarelbundock.github.io/Rdatasets/datasets.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I grabbed &lt;a href=&quot;https://github.com/swirldev/swirl_courses&quot;&gt;the Swirl Courses&lt;/a&gt; respository.  Let’s try to port what’s listed there as “Overview of Statistics”.  And… because it’ll be a huge focus of the next few months, let’s try to incorporate pandas in even this simple data analysis…&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;subprocess&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;check_output&lt;/span&gt;
-&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;
-
-&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;chdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getcwd&lt;/span&gt;
-
-
-&lt;span class=&quot;n&quot;&gt;chdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;swirl_courses/Open_Intro/Overview_of_Statistics&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;check_output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'grep &quot;^- Class&quot; *yaml'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                      &lt;span class=&quot;n&quot;&gt;shell&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;universal_newlines&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DataFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to_replace&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'- Class: '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;regex&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inplace&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value_counts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;                   &lt;span class=&quot;mi&quot;&gt;58&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;figure&lt;/span&gt;                 &lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;cmd_question&lt;/span&gt;           &lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;mult_question&lt;/span&gt;          &lt;span class=&quot;mi&quot;&gt;14&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;exact_question&lt;/span&gt;          &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;video&lt;/span&gt;                   &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;range_question&lt;/span&gt;          &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;text_order_question&lt;/span&gt;     &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;text_many_question&lt;/span&gt;      &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;meta&lt;/span&gt;                    &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;text_question&lt;/span&gt;           &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;I believe many of those will be straightforward extensions of classes already built in swirlypy.  The real challenge and the high runner is &lt;em&gt;figure&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;I may start with some of the easier ones to get going.  Text out to be a straight drop in.&lt;/p&gt;
-
-&lt;p&gt;More later…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Swirl" /><category term="SwirlyPy" /><category term="R" /><category term="Python" /><summary type="html">I just stumbled atop a couple things that may prove helpful or may just be an entertaining distraction.</summary></entry></feed>
+&lt;p&gt;Another thing this helps is forcing me to reflect more on understanding what’s really going on rather than just relying on functions and formulae.  There’s an enormous danger here with power of these stats functions.  Statistics builds upon assumptions and methods in a quick chain.  If you just jump to a particular formula without understanding all of what led you to use that formula, you may not appreciate the assumptions nor be as able to change approaches when appropriate.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Statistics" /><category term="Harvard" /><category term="R" /><category term="Python" /><category term="Spyder" /><category term="Jupyter" /><summary type="html">Yay!</summary></entry></feed>
