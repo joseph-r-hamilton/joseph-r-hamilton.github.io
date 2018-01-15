@@ -40,3 +40,25 @@ work.  The module is patsy.  It was rather specifically built to mimic or match 
 in R.  But... it is slightly different enough to have given me a bit of work to understand it.  The
 interesting thing is apparently there are some ways it improved upon the behavior in R.
 
+EDIT...
+
+Now, there are a couple of things for this dry run that are simply different from previous trips.
+
+How could I have truly tested the main experiences of the commute if I didn't do of the typical
+commuter things?  It'd be like going to the Alps and not any skiing.  Or going to South Africa and
+visiting no wildlife.
+
+What experience have I been avoiding?
+
+Using the laptop while on the train.
+
+To be honest, I am not certain I'll be doing more if it.  I've seen folk doing it.  Maybe I'll be more
+like everyone else when I have stuff I want to wrap up or explore.  But, you just end up being so
+cramped and squished.  But I've proven it in, so to speak.  I'm typing this up as others board the
+train.
+
+The other thing is that this was the first time I'm returning in the same pattern as I'll be doing
+for the next few weeks.  I made the walk in 18 minutes.  Doable at a fast clip.  But pointless.
+There's an oddity with the train schedules.  There are lots of trains outbound between five and six.
+But half or more have express segments, passing many stops including mine.  If I don't get on a train
+shortly after 5, the next viable one is at about a quarter to six.
