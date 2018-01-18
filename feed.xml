@@ -1,5 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-17T06:38:34+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Saved by Snapshots</title><link href="/metis/2018/01/16/Saved-By-Snapshots/" rel="alternate" type="text/html" title="Saved by Snapshots" /><published>2018-01-16T00:00:00+00:00</published><updated>2018-01-16T00:00:00+00:00</updated><id>/metis/2018/01/16/Saved-By-Snapshots</id><content type="html" xml:base="/metis/2018/01/16/Saved-By-Snapshots/">&lt;p&gt;Guess what… I’ve &lt;strong&gt;already&lt;/strong&gt; benifitted from setting up a snapshot regimen.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-18T17:36:52+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Bootcamp - Pair Programming</title><link href="/metis/2018/01/18/Bootcamp-Pair-Programming/" rel="alternate" type="text/html" title="Bootcamp - Pair Programming" /><published>2018-01-18T00:00:00+00:00</published><updated>2018-01-18T00:00:00+00:00</updated><id>/metis/2018/01/18/Bootcamp-Pair-Programming</id><content type="html" xml:base="/metis/2018/01/18/Bootcamp-Pair-Programming/">&lt;p&gt;Pair Programming is… umm… interesting.&lt;/p&gt;
+
+&lt;p&gt;The structure of the Metis Data is broken down such that we cover different things simultaneously,
+concurrently rather than just a deep focus on one thing.&lt;/p&gt;
+
+&lt;p&gt;The projects are the emphasis.  So, it is really easy to fall into a mode (or mood) where you’re
+absorbed by or focused on the project of the moment.  The lectures and “other things” serve to
+break that.&lt;/p&gt;
+
+&lt;p&gt;One of these “things” is &lt;strong&gt;&lt;em&gt;Pair Programming&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Every day starts with about half-an-hour of Pair Programming.&lt;/p&gt;
+
+&lt;p&gt;Pair Programming serves many purposes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The instructors get a chance to see the students’ code on a regular, daily basis.  It’s one thing
+to tell the students about certain practices of coding Python.  It’s another thing to confirm or
+chastise students to verify they are incorporating these practices.&lt;/li&gt;
+  &lt;li&gt;Working in pairs forces people to work together.  Only person gets the computer.  But either may
+have the idea.  Nonetheless, you have to communicate and the other can critique accordingly.&lt;/li&gt;
+  &lt;li&gt;These are timed exercises.  So the pressure is on.  This then simulates the experience of code
+interviews where in a job interview you have to code or whiteboard.  The types of problems are
+also similar to the kind you’d experience in code interviews.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Pair Programming is… umm… interesting.</summary></entry><entry><title type="html">Project Benson Progresses</title><link href="/project/benson/2018/01/17/Project-Benson-Progresses/" rel="alternate" type="text/html" title="Project Benson Progresses" /><published>2018-01-17T00:00:00+00:00</published><updated>2018-01-17T00:00:00+00:00</updated><id>/project/benson/2018/01/17/Project-Benson-Progresses</id><content type="html" xml:base="/project/benson/2018/01/17/Project-Benson-Progresses/">&lt;p&gt;Project Benson is underway.&lt;/p&gt;
+
+&lt;p&gt;OK.  The last 24 hours have been somewhat of a rollercoaster with regards to Project Benson.&lt;/p&gt;
+
+&lt;p&gt;I spent a fair amount of time pursuing the data from a Exploratory Data Analysis point of view.
+And I simply loved it.  It was good practice with Pandas.  I learned several new aspects of how
+to use Pandas for time series sorts of data.  It was also frustrating when I got stuck trying
+to do things that appeared to work but didn’t.&lt;/p&gt;
+
+&lt;p&gt;But in the morning Alice reminded us that good Data Scientists do &lt;strong&gt;NOT&lt;/strong&gt; jump right into the data
+searching for things that can be done with the data.  A Data Science project begins with Design.
+This was a repeat.  I’m pretty sure she said the same thing yesterday.  But… it was bewildering
+then and it was chastening today.  Because… the data is so much FUN.&lt;/p&gt;
+
+&lt;p&gt;There’s a number of traps and pitfalls here.  First of all, we may end up either limited by focusing
+too much on the data at hand or simply incredibly biased because of this focus.  Next, we can spend
+a lot of time pleasing ourselves or attempting to build monuments which may be overkill or mismatched
+compared to what anyone ever really wanted.&lt;/p&gt;
+
+&lt;p&gt;So… how do you do Design before jumping into the Data?  We discussed this…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;First, &lt;strong&gt;listen&lt;/strong&gt; to your Customers.  Learn what problems they want solved.  Discern what may be
+a threshold of satisfaction or a point of diminishing returns.&lt;/li&gt;
+  &lt;li&gt;Second, &lt;strong&gt;brainstorm&lt;/strong&gt;.  Think about the problem.  Ponder how you’ll approach the challenge.  Draft your goals.&lt;/li&gt;
+  &lt;li&gt;Determine a &lt;strong&gt;MVP - Minimum Viable Product&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This approach should help to guide the overall effort.  It also sets you up for an iterative method
+where you can have &lt;em&gt;something&lt;/em&gt; to show for your work ASAP but then build upon it.&lt;/p&gt;
+
+&lt;p&gt;So… what did we do?  Jump back into the data.&lt;/p&gt;
+
+&lt;p&gt;Well.. that’s not entirely true.  We spent a lot of time debating methodology… about the data.&lt;/p&gt;
+
+&lt;p&gt;Nah… we hastily determined our MVP would be simply a ranked list of the MTA stations based on traffic flow.&lt;/p&gt;
+
+&lt;p&gt;But the trouble here is determining how to assess this.  The “fun” part of the MTA data is this isn’t actually
+quite readily availble.  You must massage the data a bit.&lt;/p&gt;
+
+&lt;p&gt;Kendall and I discovered each of us had wrestled with trying to determine the structure behind the data.
+We still cannot quite figure out what some of it actually means.  Oh we could figure out what to count.
+But… there were hints that you might be able to say more if you undertood more of what it represented.&lt;/p&gt;
+
+&lt;p&gt;At some point I described what I’d been doing with standardizing and interpolating by resampling the data.
+Kendall and I debated that a lot because her Math/Stats background made her leery of interpolation, especially
+dumb linear interpolation.  Dean jumped in and we explored this a bit.  But it wasn’t clear any other thing
+we were discussing would be any easier or better.  Derrick stayed quiet and simply plugged away at another
+approach altogether.  When he shared his idea, we pointed out the errors inherent in that approach and guided
+him how to continue with it by aggregating up to the STATION level.&lt;/p&gt;
+
+&lt;p&gt;All of our approaches have errors.  Linear interpolation makes assumptions about the rate between the
+interpolation.  But so do alternative approaches based on other distributions.  Derrick’s approach bumped
+up the granurality to 1 day but with known errors around midnight.&lt;/p&gt;
+
+&lt;p&gt;We’re continuing to work on anything and everything.  But we selected Derrick’s approach because it’s
+easier to do quicker.  And… boy is this projecting being rushed!  Dean typed up our Design Statement
+and submitted it.  Our MVP is due tomorrow, less than 48 hours after the project started!&lt;/p&gt;
+
+&lt;p&gt;Furthermore, if I get the interpolation working it would permit us to the same 4-hour granularity, or
+lower as long as we remember it’s interpolated.  And it would very likley corroborate the per-day
+approach.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Benson is underway.</summary></entry><entry><title type="html">Saved by Snapshots</title><link href="/metis/2018/01/16/Saved-By-Snapshots/" rel="alternate" type="text/html" title="Saved by Snapshots" /><published>2018-01-16T00:00:00+00:00</published><updated>2018-01-16T00:00:00+00:00</updated><id>/metis/2018/01/16/Saved-By-Snapshots</id><content type="html" xml:base="/metis/2018/01/16/Saved-By-Snapshots/">&lt;p&gt;Guess what… I’ve &lt;strong&gt;already&lt;/strong&gt; benifitted from setting up a snapshot regimen.&lt;/p&gt;
 
 &lt;p&gt;Yup.  That didn’t take long.  I made a global subsitute in a file where I should have specified
 only the lines after the cursor.  I didn’t realize what I’d done.  But I was making blogging changes
@@ -220,68 +305,4 @@ was a good working experience in Liquid.&lt;/p&gt;
 &lt;p&gt;I think it works well enough, though it may be a bit ugly under the hood.&lt;/p&gt;
 
 &lt;p&gt;In any case, the framework and functionality of the blog should be ready to suit my needs.  And none too
-soon since the Metis Bootcamp is just days away.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Jekyll Liquid" /><summary type="html">The blog has a new front door.</summary></entry><entry><title type="html">Dry Run Report</title><link href="/metis/2018/01/10/Dry-Run-Report/" rel="alternate" type="text/html" title="Dry Run Report" /><published>2018-01-10T00:00:00+00:00</published><updated>2018-01-10T00:00:00+00:00</updated><id>/metis/2018/01/10/Dry-Run-Report</id><content type="html" xml:base="/metis/2018/01/10/Dry-Run-Report/">&lt;p&gt;I have journeyed to downtown Chicago today.&lt;/p&gt;
-
-&lt;p&gt;I will be joining the 2018 Winter Cohort of the Metis Data Science Bootcamp.&lt;/p&gt;
-
-&lt;p&gt;The actual activities begin next Tuesday.&lt;/p&gt;
-
-&lt;p&gt;But it seemed very prudent to make a number of dry run commutes to work out the kinks.  I’ve been collaborating with Metis for a couple months now
-in the sense that I’ve been coming to their facility for a number of meetups and events.  For all of that I simply drove.  Driving to/from Chicago
-in rush hour times is a rather undesirable task, but the real kicker is the expense for parking.  To pay the evening rate for an evening meetup is
-a lot different than paying every day for a full day’s parking.  In a real sense a car in downtown Chicago is a liability.&lt;/p&gt;
-
-&lt;p&gt;I actually came down last Friday.  I made that a leisurely affair.  I left shortly before noon.  I brought my young son… who actually helped because he was familiar with mini-DisplayPort adapters.  I haven’t needed to use that sort of connector between laptops and monitors before.  After an our or so playing around with basics of hooking up to the network and external monitors and whatnot, we returned.  Again, it was at our leisure.  We popped into a number of stores along the way back.&lt;/p&gt;
-
-&lt;p&gt;Today I’m trying to match real times.  And (as I kind of expected) I missed my train.  It took a lot longer to find parking at the train station which was also a lot further away.  I thought it was far away last time.  Sheesh!!  But that’s why I’m doing these dry runs.  Nathan, the Metis Chicago Program Manager informs me this cohort will be changing the schedule a bit.  So Friday, I’ll actually take a different train and attempt to get get here by 9am.  Nobody may be here.  Again, there’s no reason for anyone to be here at the moment.  But if so, I’ll just pop on over to UIC and work from there.&lt;/p&gt;
-
-&lt;p&gt;I’ve plopped myself down at a workstation.  I may pick up an adapter to be able to use more than one external monitor.  I’ll be continuing work on the blog and the MOOC I’m pursuing… at least till Nathan boots me out.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">I have journeyed to downtown Chicago today.</summary></entry><entry><title type="html">Blog Enhancements</title><link href="/blog/2018/01/10/Blog-Enhancements/" rel="alternate" type="text/html" title="Blog Enhancements" /><published>2018-01-10T00:00:00+00:00</published><updated>2018-01-10T00:00:00+00:00</updated><id>/blog/2018/01/10/Blog-Enhancements</id><content type="html" xml:base="/blog/2018/01/10/Blog-Enhancements/">&lt;p&gt;I took a brief pause between the first and second courses in this Harvard series to take another look
-at a couple of things.  One of the things I need to wrestle with quickly is how to handle projects on
-this blog.&lt;/p&gt;
-
-&lt;p&gt;At the moment, I’m using the HydeJack theme.  I could upgrade to the Pro version to get some additional
-support for projects.  But I’m not certain I want that.&lt;/p&gt;
-
-&lt;p&gt;I went off on a journey on the web to see how others are using Hydejack or Jekyll in general for projects.
-I found a ton of orphaned sites.  Lots of people seem to be starting or barely starting blogs and then
-abandoning them.  I may have said earlier, but I find this blog is actually primarily for &lt;strong&gt;ME&lt;/strong&gt;.  If
-others are reading this, that’s great.  And this does serve as a bit of a showcase.  But I know from
-experience the value of being able to look backwards at logs, journals, etc., of your own work.&lt;/p&gt;
-
-&lt;p&gt;Sadly, I’ve also found very little really effective use of these project sections, tabs, pages or whatnot.
-But I did find a few.  So I have to ponder what I want.&lt;/p&gt;
-
-&lt;p&gt;I am also reminded I need to go back and fluff out tags and categories.  They end up a bit “messy” in
-the site layout if I don’t.&lt;/p&gt;
-
-&lt;p&gt;I also reviewed the blogs created by the 2017 Fall Cohort of the Metis Bootcamp.  These were &lt;strong&gt;very&lt;/strong&gt;
-project-centric actually.  Maybe I’m just chatty.  But again, experience has taught me that it’s actually
-very valuable to be able to look backwards after several months and years to see exactly what I was doing.&lt;/p&gt;
-
-&lt;p&gt;In any case, there really does seem to be a fairly consistent pattern here of portraying projects:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Use a front-page of sorts which either uses a picture and one-liner for each project as a link to a more robust page for that project.&lt;/li&gt;
-  &lt;li&gt;Each project is summarized as a single page which is essentially a summary of the overall project with a focus on the results.&lt;/li&gt;
-  &lt;li&gt;Some pages includes links to the previous and next projects.&lt;/li&gt;
-  &lt;li&gt;Some folk used the blog as their mechanism to portray their projects.  But then the blog served almost no other purpose.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So… what do I want?&lt;/p&gt;
-
-&lt;p&gt;Looking back at some of the better examples I’ve found using Hydejack Pro…  I found one that rather easily
-incorporated links between the (single) post and the project page.  I could do almost the same thing using
-a dedicated category page.  In the interest of time, I probably should just upgrade.  I likely won’t take
-advantage of everything in Pro.  I’ve found an “Intro” I like better.  I only hesitate because I’d probably
-benefit more from building my own stuff in Jekyll.  But I know full well that could eat up a lot of time.&lt;/p&gt;
-
-&lt;p&gt;I need to move quickly here.  Before the Metis Bootcamp starts, I would like to have back-created a page and some posts related to a project I did last year.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Time passes…&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;OK.  I’m now halfway through the second course and taking some time to work on the blog.  For the purpose
-of working in the project functionality, I elevated the previous post on SwirlyPy to a project.  I &lt;strong&gt;do&lt;/strong&gt; hope to
-keep working on that till it works well enough to serve my needs and help others.&lt;/p&gt;
-
-&lt;p&gt;While chasing this I found some eye-candy I also want.  But… I’ve reached a point where I have what I want with
-regards to the project pages connecting to and from the related blog posts.  So, I’m pushing.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Projects" /><summary type="html">I took a brief pause between the first and second courses in this Harvard series to take another look at a couple of things. One of the things I need to wrestle with quickly is how to handle projects on this blog.</summary></entry></feed>
+soon since the Metis Bootcamp is just days away.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Jekyll Liquid" /><summary type="html">The blog has a new front door.</summary></entry></feed>
