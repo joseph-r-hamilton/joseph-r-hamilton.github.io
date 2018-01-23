@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+  
+
+<title>Project Benson Presentation | Joseph Hamilton - Solution Oriented Data Scientist</title>
+<meta name="description" content="Presentation of Analysis and Recommendations related to Project Benson
+">
+<link rel="canonical" href="/slides/benson/">
+
+
+  
+    <meta name="keywords" content="Data Science Python">
+  
+
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Joseph Hamilton - Solution Oriented Data Scientist">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<meta name="application-name" content="Joseph Hamilton - Solution Oriented Data Scientist">
+<meta name="msapplication-config" content="/assets/ieconfig.xml">
+
+
+<meta name="theme-color" content="#4fb1ba">
+
+
+<meta name="generator" content="Hydejack v7.5.0">
+
+
+    <!-- Description -->
+    
+      <meta name="description" content="Presentation of Analysis and Recommendations related to Project Benson" />
+    
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="/assets/reveal.js/css/reveal.css"/>
+    
+      <link rel="stylesheet" href="/assets/reveal.js/css/theme/league.css" id="theme"/>
+    
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="/assets/reveal.js/lib/css/zenburn.css"/>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '/assets/reveal.js/css/print/pdf.css' : '/assets/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <link rel="canonical" href="/slides/benson/">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="" data-background="/assets/img/slides/Benson/Background_01.png">
+# Project Benson:
+## Strategies for Optimizing Street Team Placements
+
+Dean / Dereck / Joseph / Kendall
+
+01/22/2018
+</section>
+
+<section data-background="/assets/img/slides/Benson/Background_02.png">
+<h2>Methodology</h2>
+<ul>
+<li class="fragment">Assumptions</li>
+<li class="fragment">Data Cleaning/Aggregation</li>
+<li class="fragment">Recommendations</li>
+</ul>
+</section>
+
+<section data-background="/assets/img/slides/Benson/Background_03.png">
+<h1>Data Cleaning &amp; Aggregation</h1>
+</section>
+
+<section data-background="/assets/img/slides/Benson/Background_02.png">
+<h2>Data Issues</h2>
+<ul>
+<li class="fragment">Reset Counts</li>
+<li class="fragment">Turnstiles rolling backwards</li>
+<li class="fragment">Different time intervals</li>
+<li class="fragment">How to standardize the counts</li>
+</ul>
+</section>
+
+<section data-background="/assets/img/slides/Benson/Background_02.png">
+<h2>Data Cleaning</h2>
+<ul>
+<li class="fragment">Three methods explored</li>
+<li class="fragment">Resampling and Interpolation</li>
+<li class="fragment">Weighted Averages</li>
+<li class="fragment">Min/Max per day</li>
+</ul>
+</section>
+
+<section data-background="/assets/img/slides/Benson/Background_02.png">
+<h2>Data Aggregation</h2>
+<ul>
+<li class="fragment">Pivot table (groupby)</li>
+<li class="fragment">Total traffic by station and date</li>
+</ul>
+</section>
+
+<section data-background="/assets/img/slides/Benson/Background_02.png">
+<h2>Top Stations with Most Traffic</h2>
+<img data-src="/assets/img/slides/Benson/Chart_01.png" />
+</section>
+
+<section data-background="/assets/img/slides/Benson/Background_02.png">
+<h2>Top Stations with Most Traffic</h2>
+<img data-src="/assets/img/slides/Benson/Chart_02a.png" />
+<img data-src="/assets/img/slides/Benson/Chart_02b.png" />
+<img data-src="/assets/img/slides/Benson/Chart_02c.png" />
+</section>
+
+<section data-background="/assets/img/slides/Benson/Background_02.png">
+<h3>Observations #1</h3>
+More high traffic stations on weekdays
+<img data-src="/assets/img/slides/Benson/Chart_03.png" />
+</section>
+
+<section data-background="/assets/img/slides/Benson/Background_02.png">
+<h3>Observations #2</h3>
+More high traffic between 4 to 8pm
+<img data-src="/assets/img/slides/Benson/Chart_04.png" />
+</section>
+
+<section data-background="/assets/img/slides/Benson/Background_03.png">
+<h1>Recommendations</h1>
+</section>
+
+<section data-background="/assets/img/slides/Benson/Background_02.png">
+<h3>Recommendation #1</h3>
+The Common Sense Approach
+<table><tr><td>
+<ul>
+<li class="fragment">Spring Weekdays 4-8pm</li>
+<li class="fragment">Penn Station</li>
+<li class="fragment">Grand Central</li>
+<li class="fragment">Time Square</li>
+<li class="fragment">etc.</li>
+</ul>
+</td><td>
+<img data-src="/assets/img/slides/Benson/Chart_05.png" />
+</td></tr></table>
+</section>
+
+<section data-background="/assets/img/slides/Benson/Background_02.png">
+<h3>Recommendation #2</h3>
+Quality over Quantity Approach<br />
+(next steps)
+<table><tr><td>
+<ul>
+<li class="fragment">Location targeting<br />(Tech companies, Universities, Pro-women Groups)</li>
+<li class="fragment">Find highest traffic stations in nearby zip codes</li>
+</ul>
+</td><td>
+<img data-src="/assets/img/slides/Benson/Chart_06.png" />
+</td></tr></table>
+</section>
+
+<section data-background="/assets/img/slides/Benson/Background_02.png">
+<h3>Recommendation #3</h3>
+The Opportunistic Approach<br />
+(next steps)
+<table><tr><td>
+<ul>
+<li class="fragment">Events targeting (Tech/Women’s Conferences, Concerts)</li>
+<li class="fragment">Identify events date/time/location and stations nearby</li>
+</ul>
+</td><td>
+<img data-src="/assets/img/slides/Benson/Chart_07a.png" />
+<img data-src="/assets/img/slides/Benson/Chart_07b.png" />
+</td></tr></table>
+</section>
+<section data-background="/assets/img/slides/Benson/Background_03.png">
+<h1>Thank You</h1>
+</section>
+
+      </div>
+    </div>
+
+    <script src="/assets/reveal.js/lib/js/head.min.js"></script>
+    <script src="/assets/reveal.js/js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        
+          transition: 'fade',
+        
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '/assets/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/assets/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/assets/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/assets/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/assets/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '/assets/reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
