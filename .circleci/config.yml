@@ -17,8 +17,8 @@ jobs:
       - run:
           name: Build
           command: 'bundle exec jekyll build'
-      - run:
-          name: Test
+#      - run:
+#          name: Test
 #          command: 'htmlproofer ./_site --check-html --url-ignore https://www.linkedin.com/in/joseph-r-hamilton,"#"'
 #	  Temporary fix due to bitbucket outage
 #          command: 'htmlproofer ./_site --check-html --url-ignore https://www.linkedin.com/in/joseph-r-hamilton,/bitbucket.io/,"#"'
