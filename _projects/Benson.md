@@ -47,4 +47,37 @@ Karrine and Dahlia
 >
 WTWY International
 
+## Results and Response
+  
+>
+Karrine and Dahlia,
+>
+It was a pleasure to meet you and present you our findings and recommendations.  Our team was rather excited once
+David and Alice gave us the opportunity to explore the MTA Turnstile data in order to provide WTWY
+recommendations for strategies of how best to deploy street teams. 
+>
+We have included here, for your future reference, a link to a web-friendly version of our presentation.
+>
+And should you be curious to explore the deeper aspects of our analsis, we have made available several
+Jupyter notebooks as well.
+>
+Do not hestitate to contact us if you wish to explore this further.
+>
+Once again, thank you for this opportunity.  We wish you the best.
+>
+Dean, Derrick, Joseph and Kendall
+
+## Presentation
+
+[Project Benson Presentation](/slides/benson/){:target="_blank"} 
+
+## Appendix
+
+### Jupyter Notebooks for Project Benson
+
+1. [Project Benson - Data Clean (small)](https://nbviewer.jupyter.org/github/joseph-r-hamilton/Project_Benson/blob/master/Final/01%20-%20Project%20Benson%20-%20Data%20Clean%20(small).ipynb)
+2. [Project Benson - Data Clean (large)](https://nbviewer.jupyter.org/github/joseph-r-hamilton/Project_Benson/blob/master/Final/02%20-%20Project%20Benson%20-%20Data%20Clean%20(large).ipynb)
+3. [Project Benson - Data Analysis](https://nbviewer.jupyter.org/github/joseph-r-hamilton/Project_Benson/blob/master/Final/03%20-%20Project%20Benson%20-%20Data%20Analysis.ipynb)
+4. [Project Benson - Visualization](https://nbviewer.jupyter.org/github/joseph-r-hamilton/Project_Benson/blob/master/Final/04%20-%20Project%20Benson%20-%20Visualization.ipynb)
+
 

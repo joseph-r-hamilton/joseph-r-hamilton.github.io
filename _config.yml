@@ -136,6 +136,7 @@ hydejack:
 # Collections
 # ========================================================================================
 
+
 collections:
   featured_categories:
     permalink:         /category/:path/
@@ -147,6 +148,10 @@ collections:
 
   projects:
     permalink:         /projects/:path/
+    output:            true
+
+  slides:
+    permalink:         /slides/:path/
     output:            true
 
 
