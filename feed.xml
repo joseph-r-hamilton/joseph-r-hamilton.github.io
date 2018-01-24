@@ -1,5 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-23T23:19:15+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Bootcamp - Week Two</title><link href="/metis/2018/01/22/Bootcamp-Week-Two/" rel="alternate" type="text/html" title="Bootcamp - Week Two" /><published>2018-01-22T00:00:00+00:00</published><updated>2018-01-22T00:00:00+00:00</updated><id>/metis/2018/01/22/Bootcamp-Week-Two</id><content type="html" xml:base="/metis/2018/01/22/Bootcamp-Week-Two/">&lt;p&gt;We’ve segued into Week Two…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-24T17:39:39+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">I broke the blog!</title><link href="/blog/2018/01/24/Blog-Is-Broken/" rel="alternate" type="text/html" title="I broke the blog!" /><published>2018-01-24T00:00:00+00:00</published><updated>2018-01-24T00:00:00+00:00</updated><id>/blog/2018/01/24/Blog-Is-Broken</id><content type="html" xml:base="/blog/2018/01/24/Blog-Is-Broken/">&lt;p&gt;I recently broke the blog!!&lt;/p&gt;
+
+&lt;p&gt;I was indeed able to add in the functionality so I could include slide presentations on the blog!!&lt;/p&gt;
+
+&lt;p&gt;YAY!&lt;/p&gt;
+
+&lt;p&gt;However… as with so much related to the Metis Bootcamp, I was under pressure because of a time crunch.&lt;/p&gt;
+
+&lt;p&gt;There is a lot that I could do with this functionality, but for the purpose of using this within
+the project post for Project Benson, I chose to “simply” convert the presentation our tream created
+from Powerpoint to Reveal.  I got it!  But… I hadn’t yet pushed any example slide presentation
+all the way to the public blog.  I didn’t want this because I didn’t want the public blog with the
+Swirply project pointing to a dummy slide.&lt;/p&gt;
+
+&lt;p&gt;But…&lt;/p&gt;
+
+&lt;p&gt;This led to the scenario where I finished the presentation conversion and got done testing things
+locally to my heart’s content and then attempted the final push around the time the whole thing
+was due.  Actually I was about ten minutes beyond the deadline.  It worked locally, so it should
+be fine, right?&lt;/p&gt;
+
+&lt;p&gt;Well…&lt;/p&gt;
+
+&lt;p&gt;I set up a pipeline for the blog.  The push to the public blog goes through a “test” stage.
+This is very helpful because not only does it ensure I don’t creating broken links on my own,
+it will alert me to cases where external links fail.  This could be because I mistyped it. 
+Or, as I’ve learned, it could be because the external site is down that day.  I imagine eventually
+I’ll run into cases where the external site has reconfigured or deleted that page.  This testing
+lets me catch all that and detemine how to clean it up if I wish or just ignore the problems.&lt;/p&gt;
+
+&lt;p&gt;This testing failed due to an non-trivial number of issues related to things related to the
+inclusion of reveal.js.  There was no simple way to ignore all of that in the same way I
+can ignore a single URL.&lt;/p&gt;
+
+&lt;p&gt;So… I just had to disable that test phase.&lt;/p&gt;
+
+&lt;p&gt;To get one functionality, I had to break another.&lt;/p&gt;
+
+&lt;p&gt;Sigh…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="blog" /><category term="Metis" /><summary type="html">I recently broke the blog!!</summary></entry><entry><title type="html">Bootcamp - Week Two</title><link href="/metis/2018/01/22/Bootcamp-Week-Two/" rel="alternate" type="text/html" title="Bootcamp - Week Two" /><published>2018-01-22T00:00:00+00:00</published><updated>2018-01-22T00:00:00+00:00</updated><id>/metis/2018/01/22/Bootcamp-Week-Two</id><content type="html" xml:base="/metis/2018/01/22/Bootcamp-Week-Two/">&lt;p&gt;We’ve segued into Week Two…&lt;/p&gt;
 
 &lt;p&gt;Week Two started with the presentations of Project Benson, the first project.&lt;/p&gt;
 
@@ -330,11 +368,4 @@ tell what.  And attempting to undo it didn’t work.&lt;/p&gt;
 Again… YAML is &lt;strong&gt;PICKY&lt;/strong&gt;!!&lt;/p&gt;
 
 &lt;p&gt;I loved having this many years ago on Solaris.  So I knew of the benefit of having it.  And I imagined
-I’d need it to protet myself from myself.  I didn’t expect to need it so soon.  :grin:&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Guess what… I’ve already benifitted from setting up a snapshot regimen.</summary></entry><entry><title type="html">Project Benson - Data Exploration 01</title><link href="/project/benson/2018/01/16/Project-Benson-X01/" rel="alternate" type="text/html" title="Project Benson - Data Exploration 01" /><published>2018-01-16T00:00:00+00:00</published><updated>2018-01-16T00:00:00+00:00</updated><id>/project/benson/2018/01/16/Project-Benson-X01</id><content type="html" xml:base="/project/benson/2018/01/16/Project-Benson-X01/">&lt;p&gt;Project Benson - Data Exploration&lt;/p&gt;
-
-&lt;p&gt;Follow the link below to a Jupyter Notebook encapsulating my initial Data Exploration related to Project Benson.&lt;/p&gt;
-
-&lt;p&gt;This includes some investigation, some chaos, some play, some fun, etc.  Working towards what techniques
-may work for our overall project.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://nbviewer.jupyter.org/github/joseph-r-hamilton/Project_Benson/blob/master/Exploration/Project%20Benson%20-%20Exploration%2001.ipynb&quot;&gt;Project Benson - Exploration 01&lt;/a&gt;&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Benson - Data Exploration</summary></entry></feed>
+I’d need it to protet myself from myself.  I didn’t expect to need it so soon.  :grin:&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Guess what… I’ve already benifitted from setting up a snapshot regimen.</summary></entry></feed>
