@@ -59,26 +59,26 @@ Dean / Dereck / Joseph / Kendall
 
 <section data-background="/assets/img/slides/Benson/Background_02.png">
 <h2>Top Stations with Most Traffic</h2>
-<img data-src="/assets/img/slides/Benson/Chart_01.png"/>
+<img alt="chart" src="/assets/img/slides/Benson/Chart_01.png"/>
 </section>
 
 <section data-background="/assets/img/slides/Benson/Background_02.png">
 <h2>Top Stations with Most Traffic</h2>
-<img data-src="/assets/img/slides/Benson/Chart_02a.png"/>
-<img data-src="/assets/img/slides/Benson/Chart_02b.png"/>
-<img data-src="/assets/img/slides/Benson/Chart_02c.png"/>
+<img alt="chart" src="/assets/img/slides/Benson/Chart_02a.png"/>
+<img alt="chart" src="/assets/img/slides/Benson/Chart_02b.png"/>
+<img alt="chart" src="/assets/img/slides/Benson/Chart_02c.png"/>
 </section>
 
 <section data-background="/assets/img/slides/Benson/Background_02.png">
 <h3>Observations #1</h3>
 More high traffic stations on weekdays
-<img data-src="/assets/img/slides/Benson/Chart_03.png"/>
+<img alt="chart" src="/assets/img/slides/Benson/Chart_03.png"/>
 </section>
 
 <section data-background="/assets/img/slides/Benson/Background_02.png">
 <h3>Observations #2</h3>
 More high traffic between 4 to 8pm
-<img data-src="/assets/img/slides/Benson/Chart_04.png"/>
+<img alt="chart" src="/assets/img/slides/Benson/Chart_04.png"/>
 </section>
 
 <section data-background="/assets/img/slides/Benson/Background_03.png">
@@ -97,7 +97,7 @@ The Common Sense Approach
 <li class="fragment">etc.</li>
 </ul>
 </td><td>
-<img data-src="/assets/img/slides/Benson/Chart_05.png"/>
+<img alt="chart" src="/assets/img/slides/Benson/Chart_05.png"/>
 </td></tr></table>
 </section>
 
@@ -112,7 +112,7 @@ Quality over Quantity Approach<br/>
 <li class="fragment">Find highest traffic stations in nearby zip codes</li>
 </ul>
 </td><td>
-<img data-src="/assets/img/slides/Benson/Chart_06.png"/>
+<img alt="chart" src="/assets/img/slides/Benson/Chart_06.png"/>
 </td></tr></table>
 </section>
 
@@ -126,8 +126,8 @@ The Opportunistic Approach<br/>
 <li class="fragment">Identify events date/time/location and stations nearby</li>
 </ul>
 </td><td>
-<img data-src="/assets/img/slides/Benson/Chart_07a.png"/>
-<img data-src="/assets/img/slides/Benson/Chart_07b.png"/>
+<img alt="chart" src="/assets/img/slides/Benson/Chart_07a.png"/>
+<img alt="chart" src="/assets/img/slides/Benson/Chart_07b.png"/>
 </td></tr></table>
 </section>
 <section data-background="/assets/img/slides/Benson/Background_03.png">
