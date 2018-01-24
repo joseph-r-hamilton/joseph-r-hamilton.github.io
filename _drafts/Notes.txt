@@ -1,0 +1,13 @@
+Wed Jan 24 10:32:40 CST 2018
+
+Keeping things here that aren't draft posts... instead they are draft things.
+
+At the moment...
+
+	project2.md
+		A replacement for TOP_LEVEL/project.md which provides pagination.
+	projects.html
+		A replacement for TOP_LEVEL/_layouts/project.html which provides pagination.
+
+These are here because I may wish to pursue this more later.  Before I use these, I would have to "fix" how
+these result in extra entries in the sidebar.
