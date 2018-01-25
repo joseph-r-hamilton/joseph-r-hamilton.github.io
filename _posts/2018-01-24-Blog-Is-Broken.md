@@ -46,4 +46,14 @@ To get one functionality, I had to break another.
 
 Sigh...
 
+EDIT: Blog is fixed.
+
+I cleaned it up the next day.
+
+The errors fell into about three categories:
+
+* The testing was checking things in a file within reveal.js that was probably only included there as a sample to use for other things.  The solution here was to mask that directory/module.
+* A sample I'd copied was using data-src in the img tags rather than src.  Testing caught that even though it "worked".
+* A sample I'd copied had a call to favicon in a different way... fixed it.
+
 
