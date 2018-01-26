@@ -1,5 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-24T20:49:21+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">I broke the blog!</title><link href="/blog/2018/01/24/Blog-Is-Broken/" rel="alternate" type="text/html" title="I broke the blog!" /><published>2018-01-24T00:00:00+00:00</published><updated>2018-01-24T00:00:00+00:00</updated><id>/blog/2018/01/24/Blog-Is-Broken</id><content type="html" xml:base="/blog/2018/01/24/Blog-Is-Broken/">&lt;p&gt;I recently broke the blog!!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-26T02:57:18+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Project Luther Begins</title><link href="/project/luther/2018/01/24/Project-Luther-Begins/" rel="alternate" type="text/html" title="Project Luther Begins" /><published>2018-01-24T00:00:00+00:00</published><updated>2018-01-24T00:00:00+00:00</updated><id>/project/luther/2018/01/24/Project-Luther-Begins</id><content type="html" xml:base="/project/luther/2018/01/24/Project-Luther-Begins/">&lt;p&gt;Project Luther begins.&lt;/p&gt;
+
+&lt;p&gt;Yay!  With this project I get to play with web scraping.&lt;/p&gt;
+
+&lt;p&gt;There are so many aspects of Data Science which I have employed at various points throughout my
+career and personal life.  During the lectures this morning we discussed what Machine Learning is
+at its most basic definition.  In this definition a lot of the optimization things I did long ago
+would qualify as Machine Learning.  Indeed, some of the stuff I’ve done with fitness functions
+have quite a lot of resemblance in spirit to Gradient Descent.&lt;/p&gt;
+
+&lt;p&gt;But this project is not just web scraping.  It’s web-scraping plus linear regression.&lt;/p&gt;
+
+&lt;p&gt;It actually proved a tad difficult to choose a topic to investigate.  See… from here on out,
+we are only given a few requirements and rough guidelines.  From these we define the project.&lt;/p&gt;
+
+&lt;p&gt;So here, we need something that:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Involves some sort of structured data we scrape from the web.  We can use additional data of
+any kind from any source.  But the first part of the data needs to be scraped.&lt;/li&gt;
+  &lt;li&gt;Has enough data of this structured fashion that we can do some linear regression.&lt;/li&gt;
+  &lt;li&gt;Has to be interesting (at least to me).&lt;/li&gt;
+  &lt;li&gt;Ought to be somewhat novel.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hmm… tough call.&lt;/p&gt;
+
+&lt;p&gt;I played around last night with a number of ideas.  I settled on something to do with property
+tax assessments since I’ve been curious whether there are measurable effects of increasing property
+tax.  I don’t think I’ll be able to get enough data longitudinally (in time) to see much.  But I
+ought to be able to measure across space or across valuations.&lt;/p&gt;
+
+&lt;p&gt;An even tougher call is HOW to do this…&lt;/p&gt;
+
+&lt;p&gt;I don’t mean how to scrape.  Though I will have to decide for or against inclusion of Scrapy.
+I mean Jupyter vs. Python, how much to employ Test-Driven Development, CI, etc.&lt;/p&gt;
+
+&lt;p&gt;MVP is Monday.  Again… the pressure is on.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Luther begins.</summary></entry><entry><title type="html">I broke the blog!</title><link href="/blog/2018/01/24/Blog-Is-Broken/" rel="alternate" type="text/html" title="I broke the blog!" /><published>2018-01-24T00:00:00+00:00</published><updated>2018-01-24T00:00:00+00:00</updated><id>/blog/2018/01/24/Blog-Is-Broken</id><content type="html" xml:base="/blog/2018/01/24/Blog-Is-Broken/">&lt;p&gt;I recently broke the blog!!&lt;/p&gt;
 
 &lt;p&gt;I was indeed able to add in the functionality so I could include slide presentations on the blog!!&lt;/p&gt;
 
@@ -37,7 +73,19 @@ can ignore a single URL.&lt;/p&gt;
 
 &lt;p&gt;To get one functionality, I had to break another.&lt;/p&gt;
 
-&lt;p&gt;Sigh…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="blog" /><category term="Metis" /><summary type="html">I recently broke the blog!!</summary></entry><entry><title type="html">Bootcamp - Week Two</title><link href="/metis/2018/01/22/Bootcamp-Week-Two/" rel="alternate" type="text/html" title="Bootcamp - Week Two" /><published>2018-01-22T00:00:00+00:00</published><updated>2018-01-22T00:00:00+00:00</updated><id>/metis/2018/01/22/Bootcamp-Week-Two</id><content type="html" xml:base="/metis/2018/01/22/Bootcamp-Week-Two/">&lt;p&gt;We’ve segued into Week Two…&lt;/p&gt;
+&lt;p&gt;Sigh…&lt;/p&gt;
+
+&lt;p&gt;EDIT: Blog is fixed.&lt;/p&gt;
+
+&lt;p&gt;I cleaned it up the next day.&lt;/p&gt;
+
+&lt;p&gt;The errors fell into about three categories:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The testing was checking things in a file within reveal.js that was probably only included there as a sample to use for other things.  The solution here was to mask that directory/module.&lt;/li&gt;
+  &lt;li&gt;A sample I’d copied was using data-src in the img tags rather than src.  Testing caught that even though it “worked”.&lt;/li&gt;
+  &lt;li&gt;A sample I’d copied had a call to favicon in a different way… fixed it.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="blog" /><category term="Metis" /><summary type="html">I recently broke the blog!!</summary></entry><entry><title type="html">Bootcamp - Week Two</title><link href="/metis/2018/01/22/Bootcamp-Week-Two/" rel="alternate" type="text/html" title="Bootcamp - Week Two" /><published>2018-01-22T00:00:00+00:00</published><updated>2018-01-22T00:00:00+00:00</updated><id>/metis/2018/01/22/Bootcamp-Week-Two</id><content type="html" xml:base="/metis/2018/01/22/Bootcamp-Week-Two/">&lt;p&gt;We’ve segued into Week Two…&lt;/p&gt;
 
 &lt;p&gt;Week Two started with the presentations of Project Benson, the first project.&lt;/p&gt;
 
@@ -357,15 +405,4 @@ and submitted it.  Our MVP is due tomorrow, less than 48 hours after the project
 
 &lt;p&gt;Furthermore, if I get the interpolation working it would permit us to the same 4-hour granularity, or
 lower as long as we remember it’s interpolated.  And it would very likley corroborate the per-day
-approach.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Benson is underway.</summary></entry><entry><title type="html">Saved by Snapshots</title><link href="/metis/2018/01/16/Saved-By-Snapshots/" rel="alternate" type="text/html" title="Saved by Snapshots" /><published>2018-01-16T00:00:00+00:00</published><updated>2018-01-16T00:00:00+00:00</updated><id>/metis/2018/01/16/Saved-By-Snapshots</id><content type="html" xml:base="/metis/2018/01/16/Saved-By-Snapshots/">&lt;p&gt;Guess what… I’ve &lt;strong&gt;already&lt;/strong&gt; benifitted from setting up a snapshot regimen.&lt;/p&gt;
-
-&lt;p&gt;Yup.  That didn’t take long.  I made a global subsitute in a file where I should have specified
-only the lines after the cursor.  I didn’t realize what I’d done.  But I was making blogging changes
-with Jekyll in update mode.  So I could &lt;strong&gt;see&lt;/strong&gt; I’d screwed something up immediately but I couldn’t
-tell what.  And attempting to undo it didn’t work.&lt;/p&gt;
-
-&lt;p&gt;A quick peek into the snapshots directory and it became clear I’d screwed up the YAML header stuff.
-Again… YAML is &lt;strong&gt;PICKY&lt;/strong&gt;!!&lt;/p&gt;
-
-&lt;p&gt;I loved having this many years ago on Solaris.  So I knew of the benefit of having it.  And I imagined
-I’d need it to protet myself from myself.  I didn’t expect to need it so soon.  :grin:&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Guess what… I’ve already benifitted from setting up a snapshot regimen.</summary></entry></feed>
+approach.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Benson is underway.</summary></entry></feed>
