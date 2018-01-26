@@ -21,6 +21,6 @@ accent_image: /assets/img/projects/Luther/Luther_sidebar-bg.jpg
 ---
 
 # Project Luther - Web Scraping and Linear Regression
-## *IN PROGRESS*
-### (TODO - change title to focus of study)
+## Exploring the impact of various features related to property tax and valuation on neighborhood stability.
+### (In Progress)
   

@@ -26,7 +26,7 @@ So here, we need something that:
 any kind from any source.  But the first part of the data needs to be scraped.
 * Has enough data of this structured fashion that we can do some linear regression.
 * Has to be interesting (at least to me).
-* Ought to be somewhat novel.Project-Luther-Begins.md
+* Ought to be somewhat novel.
 
 Hmm... tough call.
 
