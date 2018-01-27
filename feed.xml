@@ -1,5 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-26T02:57:18+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Project Luther Begins</title><link href="/project/luther/2018/01/24/Project-Luther-Begins/" rel="alternate" type="text/html" title="Project Luther Begins" /><published>2018-01-24T00:00:00+00:00</published><updated>2018-01-24T00:00:00+00:00</updated><id>/project/luther/2018/01/24/Project-Luther-Begins</id><content type="html" xml:base="/project/luther/2018/01/24/Project-Luther-Begins/">&lt;p&gt;Project Luther begins.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-27T22:14:08+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Project Luther - Discovery</title><link href="/project/luther/2018/01/25/Project-Luther-Discovery/" rel="alternate" type="text/html" title="Project Luther - Discovery" /><published>2018-01-25T00:00:00+00:00</published><updated>2018-01-25T00:00:00+00:00</updated><id>/project/luther/2018/01/25/Project-Luther-Discovery</id><content type="html" xml:base="/project/luther/2018/01/25/Project-Luther-Discovery/">&lt;p&gt;Project Luther is in motion.&lt;/p&gt;
+
+&lt;p&gt;For Project Luther, I need to move quickly towards a MVP (Minimal Vialble
+Product).  This has been broken into two parts.  I believe the formal MVP
+presentation is Monday.  But Friday I must be able to show I’ve already begun
+to collect data.  This projects has two key aspects: Web Scraping; Linear
+Regression.  So to a degree the MVP for the Scraping is tomorrow.&lt;/p&gt;
+
+&lt;p&gt;I’ve performed a bit of Exploration and Discovery.  I played with Selenium
+and the websites for four of the counties of the Chicagoland area:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Cook&lt;/li&gt;
+  &lt;li&gt;DuPage&lt;/li&gt;
+  &lt;li&gt;Lake&lt;/li&gt;
+  &lt;li&gt;Will&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I evaluated these for ease of access as well as for the amount and type of
+data I could procure.  For the purpose of the MVP I have settled on Will
+countly alone.&lt;/p&gt;
+
+&lt;p&gt;Next, due to the need to show data tomorrow, I cannot do start as I’d hoped.
+I do want to start to switch to CI.  But I dare not waste time on getting that
+part working.&lt;/p&gt;
+
+&lt;p&gt;Hilarously, I already have a template project to pull from for the web
+scraping.  I will likely create a writeup for that project in the near future.&lt;/p&gt;
+
+&lt;p&gt;PLACEHOLDER (I’ll come back here later and create a link to it).&lt;/p&gt;
+
+&lt;p&gt;But just because I cannot immediately integrate CI doesn’t mean I shouldn’t go
+ahead and start the repository.  So here’s the short-term plan…&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create the repository for GitHub&lt;/li&gt;
+  &lt;li&gt;Use Jupyter, Selenium and BeautifulSoup for prototyping&lt;/li&gt;
+  &lt;li&gt;Begin development with Scrapy&lt;/li&gt;
+  &lt;li&gt;Incorporate Mongo for storage&lt;/li&gt;
+  &lt;li&gt;Pull some data&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Luther is in motion.</summary></entry><entry><title type="html">Project Luther Begins</title><link href="/project/luther/2018/01/24/Project-Luther-Begins/" rel="alternate" type="text/html" title="Project Luther Begins" /><published>2018-01-24T00:00:00+00:00</published><updated>2018-01-24T00:00:00+00:00</updated><id>/project/luther/2018/01/24/Project-Luther-Begins</id><content type="html" xml:base="/project/luther/2018/01/24/Project-Luther-Begins/">&lt;p&gt;Project Luther begins.&lt;/p&gt;
 
 &lt;p&gt;Yay!  With this project I get to play with web scraping.&lt;/p&gt;
 
@@ -344,65 +383,4 @@ have the idea.  Nonetheless, you have to communicate and the other can critique 
   &lt;li&gt;These are timed exercises.  So the pressure is on.  This then simulates the experience of code
 interviews where in a job interview you have to code or whiteboard.  The types of problems are
 also similar to the kind you’d experience in code interviews.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Pair Programming is… umm… interesting.</summary></entry><entry><title type="html">Project Benson Progresses</title><link href="/project/benson/2018/01/17/Project-Benson-Progresses/" rel="alternate" type="text/html" title="Project Benson Progresses" /><published>2018-01-17T00:00:00+00:00</published><updated>2018-01-17T00:00:00+00:00</updated><id>/project/benson/2018/01/17/Project-Benson-Progresses</id><content type="html" xml:base="/project/benson/2018/01/17/Project-Benson-Progresses/">&lt;p&gt;Project Benson is underway.&lt;/p&gt;
-
-&lt;p&gt;OK.  The last 24 hours have been somewhat of a rollercoaster with regards to Project Benson.&lt;/p&gt;
-
-&lt;p&gt;I spent a fair amount of time pursuing the data from a Exploratory Data Analysis point of view.
-And I simply loved it.  It was good practice with Pandas.  I learned several new aspects of how
-to use Pandas for time series sorts of data.  It was also frustrating when I got stuck trying
-to do things that appeared to work but didn’t.&lt;/p&gt;
-
-&lt;p&gt;But in the morning Alice reminded us that good Data Scientists do &lt;strong&gt;NOT&lt;/strong&gt; jump right into the data
-searching for things that can be done with the data.  A Data Science project begins with Design.
-This was a repeat.  I’m pretty sure she said the same thing yesterday.  But… it was bewildering
-then and it was chastening today.  Because… the data is so much FUN.&lt;/p&gt;
-
-&lt;p&gt;There’s a number of traps and pitfalls here.  First of all, we may end up either limited by focusing
-too much on the data at hand or simply incredibly biased because of this focus.  Next, we can spend
-a lot of time pleasing ourselves or attempting to build monuments which may be overkill or mismatched
-compared to what anyone ever really wanted.&lt;/p&gt;
-
-&lt;p&gt;So… how do you do Design before jumping into the Data?  We discussed this…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;First, &lt;strong&gt;listen&lt;/strong&gt; to your Customers.  Learn what problems they want solved.  Discern what may be
-a threshold of satisfaction or a point of diminishing returns.&lt;/li&gt;
-  &lt;li&gt;Second, &lt;strong&gt;brainstorm&lt;/strong&gt;.  Think about the problem.  Ponder how you’ll approach the challenge.  Draft your goals.&lt;/li&gt;
-  &lt;li&gt;Determine a &lt;strong&gt;MVP - Minimum Viable Product&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This approach should help to guide the overall effort.  It also sets you up for an iterative method
-where you can have &lt;em&gt;something&lt;/em&gt; to show for your work ASAP but then build upon it.&lt;/p&gt;
-
-&lt;p&gt;So… what did we do?  Jump back into the data.&lt;/p&gt;
-
-&lt;p&gt;Well.. that’s not entirely true.  We spent a lot of time debating methodology… about the data.&lt;/p&gt;
-
-&lt;p&gt;Nah… we hastily determined our MVP would be simply a ranked list of the MTA stations based on traffic flow.&lt;/p&gt;
-
-&lt;p&gt;But the trouble here is determining how to assess this.  The “fun” part of the MTA data is this isn’t actually
-quite readily availble.  You must massage the data a bit.&lt;/p&gt;
-
-&lt;p&gt;Kendall and I discovered each of us had wrestled with trying to determine the structure behind the data.
-We still cannot quite figure out what some of it actually means.  Oh we could figure out what to count.
-But… there were hints that you might be able to say more if you undertood more of what it represented.&lt;/p&gt;
-
-&lt;p&gt;At some point I described what I’d been doing with standardizing and interpolating by resampling the data.
-Kendall and I debated that a lot because her Math/Stats background made her leery of interpolation, especially
-dumb linear interpolation.  Dean jumped in and we explored this a bit.  But it wasn’t clear any other thing
-we were discussing would be any easier or better.  Derrick stayed quiet and simply plugged away at another
-approach altogether.  When he shared his idea, we pointed out the errors inherent in that approach and guided
-him how to continue with it by aggregating up to the STATION level.&lt;/p&gt;
-
-&lt;p&gt;All of our approaches have errors.  Linear interpolation makes assumptions about the rate between the
-interpolation.  But so do alternative approaches based on other distributions.  Derrick’s approach bumped
-up the granurality to 1 day but with known errors around midnight.&lt;/p&gt;
-
-&lt;p&gt;We’re continuing to work on anything and everything.  But we selected Derrick’s approach because it’s
-easier to do quicker.  And… boy is this projecting being rushed!  Dean typed up our Design Statement
-and submitted it.  Our MVP is due tomorrow, less than 48 hours after the project started!&lt;/p&gt;
-
-&lt;p&gt;Furthermore, if I get the interpolation working it would permit us to the same 4-hour granularity, or
-lower as long as we remember it’s interpolated.  And it would very likley corroborate the per-day
-approach.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Benson is underway.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Pair Programming is… umm… interesting.</summary></entry></feed>
