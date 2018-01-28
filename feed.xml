@@ -1,5 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-27T22:14:08+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Project Luther - Discovery</title><link href="/project/luther/2018/01/25/Project-Luther-Discovery/" rel="alternate" type="text/html" title="Project Luther - Discovery" /><published>2018-01-25T00:00:00+00:00</published><updated>2018-01-25T00:00:00+00:00</updated><id>/project/luther/2018/01/25/Project-Luther-Discovery</id><content type="html" xml:base="/project/luther/2018/01/25/Project-Luther-Discovery/">&lt;p&gt;Project Luther is in motion.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-01-28T02:05:18+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Bootcamp - Week Two Down</title><link href="/metis/2018/01/27/Bootcamp-Week-Two-Down/" rel="alternate" type="text/html" title="Bootcamp - Week Two Down" /><published>2018-01-27T00:00:00+00:00</published><updated>2018-01-27T00:00:00+00:00</updated><id>/metis/2018/01/27/Bootcamp-Week-Two-Down</id><content type="html" xml:base="/metis/2018/01/27/Bootcamp-Week-Two-Down/">&lt;p&gt;I have completed Week Two of the Metis Bootcamp!&lt;/p&gt;
+
+&lt;p&gt;I vaguely remember the concept of sleep.  It’s like an old friend I’ll have to visit again once the Bootcamp concludes.&lt;/p&gt;
+
+&lt;p&gt;It’s one thing to look at a curriculum and see Web Scraping and say, “Oh yeah… I know how to do that”.  It’s a
+completely different thing to rush through a project where you first have to dream up &lt;strong&gt;WHAT&lt;/strong&gt; to explore, then &lt;strong&gt;HOW&lt;/strong&gt;
+to find the related data on the Web and finally to pull together some mechanism to do so in short order.&lt;/p&gt;
+
+&lt;p&gt;In essence, there’s a significant difference between any project you may have done in the past which spanned several
+weeks and one where you’re under terrible pressure to do it all very quickly.&lt;/p&gt;
+
+&lt;p&gt;Project One is pretty much the only project where you are even barely spoon fed.  The instructors don’t tell you exactly
+where to go and what to do (well… that’s not entirely true… they do… but only you’ve after done it… which is
+hilarious).  But the requirements for Project One fairly strongly push you in a certain direction and you end up working
+from a small set of sources for your data.  None of that is true for the rest of the Bootcamp.  You are given structure
+only in the sense of what methods need to be employed.  But dreaming up what to study is on you.  This is entirely
+on purpose since this is a rather valuable facet of being a Data Scientist.  Can you determine what to study in order
+to drive towards a desired goal?  Or do you have to be spoon fed what to do?&lt;/p&gt;
+
+&lt;p&gt;But knowing this doesn’t make it any easier.  It’s rather difficult.&lt;/p&gt;
+
+&lt;p&gt;I had a lot of fun this past week with Pair Programming.  I think part of it is that we’re all getting to know one
+another better.  So there’s less of the typical sense of guardedness or competition or fear of looking foolish.
+Another piece of the puzzle may be that we’re all so overwhelmed or exhausted that if anyone can drive things towards
+the goal, we’re happy no matter who drives.&lt;/p&gt;
+
+&lt;p&gt;Project Two is actually entirely solo.  But it does fall in line with my earlier assessment that the projects
+overall trend from group to solo.  So, Project Two is solo… but… we’ve all been paired with a “buddy”.  The
+instructors waited till folk had chosen their focus of study in order to pair people up based on topic.  I have no
+idea how well this functions for most cohorts, but for our cohort it sort of magically worked out because we 
+really did end up with many people chasing similar topics.  We’re supposed to be an aid or a cheerleader to our
+buddy.  We’ve been given explicit instruction that whenever we hit a roadblock we go to our buddy first before
+hitting up the instructors.&lt;/p&gt;
+
+&lt;p&gt;This helps.  But I’ve actually been learning lots of little things from everyone.  I &lt;em&gt;did&lt;/em&gt; follow my buddy (Nate)
+in dumping data to a text file first before anything else.  Easy to see.  Easy to pull into pandas in a Jupyter
+notebook for more experimentation.  Sure I want a more robust mechanism.  But, do that later.  I have also been
+intrigued by those who chose topics I discarded because I couldn’t quickly determine how to look up data to scrape.  One
+trick appears to be just to tack on “database” after the topic in a typical web search.&lt;/p&gt;
+
+&lt;p&gt;In week two, we actually got a decent amount of instruction related to how to do Project Two before or during the
+execution of the project.  For so much of this, there still remains a lot more we have to figure out beyond that.
+Furthermore, the various challenges we face depends a lot of what we’re actually tackling.&lt;/p&gt;
+
+&lt;p&gt;Also, in week two we started with workshops and meetings with Career Services.  For many of us, our first contacts
+with Metis involved the Program Manager, Nathan.  When you start doing “things” with Metis, you deal with Nathan
+for pretty much any particular event.  And, as you might imagine, the &lt;strong&gt;Program&lt;/strong&gt; Manager is our interface to
+all sorts of logistics, such as when anyone gets stuck in the elevator or the heating in the building doesn’t quite 
+seem to be working.  But I must say even if Ashley never gave a lecture or met with me personally, it only takes
+couple of weeks of being in the same work space to realize that woman works hard.  Though things may change in the
+future Nathan and Ashley have a sort of open office arrangement.  And due to the arrangement of rooms, their desks
+are in between the lecture room and the restrooms.  So we can hear Ashley hard at work.  And we can easily imagine
+that’ll be us on the other end of that phone in a few months.&lt;/p&gt;
+
+&lt;p&gt;A lot of what Career Services is providing is stuff I’ve heard before since this is sort of my third round through
+these sorts of agencies.  Nonetheless, it’s good to get it tailored a bit towards this specific industry.&lt;/p&gt;
+
+&lt;p&gt;Oh… another thought I’ll toss in here before I wrap up this week’s summary.  Our TA Ibrahim was in on Friday.
+We had some interesting discussions with him.  A lot of us really don’t yet have a good feel for this industry.
+Ask me the major telecom companies and I can rattle them off.  I cannot yet do that for Data Science.  We queried
+Ibrahim for stuff like that.  But even more interesting was when someone pressed him to contrast his experience
+in his Masters Porgram with the Bootcamp.  See… Ibrahim is a relatively recent grad of the Metis Bootcamp himself.
+He snuck the Bootcamp in between the years of his Masters program in, I believe, Statistics.  Ibrahim stated he
+wanted to do the Bootcamp to help him build his portfolio because he couldn’t easily use his projects at school
+to do the same (due to restrictions, NDAs, etc.).  I found this fascinating given how hard it is to assess
+the benefit of having a portfolio.&lt;/p&gt;
+
+&lt;p&gt;I realize one can never really be sure of everything… you know… Plato’s cave and all that.  But, if I needed
+little tidbits to help me feel better about my reasons for jumping into the Bootcamp (as expensive as it is), I have several:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ibrahim stepping “down” from a Masters in Statistics into the Metis Bootcamp to build up his portfolio.&lt;/li&gt;
+  &lt;li&gt;Adam, who as a Data Science Recruiter decided he didn’t just want to help Data Science folk get a job.  He wanted to
+go and become a Data Scientist.&lt;/li&gt;
+  &lt;li&gt;Dean, whose wife is a recent graduate of the Metis Bootcamp (and who deleted her Project One work so he couldn’t copy it…
+chuckle…).  I mean, as a couple, they decided after paying for one of them to pay for the other.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">I have completed Week Two of the Metis Bootcamp!</summary></entry><entry><title type="html">Project Luther - Discovery</title><link href="/project/luther/2018/01/25/Project-Luther-Discovery/" rel="alternate" type="text/html" title="Project Luther - Discovery" /><published>2018-01-25T00:00:00+00:00</published><updated>2018-01-25T00:00:00+00:00</updated><id>/project/luther/2018/01/25/Project-Luther-Discovery</id><content type="html" xml:base="/project/luther/2018/01/25/Project-Luther-Discovery/">&lt;p&gt;Project Luther is in motion.&lt;/p&gt;
 
 &lt;p&gt;For Project Luther, I need to move quickly towards a MVP (Minimal Vialble
 Product).  This has been broken into two parts.  I believe the formal MVP
@@ -359,28 +434,4 @@ we may all be at different points of the discovery or be using different strateg
 &lt;p&gt;The third team was the only one which had decided to incorporate the geographical data of tech
 companies in the greater New York area.&lt;/p&gt;
 
-&lt;p&gt;There’s precious little time left.  We have to have practiced the presentation by end-of-day tomorrow.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Benson is past MVP.</summary></entry><entry><title type="html">Bootcamp - Pair Programming</title><link href="/metis/2018/01/18/Bootcamp-Pair-Programming/" rel="alternate" type="text/html" title="Bootcamp - Pair Programming" /><published>2018-01-18T00:00:00+00:00</published><updated>2018-01-18T00:00:00+00:00</updated><id>/metis/2018/01/18/Bootcamp-Pair-Programming</id><content type="html" xml:base="/metis/2018/01/18/Bootcamp-Pair-Programming/">&lt;p&gt;Pair Programming is… umm… interesting.&lt;/p&gt;
-
-&lt;p&gt;The structure of the Metis Data is broken down such that we cover different things simultaneously,
-concurrently rather than just a deep focus on one thing.&lt;/p&gt;
-
-&lt;p&gt;The projects are the emphasis.  So, it is really easy to fall into a mode (or mood) where you’re
-absorbed by or focused on the project of the moment.  The lectures and “other things” serve to
-break that.&lt;/p&gt;
-
-&lt;p&gt;One of these “things” is &lt;strong&gt;&lt;em&gt;Pair Programming&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Every day starts with about half-an-hour of Pair Programming.&lt;/p&gt;
-
-&lt;p&gt;Pair Programming serves many purposes:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The instructors get a chance to see the students’ code on a regular, daily basis.  It’s one thing
-to tell the students about certain practices of coding Python.  It’s another thing to confirm or
-chastise students to verify they are incorporating these practices.&lt;/li&gt;
-  &lt;li&gt;Working in pairs forces people to work together.  Only person gets the computer.  But either may
-have the idea.  Nonetheless, you have to communicate and the other can critique accordingly.&lt;/li&gt;
-  &lt;li&gt;These are timed exercises.  So the pressure is on.  This then simulates the experience of code
-interviews where in a job interview you have to code or whiteboard.  The types of problems are
-also similar to the kind you’d experience in code interviews.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Pair Programming is… umm… interesting.</summary></entry></feed>
+&lt;p&gt;There’s precious little time left.  We have to have practiced the presentation by end-of-day tomorrow.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Benson is past MVP.</summary></entry></feed>
