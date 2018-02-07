@@ -1,5 +1,141 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-02-02T21:57:24+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Project Luther - Presentation and Wrapup</title><link href="/project/luther/2018/02/02/Project-Luther-Presentation-and-Wrapup/" rel="alternate" type="text/html" title="Project Luther - Presentation and Wrapup" /><published>2018-02-02T00:00:00+00:00</published><updated>2018-02-02T00:00:00+00:00</updated><id>/project/luther/2018/02/02/Project-Luther-Presentation-and-Wrapup</id><content type="html" xml:base="/project/luther/2018/02/02/Project-Luther-Presentation-and-Wrapup/">&lt;p&gt;Project Luther Presentations were today!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-02-07T21:22:13+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Project McNulty Begins</title><link href="/project/mcnulty/2018/02/06/Project-McNulty-Begins/" rel="alternate" type="text/html" title="Project McNulty Begins" /><published>2018-02-06T00:00:00+00:00</published><updated>2018-02-06T00:00:00+00:00</updated><id>/project/mcnulty/2018/02/06/Project-McNulty-Begins</id><content type="html" xml:base="/project/mcnulty/2018/02/06/Project-McNulty-Begins/">&lt;p&gt;Project McNulty begins.&lt;/p&gt;
+
+&lt;p&gt;OK.  Once bitten, twice shy.&lt;/p&gt;
+
+&lt;p&gt;They &lt;strong&gt;TOLD&lt;/strong&gt; us last time to submit two ideas for Project Two and to be able to
+pivot to the second one if things didn’t work out with the first.  I am not sure
+anyone actually did so.  I cannot even remember what my second idea was.  I know
+I gave it very little consideration.&lt;/p&gt;
+
+&lt;p&gt;Now, to be fair, it was hard to assess things.  First of all, half of that project
+was scraping.  We couldn’t even look at data until we had it.  Furthermore, a lot
+of us wouldn’t have really known how.  But we WERE getting a sense of the lack of
+correlation at the MVP stage.  I imagine several of us could have, should have
+hopped at that point.  Again though… we didn’t know.  For example, I spent
+time scraping &lt;em&gt;more&lt;/em&gt; data.  I had fun.  It as a worthwhile experience.  I proved
+in MongoDB.  But only towards the end did I look at the learning curves which
+made it really, really clear more data wasn’t going to help me at all.&lt;/p&gt;
+
+&lt;p&gt;So… THIS time I’m treating both ideas seriously and have already pulled down
+the initial datasets for both.  As much as is feasible I’m going to do a quick,
+hasty deep dive to look for “signal”.  Things like:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Are there worthy correlations between features and target?&lt;/li&gt;
+  &lt;li&gt;Is the classification going to be skewed due to imbalanced categoricals?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I plan to have things like that addressed very shortly.  I may be able to add
+features later.  But I don’t want to get stuck chasing ghosts this time.&lt;/p&gt;
+
+&lt;p&gt;David called this “fail fast”.  We need to be able to determine quickly when
+to “fail” and move on rather than falling trap to a sunk cost fallacy.&lt;/p&gt;
+
+&lt;p&gt;Let’s see how this goes…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project McNulty begins.</summary></entry><entry><title type="html">Bootcamp - Investigation One</title><link href="/metis/2018/02/06/Investigation-One/" rel="alternate" type="text/html" title="Bootcamp - Investigation One" /><published>2018-02-06T00:00:00+00:00</published><updated>2018-02-06T00:00:00+00:00</updated><id>/metis/2018/02/06/Investigation-One</id><content type="html" xml:base="/metis/2018/02/06/Investigation-One/">&lt;p&gt;I gave the presentation for the first of two Investigations today!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/slides/docker/&quot; target=&quot;_blank&quot;&gt;Here it is.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The investigations have started.&lt;/p&gt;
+
+&lt;p&gt;No… it’s not the Spanish Inquisition.&lt;/p&gt;
+
+&lt;p&gt;Every student in the cohort has to give two presentations on “Investigations”
+at some time during the Bootcamp.  I believe it was the first or second day
+when the instructors pointed us to a schedule on Google Docs.  We had to sign
+up for two timeslots.&lt;/p&gt;
+
+&lt;p&gt;I dutifully ignored this.&lt;/p&gt;
+
+&lt;p&gt;I mean how could I even think about researching some random topic in the midst
+of all the pressure related to the projects!?!  and the Challenges!!&lt;/p&gt;
+
+&lt;p&gt;Somewhere in the past couple of weeks, I caught a whiff or a conversation between
+Alice some of the students.  I didn’t quite catch what prompted the discussion.
+But it seemed to be something along the lines of someone commenting about all
+the things to do and the struggle of the pressure relative to scheduling and
+prioritizing.&lt;/p&gt;
+
+&lt;p&gt;Alice provided this order of prioritization:2018-01-24-Project-Luther-Begins.md&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Projects&lt;/li&gt;
+  &lt;li&gt;Blog&lt;/li&gt;
+  &lt;li&gt;Challenges&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now… that doesn’t appear to mean just jettison stuff… No, we got a brief
+(and supposedly one-time) bit of chastisement from David this morning on
+submitting things on time as expected.  And none of that could have pertained
+to the Project since we all do that stuff (MVPs, standups, Presentations, etc.).
+The only exception so far has been Amy who was out sick on the day for Presentations
+on Project Two and she gave her presentation belatedly after I presented my
+Investigation.&lt;/p&gt;
+
+&lt;p&gt;So… you can run, but you can’t hide.  David pestered me last week so I finally signed
+up for Investigations.  I chose one early date and one late date since I plan on
+one “easy” and one “hard” topic.  OK.  Truth be told, you wait to be almost the
+last one to sign up, you no longer have choice of slots.&lt;/p&gt;
+
+&lt;p&gt;Docker was on the list of suggested topics, so I jumped on it given my love for
+things related to virtualization and my experience playing with containers of
+various OSs.&lt;/p&gt;
+
+&lt;p&gt;I stayed with reveal.js and like before I tried to explore some new functionality
+of reveal.js while doing so.  I used the “cube” transition which, I discovered,
+locks you into that for the full presentation - no per-slide overrides.  It seems
+to have to with how both sides of the transition have to work with the format.&lt;/p&gt;
+
+&lt;p&gt;But the real fun was incorporating “shellinabox” which permitted me to include
+a terminal &lt;strong&gt;within&lt;/strong&gt; the presentation for the purposes of a live demo.  This
+worked well.  It was “cool” to have the terminal be a part of the cube transition.
+What did not work as well was what would seem to be simpler - just incorporating
+websites in iframes in a slide.  I mean… that’s a precursor or dependency of
+the functionality for shellinabox!!  But I just could not get it to work.  I 
+did manage to use something so I bounced from the presentation to website and
+back rather seamlessly… by using some hack for debugging that’s been left in
+reveal.js as an undocumented feature.  So I did keep in the spirit of not
+exiting the presentation.  But still… sheesh!&lt;/p&gt;
+
+&lt;p&gt;Another “fun” aspect was that earlier in the day Alice walked the group through installing postgresql
+in EC2 instances on AWS.  From there we were supposed to be able to pull the
+data into local Jupyter notebooks.  We had all sorts of problems because of
+some odd postgresql issues.  It was funny to use as a demo an example of firing
+up a local Docker with postgresql and have it all work immediately.  Of course, this
+was a bit of apples to oranges since the work to get that to work with Juptyer
+would be very similar.&lt;/p&gt;
+
+&lt;p&gt;This was the “easy” investigation.  I have high hopes for the next one to be
+much more interesting.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">I gave the presentation for the first of two Investigations today!</summary></entry><entry><title type="html">Illness Strikes</title><link href="/metis/2018/02/06/Illness-Strikes/" rel="alternate" type="text/html" title="Illness Strikes" /><published>2018-02-06T00:00:00+00:00</published><updated>2018-02-06T00:00:00+00:00</updated><id>/metis/2018/02/06/Illness-Strikes</id><content type="html" xml:base="/metis/2018/02/06/Illness-Strikes/">&lt;p&gt;My family has been hit by the flu.&lt;/p&gt;
+
+&lt;p&gt;You can prepare all you want for all kinds of mishaps.  But you cannot
+prevent them.&lt;/p&gt;
+
+&lt;p&gt;I’ll not be the first in the cohort to be absent due to illness.  Amy won
+that prize.  But I will have to take a couple days absence this week.&lt;/p&gt;
+
+&lt;p&gt;Fortunately (so far) it’s not me.  Oh, I’ve been nursing my own bugs.
+But my stuff has been annoying sinusitis.  What did the doctor call it?
+I think she said it was “sub-acute sinusitis”.  The “sub” part is easy
+to diagnose.  If it’s not “sub-acute” you don’t wait several weeks to
+go to the doctor.  In any case, I did go to the doctor after the first
+week of the Bootcamp.  That may have been incredibly fortuitous because
+I got the flu shot while I was there.  I hope that helps protect me.&lt;/p&gt;
+
+&lt;p&gt;My son showed significant symptoms Sunday morning and my daughter
+succumbed late yesterday afternoon..&lt;/p&gt;
+
+&lt;p&gt;Oh yeah… I’d better call that attendance line…  Come to think of it,
+I wonder if my wife called it yesterday…&lt;/p&gt;
+
+&lt;p&gt;I alerted the Metis instructors that this week might be dicey.  My wife
+shifted some responsibilities off to coworkers and took Monday and Tuesday
+off.  Alice suggested later this week might be feasible for me to stay
+home and work remotely.&lt;/p&gt;
+
+&lt;p&gt;There may be no “good” time to deck out of this intensive bootcamp.
+But this may be better than other times.  The third project is just beginning.
+I give my first investigation this afternoon.&lt;/p&gt;
+
+&lt;p&gt;I just hope I don’t the flu myself.  That would be… bad… very bad.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">My family has been hit by the flu.</summary></entry><entry><title type="html">Project Luther - Presentation and Wrapup</title><link href="/project/luther/2018/02/02/Project-Luther-Presentation-and-Wrapup/" rel="alternate" type="text/html" title="Project Luther - Presentation and Wrapup" /><published>2018-02-02T00:00:00+00:00</published><updated>2018-02-02T00:00:00+00:00</updated><id>/project/luther/2018/02/02/Project-Luther-Presentation-and-Wrapup</id><content type="html" xml:base="/project/luther/2018/02/02/Project-Luther-Presentation-and-Wrapup/">&lt;p&gt;Project Luther Presentations were today!&lt;/p&gt;
 
 &lt;p&gt;Project Luther is nearing completion.&lt;/p&gt;
 
@@ -363,129 +499,4 @@ little tidbits to help me feel better about my reasons for jumping into the Boot
 go and become a Data Scientist.&lt;/li&gt;
   &lt;li&gt;Dean, whose wife is a recent graduate of the Metis Bootcamp (and who deleted her Project One work so he couldn’t copy it…
 chuckle…).  I mean, as a couple, they decided after paying for one of them to pay for the other.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">I have completed Week Two of the Metis Bootcamp!</summary></entry><entry><title type="html">Project Luther - Discovery</title><link href="/project/luther/2018/01/25/Project-Luther-Discovery/" rel="alternate" type="text/html" title="Project Luther - Discovery" /><published>2018-01-25T00:00:00+00:00</published><updated>2018-01-25T00:00:00+00:00</updated><id>/project/luther/2018/01/25/Project-Luther-Discovery</id><content type="html" xml:base="/project/luther/2018/01/25/Project-Luther-Discovery/">&lt;p&gt;Project Luther is in motion.&lt;/p&gt;
-
-&lt;p&gt;For Project Luther, I need to move quickly towards a MVP (Minimal Vialble
-Product).  This has been broken into two parts.  I believe the formal MVP
-presentation is Monday.  But Friday I must be able to show I’ve already begun
-to collect data.  This projects has two key aspects: Web Scraping; Linear
-Regression.  So to a degree the MVP for the Scraping is tomorrow.&lt;/p&gt;
-
-&lt;p&gt;I’ve performed a bit of Exploration and Discovery.  I played with Selenium
-and the websites for four of the counties of the Chicagoland area:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Cook&lt;/li&gt;
-  &lt;li&gt;DuPage&lt;/li&gt;
-  &lt;li&gt;Lake&lt;/li&gt;
-  &lt;li&gt;Will&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I evaluated these for ease of access as well as for the amount and type of
-data I could procure.  For the purpose of the MVP I have settled on Will
-countly alone.&lt;/p&gt;
-
-&lt;p&gt;Next, due to the need to show data tomorrow, I cannot do start as I’d hoped.
-I do want to start to switch to CI.  But I dare not waste time on getting that
-part working.&lt;/p&gt;
-
-&lt;p&gt;Hilarously, I already have a template project to pull from for the web
-scraping.  I will likely create a writeup for that project in the near future.&lt;/p&gt;
-
-&lt;p&gt;PLACEHOLDER (I’ll come back here later and create a link to it).&lt;/p&gt;
-
-&lt;p&gt;But just because I cannot immediately integrate CI doesn’t mean I shouldn’t go
-ahead and start the repository.  So here’s the short-term plan…&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Create the repository for GitHub&lt;/li&gt;
-  &lt;li&gt;Use Jupyter, Selenium and BeautifulSoup for prototyping&lt;/li&gt;
-  &lt;li&gt;Begin development with Scrapy&lt;/li&gt;
-  &lt;li&gt;Incorporate Mongo for storage&lt;/li&gt;
-  &lt;li&gt;Pull some data&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Luther is in motion.</summary></entry><entry><title type="html">Project Luther Begins</title><link href="/project/luther/2018/01/24/Project-Luther-Begins/" rel="alternate" type="text/html" title="Project Luther Begins" /><published>2018-01-24T00:00:00+00:00</published><updated>2018-01-24T00:00:00+00:00</updated><id>/project/luther/2018/01/24/Project-Luther-Begins</id><content type="html" xml:base="/project/luther/2018/01/24/Project-Luther-Begins/">&lt;p&gt;Project Luther begins.&lt;/p&gt;
-
-&lt;p&gt;Yay!  With this project I get to play with web scraping.&lt;/p&gt;
-
-&lt;p&gt;There are so many aspects of Data Science which I have employed at various points throughout my
-career and personal life.  During the lectures this morning we discussed what Machine Learning is
-at its most basic definition.  In this definition a lot of the optimization things I did long ago
-would qualify as Machine Learning.  Indeed, some of the stuff I’ve done with fitness functions
-have quite a lot of resemblance in spirit to Gradient Descent.&lt;/p&gt;
-
-&lt;p&gt;But this project is not just web scraping.  It’s web-scraping plus linear regression.&lt;/p&gt;
-
-&lt;p&gt;It actually proved a tad difficult to choose a topic to investigate.  See… from here on out,
-we are only given a few requirements and rough guidelines.  From these we define the project.&lt;/p&gt;
-
-&lt;p&gt;So here, we need something that:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Involves some sort of structured data we scrape from the web.  We can use additional data of
-any kind from any source.  But the first part of the data needs to be scraped.&lt;/li&gt;
-  &lt;li&gt;Has enough data of this structured fashion that we can do some linear regression.&lt;/li&gt;
-  &lt;li&gt;Has to be interesting (at least to me).&lt;/li&gt;
-  &lt;li&gt;Ought to be somewhat novel.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Hmm… tough call.&lt;/p&gt;
-
-&lt;p&gt;I played around last night with a number of ideas.  I settled on something to do with property
-tax assessments since I’ve been curious whether there are measurable effects of increasing property
-tax.  I don’t think I’ll be able to get enough data longitudinally (in time) to see much.  But I
-ought to be able to measure across space or across valuations.&lt;/p&gt;
-
-&lt;p&gt;An even tougher call is HOW to do this…&lt;/p&gt;
-
-&lt;p&gt;I don’t mean how to scrape.  Though I will have to decide for or against inclusion of Scrapy.
-I mean Jupyter vs. Python, how much to employ Test-Driven Development, CI, etc.&lt;/p&gt;
-
-&lt;p&gt;MVP is Monday.  Again… the pressure is on.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Luther begins.</summary></entry><entry><title type="html">I broke the blog!</title><link href="/blog/2018/01/24/Blog-Is-Broken/" rel="alternate" type="text/html" title="I broke the blog!" /><published>2018-01-24T00:00:00+00:00</published><updated>2018-01-24T00:00:00+00:00</updated><id>/blog/2018/01/24/Blog-Is-Broken</id><content type="html" xml:base="/blog/2018/01/24/Blog-Is-Broken/">&lt;p&gt;I recently broke the blog!!&lt;/p&gt;
-
-&lt;p&gt;I was indeed able to add in the functionality so I could include slide presentations on the blog!!&lt;/p&gt;
-
-&lt;p&gt;YAY!&lt;/p&gt;
-
-&lt;p&gt;However… as with so much related to the Metis Bootcamp, I was under pressure because of a time crunch.&lt;/p&gt;
-
-&lt;p&gt;There is a lot that I could do with this functionality, but for the purpose of using this within
-the project post for Project Benson, I chose to “simply” convert the presentation our tream created
-from Powerpoint to Reveal.  I got it!  But… I hadn’t yet pushed any example slide presentation
-all the way to the public blog.  I didn’t want this because I didn’t want the public blog with the
-Swirply project pointing to a dummy slide.&lt;/p&gt;
-
-&lt;p&gt;But…&lt;/p&gt;
-
-&lt;p&gt;This led to the scenario where I finished the presentation conversion and got done testing things
-locally to my heart’s content and then attempted the final push around the time the whole thing
-was due.  Actually I was about ten minutes beyond the deadline.  It worked locally, so it should
-be fine, right?&lt;/p&gt;
-
-&lt;p&gt;Well…&lt;/p&gt;
-
-&lt;p&gt;I set up a pipeline for the blog.  The push to the public blog goes through a “test” stage.
-This is very helpful because not only does it ensure I don’t creating broken links on my own,
-it will alert me to cases where external links fail.  This could be because I mistyped it. 
-Or, as I’ve learned, it could be because the external site is down that day.  I imagine eventually
-I’ll run into cases where the external site has reconfigured or deleted that page.  This testing
-lets me catch all that and detemine how to clean it up if I wish or just ignore the problems.&lt;/p&gt;
-
-&lt;p&gt;This testing failed due to an non-trivial number of issues related to things related to the
-inclusion of reveal.js.  There was no simple way to ignore all of that in the same way I
-can ignore a single URL.&lt;/p&gt;
-
-&lt;p&gt;So… I just had to disable that test phase.&lt;/p&gt;
-
-&lt;p&gt;To get one functionality, I had to break another.&lt;/p&gt;
-
-&lt;p&gt;Sigh…&lt;/p&gt;
-
-&lt;p&gt;EDIT: Blog is fixed.&lt;/p&gt;
-
-&lt;p&gt;I cleaned it up the next day.&lt;/p&gt;
-
-&lt;p&gt;The errors fell into about three categories:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The testing was checking things in a file within reveal.js that was probably only included there as a sample to use for other things.  The solution here was to mask that directory/module.&lt;/li&gt;
-  &lt;li&gt;A sample I’d copied was using data-src in the img tags rather than src.  Testing caught that even though it “worked”.&lt;/li&gt;
-  &lt;li&gt;A sample I’d copied had a call to favicon in a different way… fixed it.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="blog" /><category term="Metis" /><summary type="html">I recently broke the blog!!</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">I have completed Week Two of the Metis Bootcamp!</summary></entry></feed>
