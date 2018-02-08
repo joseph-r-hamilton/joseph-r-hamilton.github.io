@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Project McNulty - Choices"
-date: 2018-02-06
+date: 2018-02-08
 categories: [Project, McNulty]
 tags: []
 ---
