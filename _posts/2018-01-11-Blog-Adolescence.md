@@ -19,7 +19,7 @@ projects?  Or vice versa?  The Hydejack solution is a Welcome page which permits
 highlight a few projects and blog posts.  It's sort of a "all of the above" answer.
 
 But when I went searching for what others had done after trying Hydejack, I saw some other themes in
-action.  Indeed, I came across a [**large** listing of Jekyll themes](https://rcabanasdepaz.github.io/).
+action.  Indeed, I came across a [**large** listing of Jekyll themes](http://jekyllthemes.org/).
 I also found a different approach I liked.  This was the Jekyll-Uno theme.
 
 But... I only wanted that one aspect of Jekyll-Uno - the clean, austere front-door.  So, at the very
