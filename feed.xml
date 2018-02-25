@@ -1,5 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-02-22T20:47:42+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Tired… so… tired…</title><link href="/metis/2018/02/22/Tired-So-Tired/" rel="alternate" type="text/html" title="Tired... so... tired..." /><published>2018-02-22T00:00:00+00:00</published><updated>2018-02-22T00:00:00+00:00</updated><id>/metis/2018/02/22/Tired-So-Tired</id><content type="html" xml:base="/metis/2018/02/22/Tired-So-Tired/">&lt;p&gt;I am incredibly tired.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-02-25T00:38:11+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Finished SQL on HackerRank</title><link href="/hackerrank/2018/02/24/Finished-SQL-on-HackerRank/" rel="alternate" type="text/html" title="Finished SQL on HackerRank" /><published>2018-02-24T00:00:00+00:00</published><updated>2018-02-24T00:00:00+00:00</updated><id>/hackerrank/2018/02/24/Finished-SQL-on-HackerRank</id><content type="html" xml:base="/hackerrank/2018/02/24/Finished-SQL-on-HackerRank/">&lt;p&gt;Yay!!  I finally finished the SQL track on HackerRank!&lt;/p&gt;
+
+&lt;p&gt;Project Three of the Metis Bootcamp had three areas of focus:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;SQL&lt;/li&gt;
+  &lt;li&gt;Classification&lt;/li&gt;
+  &lt;li&gt;Data Visualization&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We spun up EC2 instances on AWS to serve as database servers using Postgres.  I confirmed that past the lectures I didn’t
+need to stick with that for the requirements of the Project.  That is to say, I could stick with a local server.  This was
+my preference and will be for the next project as well which requires the use of MongoDB.  I used MongoDB locally for Project
+Two.  So I see no reason to switch to AWS for Project Four.  I DID follow along the lecture and exercise to prove in the
+functionality of using the AWS instance.  But I’m not going to bother for any project until I can see a benefit of doing so.&lt;/p&gt;
+
+&lt;p&gt;Indeed, I’ve been thinking about that.  Alice says for the most part Data Scientists aren’t simultaneously Data Engineers.
+Usually, we’ll not be &lt;strong&gt;creating&lt;/strong&gt; databases.  We’ll be using them.  In that vein, we’ll be using (usually) whatever is
+already out there, whatever it might be.&lt;/p&gt;
+
+&lt;p&gt;But… when does it makes sense for us to actually use these AWS instances over our local machines?  And then, how best
+should we use them?  I’m rather curious if it would make better sense for us to run Jupyter or Jupyter Labs on the same
+machine running the database server… or alternatively another instance.  To start, we’re using meager, small instances
+in the free tiers.  Decent laptops surpass that.  But… maybe just maybe… we could come across something we could
+parallelize and then use multiple AWS instances.  Or, possibly, we’d benefit from letting something run for a long time.&lt;/p&gt;
+
+&lt;p&gt;I dunno.  As far as it pertains to processing power, memory or storage, I’ve not yet reached a point where for what
+we’re doing I need to switch.  But, I may take advantage of the instances for my next Investigation.  I’ve got some
+ideas…&lt;/p&gt;
+
+&lt;p&gt;In any case, I had hoped or planned to keep my feet wet in HackerRank by maintaining a slow pace of about a challenge
+a day.  The track I was working on was the SQL track.  Given the focus on SQL with Project Three, I decided to ramp it
+up a bit and try to finish the track.  This worked well enough… until the last challenge in the “Advanced Join”
+category.  That was my final challenge for the whole track.  It was marked “Hard” and had a lower completion score
+than the others (meaning fewer people who’d ever attempted it eventually succeeded).  I was determined NOT to look
+to the Discussions for help.  I lost several hours on it before abandoning it.&lt;/p&gt;
+
+&lt;p&gt;I didn’t touch HackerRank after that because the work for Project Three and the Challenge Sets had buried me.
+HackerRank got lonely and sent me an email suggesting that I work on that very challenge.  Chuckle…&lt;/p&gt;
+
+&lt;p&gt;Well… the SQL Challenge Set from Metis gave me lots of relevant practice.  This Challenge Set was broken into
+four sections:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;SQL via a tutorial website&lt;/li&gt;
+  &lt;li&gt;SQL via a Python SQLAlchemy interface to a Postgres database&lt;/li&gt;
+  &lt;li&gt;SQLite&lt;/li&gt;
+  &lt;li&gt;SQL with a Postgres database directly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hilariously, I completely missed the requirement of SQLAlchemy for that second part till the last challenge.  I was indeed
+using the sqlalchemy module, but only to get a connection with which I was simply pumping in raw SQL.  The last challenge
+made a remark about what you’d have to do because SQLAlchemy didn’t support a particular functionality.  This made no sense
+to me until it dawned on me what I was supposed to have been doing all along.  Sigh… So I had to back up and redo the
+entire section.  This was a huge blessing though.  It very much helped to already have SQL that worked so I could
+“translate” to the way SQLAlchmey works.&lt;/p&gt;
+
+&lt;p&gt;Well… Project Three is largely done.  I still have a bit of work to “publish” it.  But as somewhat of a diversion, a bit
+of a cooldown, or just to wrap up loose ends, I decided to finish that track on HackerRank.&lt;/p&gt;
+
+&lt;p&gt;I built a small database to replicate the sample shown in the project description and fired up a Jupyter notebook to
+hammer away at it.  I finally got it working!!  I thought I’d have to use a bit of recursion, but that proved unnecessary.
+I just had to carefully construct enough WITH clauses to get the job done.  Ironically, PostgreSQL is not supported by
+HackerRank.  So I chose Oracle and then had to “translate”.&lt;/p&gt;
+
+&lt;p&gt;All done!&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="SQL" /><summary type="html">Yay!! I finally finished the SQL track on HackerRank!</summary></entry><entry><title type="html">Tired… so… tired…</title><link href="/metis/2018/02/22/Tired-So-Tired/" rel="alternate" type="text/html" title="Tired... so... tired..." /><published>2018-02-22T00:00:00+00:00</published><updated>2018-02-22T00:00:00+00:00</updated><id>/metis/2018/02/22/Tired-So-Tired</id><content type="html" xml:base="/metis/2018/02/22/Tired-So-Tired/">&lt;p&gt;I am incredibly tired.&lt;/p&gt;
 
 &lt;p&gt;We have reached another milestone in the Bootcamp.  We have finished Project Three and have begun Project Four.
 Everyone else gave their presentation for Project Three yesterday and I wrapped it up by presenting mine
@@ -480,45 +543,4 @@ home and work remotely.&lt;/p&gt;
 But this may be better than other times.  The third project is just beginning.
 I give my first investigation this afternoon.&lt;/p&gt;
 
-&lt;p&gt;I just hope I don’t the flu myself.  That would be… bad… very bad.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">My family has been hit by the flu.</summary></entry><entry><title type="html">Project Luther - Presentation and Wrapup</title><link href="/project/luther/2018/02/02/Project-Luther-Presentation-and-Wrapup/" rel="alternate" type="text/html" title="Project Luther - Presentation and Wrapup" /><published>2018-02-02T00:00:00+00:00</published><updated>2018-02-02T00:00:00+00:00</updated><id>/project/luther/2018/02/02/Project-Luther-Presentation-and-Wrapup</id><content type="html" xml:base="/project/luther/2018/02/02/Project-Luther-Presentation-and-Wrapup/">&lt;p&gt;Project Luther Presentations were today!&lt;/p&gt;
-
-&lt;p&gt;Project Luther is nearing completion.&lt;/p&gt;
-
-&lt;p&gt;Everyone presented this morning.  (well… almost everyone… Amy has been out sick the last couple days).&lt;/p&gt;
-
-&lt;p&gt;I feel into an odd trap with this project.  This was a two-part project.  The first parts was web-scraping.
-This part can be time intensive and indeed rather frustrating as you deal with odd issues.  But nonetheless,
-it’s fairly straightfoward.  You set out with a rather specifc task and target: get THAT data.  The second
-part was far more murky.  Sure, it may be that linear regression could be viewed as systematic.  You do
-X, Y and Z, possibly iteratively.  But this would ignore the primary difficulties.&lt;/p&gt;
-
-&lt;p&gt;This part, the linear regression part, is more akin to the “Science” in “Data Science” than “Data”.  You
-are essentially running an experiment.  The pattern you seek may simply not exist.  You may end up with
-a null result.&lt;/p&gt;
-
-&lt;p&gt;You do need to do a good job ensuring you’ve done your due diligence in attacking the problem.  And you
-need to develop whatever insight you can, even if the main goal of a predictive model isn’t fulfilled.&lt;/p&gt;
-
-&lt;p&gt;As I worked on the presentation, I would occasionally need a chart.  That might require rerunning a
-function or model.  And a presentation slide may need an explanation of an issue.  To better explain
-something, is even more investigation needed?  Can you tweak the model this way or that to learn more
-or see anything differently?  In short, you could end up right back in a never-ended cycle chasing
-modeling.&lt;/p&gt;
-
-&lt;p&gt;From just the point-of-view of the presentation itself, I chose to continue with reveal.js.  I did indeed
-further develop my skills there.  Since it essentially IS a website, this lets me learn more about CSS
-as well.  I may eventually add in some custom javascript for my own desired effects.  So using reveal.js
-for the presentations is preparing me for the upcoming focus on things like D3.  For example, on several
-slides I employed “flex” for placement on the slides.&lt;/p&gt;
-
-&lt;p&gt;I also made use of the “export to PDF” aspect of reveal (rumor was the instructors wanted a PDF).
-  It does work, after a fashion.  But it did
-something hilarious with the panoramic background.  I’m not entirely sure, but it seems it used the
-vertical offset - as if the PDF pages were constantly going “down” rather than “right”.  Tis a minor
-thing.  A more serious thing is that I used the heirarchical organization of reveal to slip in
-extra, appendix-like, material into the slide presentation.  I didn’t actually use these extra hidden
-slides.  Indeed, they were hidden so well I don’t think anyone realized I had the extras.  But they
-aren’t hidden when exporting to PDF.  They’re unfolded and put back into the sequence.  Interesting.&lt;/p&gt;
-
-&lt;p&gt;The feedback I was given on the presentation chided me for focusing too much on WHAT I did and not WHY.
-That is, I’d lost view of the Storytelling aspect of the presentation and project.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Luther Presentations were today!</summary></entry></feed>
+&lt;p&gt;I just hope I don’t the flu myself.  That would be… bad… very bad.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">My family has been hit by the flu.</summary></entry></feed>
