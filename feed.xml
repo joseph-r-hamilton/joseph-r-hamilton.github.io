@@ -1,5 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-02-25T00:38:11+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Finished SQL on HackerRank</title><link href="/hackerrank/2018/02/24/Finished-SQL-on-HackerRank/" rel="alternate" type="text/html" title="Finished SQL on HackerRank" /><published>2018-02-24T00:00:00+00:00</published><updated>2018-02-24T00:00:00+00:00</updated><id>/hackerrank/2018/02/24/Finished-SQL-on-HackerRank</id><content type="html" xml:base="/hackerrank/2018/02/24/Finished-SQL-on-HackerRank/">&lt;p&gt;Yay!!  I finally finished the SQL track on HackerRank!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-03-02T03:39:43+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Project Fletcher Began</title><link href="/project/fletcher/2018/03/01/Project-Fletcher-Began/" rel="alternate" type="text/html" title="Project Fletcher Began" /><published>2018-03-01T00:00:00+00:00</published><updated>2018-03-01T00:00:00+00:00</updated><id>/project/fletcher/2018/03/01/Project-Fletcher-Began</id><content type="html" xml:base="/project/fletcher/2018/03/01/Project-Fletcher-Began/">&lt;p&gt;Project Fletcher began a while ago…&lt;/p&gt;
+
+&lt;p&gt;I guess you might say as far as blogging goes, the cat caught my tongue.&lt;/p&gt;
+
+&lt;p&gt;I have not yet finished blogging about Project McNulty.&lt;/p&gt;
+
+&lt;p&gt;Which is hilarious because the storytelling part about that project was that some
+nefarious group imprisoned my blog.  Lo and behold if that didn’t happen in effect.&lt;/p&gt;
+
+&lt;p&gt;I often see graduates from previous cohorts milling around the Metis campus.
+It seems very worthwhile to see what they’re up to or to ask them about their
+experiences.  A fair amount of the time, they’re working with Ashley.  Some times,
+they’re just coming in on a regular, if infrequent, basis and they spend their
+time working on some skill or another.  But one high runner for activities is
+polishing up their past projects either in their blog or in their GitHub repositories.&lt;/p&gt;
+
+&lt;p&gt;Heavens, if I’ve not created the same problem for myself.&lt;/p&gt;
+
+&lt;p&gt;I was behind on the last project due to planned and unplanned absences.  The instructors
+gave me a grace day and I presented a day after everyone else.  They were also understanding
+in the sense that they didn’t expect or require me to submit or publish my material on the
+same schedule as everyone else.  But I didn’t realize they weren’t going to wait for that
+to grade my work.  I’m not surprised.  They make the rounds almost every day to check up
+on our progress.  Between that and us pestering them, they have a good sense of what we’re
+doing.  That and the presentation itself is a good metric.&lt;/p&gt;
+
+&lt;p&gt;In any case, the trouble was that my lag on ending Project Three meant I was already bleeding
+into the time where everyone else was working on Project Four.  And if that wasn’t enough
+I have started my research and work leading to my next Investigation.&lt;/p&gt;
+
+&lt;p&gt;My focus is wildly split now.  And Project Three is the only thing where there’s no real pressure.
+The others have deadlines.  Nonetheless, there’s one thing I wish to do before I publish Project
+Three… so it’s gonna linger for a bit…&lt;/p&gt;
+
+&lt;p&gt;In any case, Project Four is NLP and Unsupervised Learning, both of which can be… umm… a
+tad weird.  I chose two optional scopes for the project.  We each had a private meeting with
+the instructors to go over these.  Yet again, I found myself with an incorrect assessment of
+which would be harder.  I knew which would be more direct and in line with the lectures, etc.
+But it’s not just that the other would be a bit harder… apparently it would have been much
+more difficult in the time frame available.  In my scope review meeting with the instructors, I
+asked about how we would measure success for this project.  The previous two projects had various
+metrics.  The response was interesting…&lt;/p&gt;
+
+&lt;p&gt;“When you have something that makes sense.”&lt;/p&gt;
+
+&lt;p&gt;Well… a bit of experimentation with Topic Modeling, and I have a much deeper appreciation for
+that statement.&lt;/p&gt;
+
+&lt;p&gt;Another intriguing aspect of this project is that I may actually take advantage of the AWS servers.
+I may not truly need such if I limit my scope.  But to scale up, it seems very likely I’ll actually
+benefit.  I don’t need an EC2 instance for MongoDB.  I just dumped stuff to my local MongoDB server
+I had running since Project Two.  But, I may need some extra horsepower.  We’ll have to see what I
+can accomplish…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Fletcher began a while ago…</summary></entry><entry><title type="html">Finished SQL on HackerRank</title><link href="/hackerrank/2018/02/24/Finished-SQL-on-HackerRank/" rel="alternate" type="text/html" title="Finished SQL on HackerRank" /><published>2018-02-24T00:00:00+00:00</published><updated>2018-02-24T00:00:00+00:00</updated><id>/hackerrank/2018/02/24/Finished-SQL-on-HackerRank</id><content type="html" xml:base="/hackerrank/2018/02/24/Finished-SQL-on-HackerRank/">&lt;p&gt;Yay!!  I finally finished the SQL track on HackerRank!&lt;/p&gt;
 
 &lt;p&gt;Project Three of the Metis Bootcamp had three areas of focus:&lt;/p&gt;
 &lt;ul&gt;
@@ -512,35 +564,4 @@ was a bit of apples to oranges since the work to get that to work with Juptyer
 would be very similar.&lt;/p&gt;
 
 &lt;p&gt;This was the “easy” investigation.  I have high hopes for the next one to be
-much more interesting.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">I gave the presentation for the first of two Investigations today!</summary></entry><entry><title type="html">Illness Strikes</title><link href="/metis/2018/02/06/Illness-Strikes/" rel="alternate" type="text/html" title="Illness Strikes" /><published>2018-02-06T00:00:00+00:00</published><updated>2018-02-06T00:00:00+00:00</updated><id>/metis/2018/02/06/Illness-Strikes</id><content type="html" xml:base="/metis/2018/02/06/Illness-Strikes/">&lt;p&gt;My family has been hit by the flu.&lt;/p&gt;
-
-&lt;p&gt;You can prepare all you want for all kinds of mishaps.  But you cannot
-prevent them.&lt;/p&gt;
-
-&lt;p&gt;I’ll not be the first in the cohort to be absent due to illness.  Amy won
-that prize.  But I will have to take a couple days absence this week.&lt;/p&gt;
-
-&lt;p&gt;Fortunately (so far) it’s not me.  Oh, I’ve been nursing my own bugs.
-But my stuff has been annoying sinusitis.  What did the doctor call it?
-I think she said it was “sub-acute sinusitis”.  The “sub” part is easy
-to diagnose.  If it’s not “sub-acute” you don’t wait several weeks to
-go to the doctor.  In any case, I did go to the doctor after the first
-week of the Bootcamp.  That may have been incredibly fortuitous because
-I got the flu shot while I was there.  I hope that helps protect me.&lt;/p&gt;
-
-&lt;p&gt;My son showed significant symptoms Sunday morning and my daughter
-succumbed late yesterday afternoon..&lt;/p&gt;
-
-&lt;p&gt;Oh yeah… I’d better call that attendance line…  Come to think of it,
-I wonder if my wife called it yesterday…&lt;/p&gt;
-
-&lt;p&gt;I alerted the Metis instructors that this week might be dicey.  My wife
-shifted some responsibilities off to coworkers and took Monday and Tuesday
-off.  Alice suggested later this week might be feasible for me to stay
-home and work remotely.&lt;/p&gt;
-
-&lt;p&gt;There may be no “good” time to deck out of this intensive bootcamp.
-But this may be better than other times.  The third project is just beginning.
-I give my first investigation this afternoon.&lt;/p&gt;
-
-&lt;p&gt;I just hope I don’t the flu myself.  That would be… bad… very bad.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">My family has been hit by the flu.</summary></entry></feed>
+much more interesting.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">I gave the presentation for the first of two Investigations today!</summary></entry></feed>
