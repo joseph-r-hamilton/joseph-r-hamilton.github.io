@@ -1,5 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-03-08T16:22:59+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Bootcamp - Live Programming</title><link href="/metis/2018/03/08/Bootcamp-Live-Programming/" rel="alternate" type="text/html" title="Bootcamp - Live Programming" /><published>2018-03-08T00:00:00+00:00</published><updated>2018-03-08T00:00:00+00:00</updated><id>/metis/2018/03/08/Bootcamp-Live-Programming</id><content type="html" xml:base="/metis/2018/03/08/Bootcamp-Live-Programming/">&lt;p&gt;Pair Programming has given way to Live Programming.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-03-09T21:08:48+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Project Fletcher Closing</title><link href="/project/fletcher/2018/03/09/Project-Fletcher-Closing/" rel="alternate" type="text/html" title="Project Fletcher Closing" /><published>2018-03-09T00:00:00+00:00</published><updated>2018-03-09T00:00:00+00:00</updated><id>/project/fletcher/2018/03/09/Project-Fletcher-Closing</id><content type="html" xml:base="/project/fletcher/2018/03/09/Project-Fletcher-Closing/">&lt;p&gt;Project Fletcher is coming to a close…&lt;/p&gt;
+
+&lt;p&gt;I’m on the train commuting down to Project Presentation Day.&lt;/p&gt;
+
+&lt;p&gt;And I have just been reminded of an significant risk I’ve been running - I’m incredibly dependent upon
+access to the Internet to give my presentations.  It’s not just something like developing a presentation
+in Google Slides or Slides.com and never downloading an offline copy.  My presentations are live.
+They are run from a local web server (on the laptop).  Although I keep trying to ensure all javascript
+libraries are served locally, I’m not catching everything.  In a more perfect world, I would/should
+have a completely static copy in some format or another as a backup or failsafe.&lt;/p&gt;
+
+&lt;p&gt;Things seem to work… more or less… eventually.  But it sometimes requires reloading, kicking it, waiting.
+I CAN reload the presentation now on the train with no internet access.  Not quite what I’d want while
+under a strict time constraint.  Next, I need to make a note to check into something else.  I’ve now got
+half a dozen slides or more with iframes pulling other pages.  Somehow, for some reason, these seem to be
+falling out of cache.  Sigh…&lt;/p&gt;
+
+&lt;p&gt;The trouble with these projects is that you are SUPPOSED to stop your exploration, your analysis, etc.,
+and then have time focused just on creation and refining the presentation.  But most of us keep at it.
+Sometimes, you’re really close to finishing something and once you’ve got it then that opens up a floodgate
+of further analysis or insight… sometimes invalidating or overtuning previous ideas or observations
+you’d baked into the presentation.  It’s a very weird thing.&lt;/p&gt;
+
+&lt;p&gt;Nonetheless, this is a one of the most key benefits of this bootcamp.  We’re learning time management
+and prioritization skills relative to projects overall.  We’re being forced to turning things around in
+an iterative fashion where we can present things at various stages along the way.  This is invaluable.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Fletcher is coming to a close…</summary></entry><entry><title type="html">Bootcamp - Live Programming</title><link href="/metis/2018/03/08/Bootcamp-Live-Programming/" rel="alternate" type="text/html" title="Bootcamp - Live Programming" /><published>2018-03-08T00:00:00+00:00</published><updated>2018-03-08T00:00:00+00:00</updated><id>/metis/2018/03/08/Bootcamp-Live-Programming</id><content type="html" xml:base="/metis/2018/03/08/Bootcamp-Live-Programming/">&lt;p&gt;Pair Programming has given way to Live Programming.&lt;/p&gt;
 
 &lt;p&gt;Pair Programming is a key part of the daily routine in the Metis Data Science Bootcamp.  Almost every day begins with
 approximately half-an-hour devoted to it.  About the only exception to this is any day devoted to Project
@@ -518,36 +543,4 @@ the first scope.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://nbviewer.jupyter.org/github/joseph-r-hamilton/Project_McNulty/blob/master/Exploration/Assessment_Crime.ipynb&quot;&gt;The Chicago Crime Scene&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://nbviewer.jupyter.org/github/joseph-r-hamilton/Project_McNulty/blob/master/Exploration/Assessment_Music.ipynb&quot;&gt;A Music Genre Detector&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project McNulty - what to do…</summary></entry><entry><title type="html">Project McNulty Begins</title><link href="/project/mcnulty/2018/02/06/Project-McNulty-Begins/" rel="alternate" type="text/html" title="Project McNulty Begins" /><published>2018-02-06T00:00:00+00:00</published><updated>2018-02-06T00:00:00+00:00</updated><id>/project/mcnulty/2018/02/06/Project-McNulty-Begins</id><content type="html" xml:base="/project/mcnulty/2018/02/06/Project-McNulty-Begins/">&lt;p&gt;Project McNulty begins.&lt;/p&gt;
-
-&lt;p&gt;OK.  Once bitten, twice shy.&lt;/p&gt;
-
-&lt;p&gt;They &lt;strong&gt;TOLD&lt;/strong&gt; us last time to submit two ideas for Project Two and to be able to
-pivot to the second one if things didn’t work out with the first.  I am not sure
-anyone actually did so.  I cannot even remember what my second idea was.  I know
-I gave it very little consideration.&lt;/p&gt;
-
-&lt;p&gt;Now, to be fair, it was hard to assess things.  First of all, half of that project
-was scraping.  We couldn’t even look at data until we had it.  Furthermore, a lot
-of us wouldn’t have really known how.  But we WERE getting a sense of the lack of
-correlation at the MVP stage.  I imagine several of us could have, should have
-hopped at that point.  Again though… we didn’t know.  For example, I spent
-time scraping &lt;em&gt;more&lt;/em&gt; data.  I had fun.  It as a worthwhile experience.  I proved
-in MongoDB.  But only towards the end did I look at the learning curves which
-made it really, really clear more data wasn’t going to help me at all.&lt;/p&gt;
-
-&lt;p&gt;So… THIS time I’m treating both ideas seriously and have already pulled down
-the initial datasets for both.  As much as is feasible I’m going to do a quick,
-hasty deep dive to look for “signal”.  Things like:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Are there worthy correlations between features and target?&lt;/li&gt;
-  &lt;li&gt;Is the classification going to be skewed due to imbalanced categoricals?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I plan to have things like that addressed very shortly.  I may be able to add
-features later.  But I don’t want to get stuck chasing ghosts this time.&lt;/p&gt;
-
-&lt;p&gt;David called this “fail fast”.  We need to be able to determine quickly when
-to “fail” and move on rather than falling trap to a sunk cost fallacy.&lt;/p&gt;
-
-&lt;p&gt;Let’s see how this goes…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project McNulty begins.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project McNulty - what to do…</summary></entry></feed>
