@@ -1,5 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-03-09T21:08:48+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Project Fletcher Closing</title><link href="/project/fletcher/2018/03/09/Project-Fletcher-Closing/" rel="alternate" type="text/html" title="Project Fletcher Closing" /><published>2018-03-09T00:00:00+00:00</published><updated>2018-03-09T00:00:00+00:00</updated><id>/project/fletcher/2018/03/09/Project-Fletcher-Closing</id><content type="html" xml:base="/project/fletcher/2018/03/09/Project-Fletcher-Closing/">&lt;p&gt;Project Fletcher is coming to a close…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-03-15T13:19:14+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Project Kojak Begins</title><link href="/project/kojak/2018/03/15/Project-Kojak-Begins/" rel="alternate" type="text/html" title="Project Kojak Begins" /><published>2018-03-15T00:00:00+00:00</published><updated>2018-03-15T00:00:00+00:00</updated><id>/project/kojak/2018/03/15/Project-Kojak-Begins</id><content type="html" xml:base="/project/kojak/2018/03/15/Project-Kojak-Begins/">&lt;p&gt;We’re finally here… we’ve crossed into Passion Project territory.&lt;/p&gt;
+
+&lt;p&gt;And… in many ways, it’s just like the previous projects.  We’ve got till Friday to post our
+two project ideas on projects slack channel.  We need to try to “fail fast” and switch to the
+alternative idea if the first one proves not to be viable.&lt;/p&gt;
+
+&lt;p&gt;But there are many rather significant differences this time.  First of all, there’s next to
+no guidance or restrictions.  Unlike the previous projects, there’s no focus on Supervised vs.
+Unsupervised.  There’s no requirement to use SQL or NoSQL.  No goal to incorporate visualizations.
+Instead, it’s all of the above in whatever way we want.&lt;/p&gt;
+
+&lt;p&gt;Except…&lt;/p&gt;
+
+&lt;p&gt;The instructors are very actively involved in helping us choose projects.  This is in two primary
+forms.  First, they would &lt;strong&gt;like&lt;/strong&gt; to create some sort of balance across the cohort.  For Project
+Four, David made the comment that he’d very rarely, if ever, seen word clouds in project presentations.
+However for some odd reason, a large percentage of us included word clouds.  They were artfully done.
+But as a whole cohort it was essentially overdone.  They don’t want half of us chasing the same topic,
+area or toolset for Project 5.  So, they listed about a dozen general areas and suggested to us
+those which might appear more to employers.&lt;/p&gt;
+
+&lt;p&gt;Ah yes… employers.  For Project 4 we had to hold a microphone while presenting.  It was weird.
+This was to prepare us because Project 5 presentations will be livestreamed.  The primary audience
+for Project 5 presentations will be employers and recruiters, both present and remote.&lt;/p&gt;
+
+&lt;p&gt;So… if feels the instructors are even more rigorous in helping us avoid “bad” projects.  Our ideas
+are getting shot down quickly.  If our ideas involve circular logic, weak assumptions, untenable
+goals, etc., we’re redirected accordingly.&lt;/p&gt;
+
+&lt;p&gt;Finally, it would &lt;strong&gt;seem&lt;/strong&gt; we have more time for this final project.  But that’s all somewhat of an
+illusion.  This first week is devoted to helping us &lt;strong&gt;choose&lt;/strong&gt; a project (two projects, actually -
+we need a viable alternative as well).  And the last week is earmarked for presentation refinement.
+Oh yes.  There absolutely &lt;strong&gt;WILL NOT&lt;/strong&gt; be any presentations given on Career Day that were actually
+tossed together or wrapped up within twelve hours of the presentation.  Oh no no no.  We’ll be
+presenting internally a full week ahead of time and going through &lt;em&gt;several&lt;/em&gt; iterations for refinement.&lt;/p&gt;
+
+&lt;p&gt;That puts much more pressure on us overall.&lt;/p&gt;
+
+&lt;p&gt;I finally selected an alternative yesterday afternoon and posted my two ideas.  I’ve been moving large
+amounts of data into an AWS S3 bucket for the purpose of EDA.  So, I’ve begun.  But my focus will be
+split for a few days as I prepare the final Investigation.&lt;/p&gt;
+
+&lt;p&gt;It seems I wasn’t the only one hoping to postpone delivery/presentation of the final Investigation.
+I thought I was “safe” in this since I had the last slot on the official schedule.  But that means
+little when about half the cohort was trying to push this off as well.  Alice was quite lenient in
+granting these postponement requests.  But it now appears there was something missed in interpretation.
+The students meant postponements on the order of a week (I’d’ve preferred a month).  She probably meant
+something like a day tops.  So Alice laid down the law and declared &lt;strong&gt;ALL&lt;/strong&gt; Investigation presentations
+must be completed by Monday.  This is creating a traffic jam and we’ll have something like a Project
+Presentation Day because so many of us will be giving these Investigations back-to-back.&lt;/p&gt;
+
+&lt;p&gt;Her motive is clear.  She wants us focused on Project Five.  And I see why.  I’m having lots of fun
+with my Investigation.  It really is now a competing focus.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">We’re finally here… we’ve crossed into Passion Project territory.</summary></entry><entry><title type="html">HackerRank Targets: RegEx and NLP</title><link href="/hackerrank/2018/03/15/NLP-on-HackerRank/" rel="alternate" type="text/html" title="HackerRank Targets: RegEx and NLP" /><published>2018-03-15T00:00:00+00:00</published><updated>2018-03-15T00:00:00+00:00</updated><id>/hackerrank/2018/03/15/NLP-on-HackerRank</id><content type="html" xml:base="/hackerrank/2018/03/15/NLP-on-HackerRank/">&lt;p&gt;I’ve identified tracks in HackerRank to coincide with Project 4.&lt;/p&gt;
+
+&lt;p&gt;Similar to Project Three, I thought it would be useful to progress through the related material
+on HackerRank.  And as before, it was indeed uScores seful.  You don’t get the whizbang toolsets to
+help you.  No SciKit Learn… No Gensim… No NLTK.  Nope.  It really does help to learn things
+if you are forced to fall back and essentially code things from scratch.  And, you may learn
+a lot more along the way.&lt;/p&gt;
+
+&lt;p&gt;For example, as I coded TF-IDF from scratch, I read the Wikipedia page on TF-IDF.  Nothing
+previous had underscored that there really isn’t just one TF-IDF algorithm.  There are many
+variations.
+Scores 
+So, I chose the Regular Expression (Regex) track and the Natural Language Processing (NLP) section
+withing the Machine Learning track.&lt;/p&gt;
+
+&lt;p&gt;Alas… although it was and is helpful, it was also robust enough I couldn’t finish in the
+time frame of Project 4.  I plowed all through the “learning” challenge sections for RegEx.  But
+the last section is full of near-real-world applications.  I just couldn’t devote the time.
+And the NLP section… sheesh.  That’s really going to take some time.&lt;/p&gt;
+
+&lt;p&gt;I’m accumulating no small amount of curiosities and goals for things to pursue after the Metis
+bootcamp.&lt;/p&gt;
+
+&lt;p&gt;For Project 5, I’m starting to use Spark which depends on Scala.  So, in the same spirit, I
+should jump on the Functional Programming track on Hacker Rank.  But… it’s going to have to wait.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Regex" /><category term="NLP" /><summary type="html">I’ve identified tracks in HackerRank to coincide with Project 4.</summary></entry><entry><title type="html">Project Fletcher Closing</title><link href="/project/fletcher/2018/03/09/Project-Fletcher-Closing/" rel="alternate" type="text/html" title="Project Fletcher Closing" /><published>2018-03-09T00:00:00+00:00</published><updated>2018-03-09T00:00:00+00:00</updated><id>/project/fletcher/2018/03/09/Project-Fletcher-Closing</id><content type="html" xml:base="/project/fletcher/2018/03/09/Project-Fletcher-Closing/">&lt;p&gt;Project Fletcher is coming to a close…&lt;/p&gt;
 
 &lt;p&gt;I’m on the train commuting down to Project Presentation Day.&lt;/p&gt;
 
@@ -425,122 +501,4 @@ have, in the past, overtly requested from the instructors that they be able to p
 &lt;p&gt;Why?  Tiffany’s past work experience has drilled into her the use of Keynote and Tableau in a way that
 is very fine.  She’s mentioned a previous boss was very finicky on the use of Keynote.  Things had to
 look “good”.  It’s not that we cannot do so… given time… lots of time…  It’s that no matter what
-we do, it is upstaged by Tiffany who seems not to even be trying.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project McNulty has passed MVP.</summary></entry><entry><title type="html">Snow Strikes</title><link href="/metis/2018/02/10/Snow-Strikes/" rel="alternate" type="text/html" title="Snow Strikes" /><published>2018-02-10T00:00:00+00:00</published><updated>2018-02-10T00:00:00+00:00</updated><id>/metis/2018/02/10/Snow-Strikes</id><content type="html" xml:base="/metis/2018/02/10/Snow-Strikes/">&lt;p&gt;La Nina winters have returned…&lt;/p&gt;
-
-&lt;p&gt;I dunno about you, but with regards to &lt;a href=&quot;https://en.wikipedia.org/wiki/El_Ni%C3%B1o%E2%80%93Southern_Oscillation&quot;&gt;ENSO&lt;/a&gt;,
-I kinda prefer the El Niño years.  The cyclones are “over there” in the Pacific and the winters tend to be dry.&lt;/p&gt;
-
-&lt;p&gt;Between flu seasons and snow season, if you’re someone considering the Metis Bootcamp, I might suggest you
-avoid the winter season.  Of course, if you &lt;strong&gt;ARE&lt;/strong&gt; such a person, might I suggest you list me as one who recommended
-you to Metis?  Chuckle…&lt;/p&gt;
-
-&lt;p&gt;In any case, I was “remote” Wednesday and Thursday this week due to kids down with the flu.  Then &lt;strong&gt;EVERYONE&lt;/strong&gt; was
-remote Friday since the Metis Chicago campus was closed due to the Winter Storm..&lt;/p&gt;
-
-&lt;p&gt;Bizarrely, the Pair Programming schedule aligned with this.  We have an odd number in the cohort.  So as “pairs” go,
-there is always a leftover.  That individual can work solo or they can join any other pair of their choice.  I dutifully
-got in front of my computer Wednesday morning before 9am to identify my pair partner only to find I had none.  Then
-I looked at the assignment for the day…&lt;/p&gt;
-
-&lt;p&gt;OK.  I have to pause a bit and opine a bit about Pair Programming.&lt;/p&gt;
-
-&lt;p&gt;We’re past the initial weirdness where we didn’t know each other and where egos may have come into play.  Sure, some
-are more amenable to working with others.  But we’re all in this together.  So, my thoughts of the moment don’t have
-to do with that aspect.&lt;/p&gt;
-
-&lt;p&gt;No… it’s the nature of the assignments.&lt;/p&gt;
-
-&lt;p&gt;The actual assignments range pretty widely in their difficulty level, their topic, their scope, etc.  A lot of the
-time, they have a “trivial” feel to them.  Of course, what’s trivial to one may be novel to another.  But you get a
-sense these are standard teaching exercises or refreshers.  And then one comes out of the blue to spank you hard.&lt;/p&gt;
-
-&lt;p&gt;For example, this week…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Monday - SQL exercises (yawn.. refresher)&lt;/li&gt;
-  &lt;li&gt;Tuesday - &lt;strong&gt;standard&lt;/strong&gt; simple recursion examples.  So standard, in fact, that Amy took one look at it and was
-entirely ready to &lt;em&gt;teach&lt;/em&gt; the lesson of &lt;a href=&quot;https://en.wikipedia.org/wiki/Memoization&quot;&gt;memoization&lt;/a&gt; because this
-particular examples was &lt;strong&gt;THE&lt;/strong&gt; “go to” example for that topic.&lt;/li&gt;
-  &lt;li&gt;Wednesday - Program Batch Gradient Descent from Scratch&lt;/li&gt;
-  &lt;li&gt;Thursday  - Finish Wednesday’s work&lt;/li&gt;
-  &lt;li&gt;Friday - Run through an entire classification exercise with charts and logistic regression of 6 features.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Do ya see a difference there?!?  If not just follow along…&lt;/p&gt;
-
-&lt;p&gt;Being “off” Wednesday and Thursday underscored the difference between reading the material and being in a group
-setting where you can rattle off questions immediately to the instructors.  Furthermore there is a clear structure between:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Reading about certain techniques&lt;/li&gt;
-  &lt;li&gt;Implementing projects using said techniques&lt;/li&gt;
-  &lt;li&gt;Running through a complete exercise using said techniques in less than 30 minutes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Now, I had one &lt;strong&gt;HUGE&lt;/strong&gt; advantage over my peers on Wednesday.  They all had to move on once the 30 minutes were up.
-I had no such restriction.  They didn’t fire up Zoom or anything for me.  I was just connected via Slack in a loose
-fashion with the curriculum and such available for me to read at my pace.  So the only thing that hindered me from
-completing the task was my caretaker duties at home.&lt;/p&gt;
-
-&lt;p&gt;And… on that note… if I can program Batch Gradient Descent from scratch while enduring the fingernails-on-chalkboard
-sensation of a teenage daughter whimpering and moaning while fighting off a high fever, I imagine I can endure the
-pressure of Code Interviews.  Mind you, if you’re a prospective employer, might I suggest you peruse my work on
-HackerRank, GitHub, these projects, etc., and spare me said ordeal.  But I’m better prepared nonetheless.&lt;/p&gt;
-
-&lt;p&gt;In any case, working with Gradient Descent was interesting because you had to determine things were failing because
-your code was bad or because your choice of alpha was way off.&lt;/p&gt;
-
-&lt;p&gt;I didn’t even realize the plan was to continue Thursday till I again dutifully checked before 9am to see the assignment.
-Apparently, even then, only a couple pairs had working examples.  I’d pat myself on the back except that it’d be an
-unfair comparison.  Sure I got it working… but not in two 30 minute sessions.&lt;/p&gt;
-
-&lt;p&gt;Friday was much more fun because the entire class was remote.  This made things interesting because of how everyone
-chose to work together.  Several of us had issues with one platform or another.  Nate, my pair partner, immediately
-suggested we stick to nothing more than Slack.  This meant no voice.  So, actually, we were both just working the
-problem independently, simultaneously while peppering each other with questions or comments.  I was surprised how
-far I got actually, but there was a strong sense that I was “behind” on the material due to missing lectures.
-Once the entire class joined via Zoom for review, it became clear our choice was sound.  Far too many others wasted
-too much of their time fighting with getting “connected”.&lt;/p&gt;
-
-&lt;p&gt;It was also hilarious to see everyone in their “natural” setting.  I must say it seemed several of the students hadn’t
-really even gotten out of bed yet!  We got introduced to a number of pets.&lt;/p&gt;
-
-&lt;p&gt;After a couple lectures and a bit of slacking teammates on project work, I had to take the “lunch break” to go out and
-shovel snow.  I just barely finished in time to come back in for a Metis-wide quiz.  All four campuses were taking
-this quiz at roughly the same time.  It was declared to be a closed-book quiz.  Of course, it’s all on our honor,
-especially since we (in Chicago) were all remote.  But the entire idea is to assess ourselves, both on an individual
-level and on the levels of each campus and the curriculum/teaching overall.  So why bother cheating?!?&lt;/p&gt;
-
-&lt;p&gt;We had an hour allocated to the quiz.  But I burned through it fairly quickly because for most of it you either knew
-it or you didn’t.  There wasn’t much middle ground.  Almost none of it struck me as something I’d never heard of.
-It wasn’t that kind of “not knowing”.  It was more like, oh yeah… that topic… that I’d not yet had the chance to
-review properly.&lt;/p&gt;
-
-&lt;p&gt;There were still a few things where I sort of understood the general idea but hadn’t yet solidified on &lt;em&gt;which&lt;/em&gt; term
-meant &lt;em&gt;what&lt;/em&gt; thing.  So I did slow down and methodically work through my reasoning so at the very least my answers
-demonstrated a consistent thinking, even if consistently wrong.&lt;/p&gt;
-
-&lt;p&gt;All in all, I’m having a ball, but I’m “at risk” of slipping behind.  It’s tough.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">La Nina winters have returned…</summary></entry><entry><title type="html">Project McNulty - Choices</title><link href="/project/mcnulty/2018/02/08/Project-McNulty-Choices/" rel="alternate" type="text/html" title="Project McNulty - Choices" /><published>2018-02-08T00:00:00+00:00</published><updated>2018-02-08T00:00:00+00:00</updated><id>/project/mcnulty/2018/02/08/Project-McNulty-Choices</id><content type="html" xml:base="/project/mcnulty/2018/02/08/Project-McNulty-Choices/">&lt;p&gt;Project McNulty - what to do…&lt;/p&gt;
-
-&lt;p&gt;I’ve chosen two scopes.  But I do have to select one for the project.&lt;/p&gt;
-
-&lt;p&gt;I have approached this project with a bit more caution.  I don’t want to be “chasing ghosts”.&lt;/p&gt;
-
-&lt;p&gt;Now, of course, part of this overall experience is to develop the skill of storytelling, even
-when there really doesn’t seem to be much of a story to tell.  But, it’s a lot more fun
-if there is something there.&lt;/p&gt;
-
-&lt;p&gt;I also wanted to be able  to pivot to the second choice rather seemlessly if needed, as needed.
-So, in that vein, I performed a bit of Exploratory Data Analysis (EDA) for both my scope choices.&lt;/p&gt;
-
-&lt;p&gt;I have decided to proceed with the Chicago Crime Scene scope.  However, time permitting, I will
-continue to work on the other one.  Where it’s “simple”, this ought to be straightforward.  For
-example, it shouldn’t be more work to cram that data into Postgresql once I’m able to do that for
-the first scope.&lt;/p&gt;
-
-&lt;p&gt;Here are the EDA Notebooks for:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://nbviewer.jupyter.org/github/joseph-r-hamilton/Project_McNulty/blob/master/Exploration/Assessment_Crime.ipynb&quot;&gt;The Chicago Crime Scene&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://nbviewer.jupyter.org/github/joseph-r-hamilton/Project_McNulty/blob/master/Exploration/Assessment_Music.ipynb&quot;&gt;A Music Genre Detector&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project McNulty - what to do…</summary></entry></feed>
+we do, it is upstaged by Tiffany who seems not to even be trying.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project McNulty has passed MVP.</summary></entry></feed>
