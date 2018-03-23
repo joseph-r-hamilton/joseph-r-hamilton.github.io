@@ -1,5 +1,172 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-03-22T15:22:20+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Bootcamp - Investigations Conclude</title><link href="/metis/2018/03/21/Investigations-Conclude/" rel="alternate" type="text/html" title="Bootcamp - Investigations Conclude" /><published>2018-03-21T00:00:00+00:00</published><updated>2018-03-21T00:00:00+00:00</updated><id>/metis/2018/03/21/Investigations-Conclude</id><content type="html" xml:base="/metis/2018/03/21/Investigations-Conclude/">&lt;p&gt;We’re all done with Investigations!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-03-23T14:13:15+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Trouble with Clusters</title><link href="/project/kojak/2018/03/22/Trouble-with-Clusters/" rel="alternate" type="text/html" title="Trouble with Clusters" /><published>2018-03-22T00:00:00+00:00</published><updated>2018-03-22T00:00:00+00:00</updated><id>/project/kojak/2018/03/22/Trouble-with-Clusters</id><content type="html" xml:base="/project/kojak/2018/03/22/Trouble-with-Clusters/">&lt;p&gt;I’m starting to take advantage of clusters on the Cloud for parallel processing power.&lt;/p&gt;
+
+&lt;p&gt;The problem isn’t that there’s not a way to do this.  The problem is that there are
+so many ways of doing this.  This is a very dynamic field.&lt;/p&gt;
+
+&lt;p&gt;At a very high level, there’s Amazon and Google.  I’ve tabled Google for the moment.  But I’ll get
+back over there eventually.&lt;/p&gt;
+
+&lt;p&gt;But within Amazon, there are many options.&lt;/p&gt;
+
+&lt;p&gt;For general Hadoop, there’s EMR.  But even there we have many options.  I explored the use of
+MRjob for a previous project.  I never made it very far.  This was nice in the way it automatically
+set up the cluster and permitted a very structured way to slip in Python code at the various stages
+of the overall Map-Combine-Reduce flow.  I used it for some small experiments with TF-IDF.  But
+I didn’t have to time then to iron out all the issues with setting up instances and containers
+appropriately for needs for that project.&lt;/p&gt;
+
+&lt;p&gt;But it seems now that Spark is the way to do Python with a Hadoop structure.  MRJob does actually now work
+with Spark.  So I may return to explore that.&lt;/p&gt;
+
+&lt;p&gt;Then we have Zeppelin notebooks which work rather nicely with Spark, either directly in Scala or
+via pyspark.  So now we have several layers of how to do things in notebooks.  There’s Jupyter
+Notebooks, Jupyter Notebooks in Jupyter Labs and Zeppelin notebooks.&lt;/p&gt;
+
+&lt;p&gt;I tripped over myself yesterday firing up an EMR cluster to play with Zeppelin some more.  This
+was a reminder than anything manual will involve problems sooner or later.  So, yesterday I backed
+off and slammed in a local install of Spark with Zeppelin in a Docker container.  In all honesty,
+I should probably be doing initial prototyping and experimentation locally anyway.  So it was
+rather important to get it setup.  But… let’s now try to wrap things up so I can get an EMR
+cluster going with Zeppelin/Spark support with as little manual support needed.&lt;/p&gt;
+
+&lt;p&gt;So… my goals:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Do everything related to setting up the cluster via the AWS CLI.&lt;/li&gt;
+  &lt;li&gt;End up with the command to set up the tunnel and the URL for Zeppelin.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Using the AWS CLI, let’s create a bucket and upload a bootstrap shell script.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;aws s3 mb s3://aws-&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;AWSID&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-boots&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;where {AWSID} is the AWS account ID.  S3 bucket names need to be unique.  This ought to be unique.&lt;/p&gt;
+
+&lt;p&gt;Now, let’s create our bootstrap script.  I’ll call it &lt;code class=&quot;highlighter-rouge&quot;&gt;zep_boots.sh&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh &lt;span class=&quot;nt&quot;&gt;-O&lt;/span&gt; ~/anaconda.sh
+
+bash ~/anaconda.sh &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/anaconda
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'\nexport PATH=$HOME/anaconda/bin:$PATH'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/.bashrc &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/.bashrc
+
+conda install &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; seaborn pandas requests
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Upload it to the bucket…&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ aws s3 cp zep_boots.sh s3://aws-${AWSID}-boots/
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I had been cloning an existing cluster.  From the AWS website, I took advantage of the “AWS CLI Export”
+function to get a CLI sequence to create the cluster.  I saved it to a file and then added to the end
+of this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	--bootstrap-actions Path=s3://elasticmapreduce/bootstrap-actions/run-if,Args=[&quot;instance.isMaster=true&quot;,&quot;s3://aws-${AWSID}-boots/zep_boots.sh&quot;]
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Because…  that’s what &lt;a href=&quot;https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-plan-bootstrap.html&quot;&gt;AWS says it should be&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;After &lt;strong&gt;many&lt;/strong&gt; attempts and troubleshooting, here’s what you really have to do:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;	--bootstrap-actions Path=s3://aws-${AWSID}-boots/zep_boots.sh
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And then rather than using the broken run-if script, just incorporate the logic into your code.  I found a good example
+to copy on &lt;a href=&quot;https://forums.aws.amazon.com/thread.jspa?threadID=222418&quot;&gt;the forums&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here’s a new version of &lt;code class=&quot;highlighter-rouge&quot;&gt;zep_boots.sh&lt;/code&gt; which includes setup for Graphframes.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#! /bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# Determine if we are running on the master node.&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# 0 - running on master&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# 1 - running on a task or core node&lt;/span&gt;
+check_if_master&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    python - &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;__SCRIPT__&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;'
+import sys
+import json
+ 
+instance_file = &quot;/mnt/var/lib/info/instance.json&quot;
+is_master = False
+try:
+    with open(instance_file) as f:
+        props = json.load(f)
+ 
+    is_master = props.get('isMaster', False)
+except IOError as ex:
+    pass # file will not exist when testing on a non-emr machine
+ 
+if is_master:
+    sys.exit(0)
+else:
+    sys.exit(1)
+&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;__SCRIPT__
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+check_if_master &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;exit &lt;/span&gt;0
+
+&lt;span class=&quot;c&quot;&gt;# Install Conda and desired modules&lt;/span&gt;
+
+wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh &lt;span class=&quot;nt&quot;&gt;-O&lt;/span&gt; ~/anaconda.sh
+
+bash ~/anaconda.sh &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/anaconda
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'\nexport PATH=$HOME/anaconda/bin:$PATH'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/.bashrc &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/.bashrc
+
+conda install &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; seaborn pandas requests
+
+&lt;span class=&quot;c&quot;&gt;# Install Graphframes&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# (gonna need sudo calls here...)&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# Note... this is sooo kludgey&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;mkdir &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; /var/lib/zeppelin/local-repo/2ANGGHHMQ
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /var/lib/zeppelin/local-repo/2ANGGHHMQ
+
+&lt;span class=&quot;c&quot;&gt;# Need some dependencies&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;wget http://central.maven.org/maven2/com/typesafe/scala-logging/scala-logging-api_2.11/2.1.2/scala-logging-api_2.11-2.1.2.jar
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;wget http://central.maven.org/maven2/com/typesafe/scala-logging/scala-logging-slf4j_2.11/2.1.2/scala-logging-slf4j_2.11-2.1.2.jar
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;wget http://central.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar
+
+
+&lt;span class=&quot;c&quot;&gt;# Now get graphframes&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;wget http://dl.bintray.com/spark-packages/maven/graphframes/graphframes/0.5.0-spark2.1-s_2.11/graphframes-0.5.0-spark2.1-s_2.11.jar
+
+&lt;span class=&quot;c&quot;&gt;# Finally, prepare for pyspark access of graphframes&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;mkdir &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; /usr/lib/zeppelin/interpreter/lib/python
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /usr/lib/zeppelin/interpreter/lib/python
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;jar xf /var/lib/zeppelin/local-repo/2ANGGHHMQ/graphframes-0.5.0-spark2.1-s_2.11.jar graphframes
+
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This still requires going into the Interpreters in Zeppelin and changing &lt;code class=&quot;highlighter-rouge&quot;&gt;zeppelin.pyspark.python&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;/home/hadoop/anaconda/bin/python&lt;/code&gt;.  The goofy thing here is the bootstrap script is run &lt;strong&gt;before&lt;/strong&gt; the applications are loaded.  We could get away with creating directories and putting files in (as root… which is good because it prevents the “normal” things removing these files).  But the thing to do to switch to anaconda’s python would require changing a file (interpreter.json).  Hard to do if it’s not there.  And putting it in there may cause the application installation to fail.&lt;/p&gt;
+
+&lt;p&gt;The way AWS EMR has set this up for Zeppelin seems to be… problematic and has caused a number of folk some grief when it comes to loading up additional modules and packages.&lt;/p&gt;
+
+&lt;p&gt;But what about getting the URL for Zeppelin?  Didn’t I want to be able to ignore the AWS website entirely?&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bash create_cluster.sh
+&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;ClusterId&quot;&lt;/span&gt;: &lt;span class=&quot;s2&quot;&gt;&quot;j-38FI39ISFYGTV&quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;aws emr describe-cluster &lt;span class=&quot;nt&quot;&gt;--cluster-id&lt;/span&gt; j-38FI39ISFYGTV | &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;State
+&lt;span class=&quot;c&quot;&gt;# Wait a bit...  keep checking...&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;aws emr describe-cluster &lt;span class=&quot;nt&quot;&gt;--cluster-id&lt;/span&gt; j-38FI39ISFYGTV | &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;Dns
+        &lt;span class=&quot;s2&quot;&gt;&quot;MasterPublicDnsName&quot;&lt;/span&gt;: &lt;span class=&quot;s2&quot;&gt;&quot;ec2-18-218-45-180.us-east-2.compute.amazonaws.com&quot;&lt;/span&gt;,
+&lt;span class=&quot;c&quot;&gt;# Now, to set up the tunnel...&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ssh &lt;span class=&quot;nt&quot;&gt;-ND&lt;/span&gt; 8157 hadoop@ec2-18-218-45-180.us-east-2.compute.amazonaws.com
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And browse to:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;http://ec2-18-218-45-180.us-east-2.compute.amazonaws.com:8890/&lt;/code&gt;&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Kubernetes" /><category term="AWS" /><category term="EMR" /><category term="Hadoop" /><summary type="html">I’m starting to take advantage of clusters on the Cloud for parallel processing power.</summary></entry><entry><title type="html">Bootcamp - Investigations Conclude</title><link href="/metis/2018/03/21/Investigations-Conclude/" rel="alternate" type="text/html" title="Bootcamp - Investigations Conclude" /><published>2018-03-21T00:00:00+00:00</published><updated>2018-03-21T00:00:00+00:00</updated><id>/metis/2018/03/21/Investigations-Conclude</id><content type="html" xml:base="/metis/2018/03/21/Investigations-Conclude/">&lt;p&gt;We’re all done with Investigations!&lt;/p&gt;
 
 &lt;p&gt;Alas.  No more investigations.  No more competing fancies to vie for our time.&lt;/p&gt;
 
@@ -408,43 +575,4 @@ to Dean’s desire.  The group voted between Bowling and Dim Sum and bowling eek
 us joined.&lt;/p&gt;
 
 &lt;p&gt;Here’s a picture:
-&lt;img src=&quot;/assets/img/Metis_Outing_01.jpg&quot; alt=&quot;alt text&quot; title=&quot;Metis Outing at Minghin Cuisine&quot; /&gt;&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">We just had our first Lunch Outing as a Metis cohort.</summary></entry><entry><title type="html">Going Off The Grid</title><link href="/metis/2018/02/16/Going-Off-The-Grid/" rel="alternate" type="text/html" title="Going Off The Grid" /><published>2018-02-16T00:00:00+00:00</published><updated>2018-02-16T00:00:00+00:00</updated><id>/metis/2018/02/16/Going-Off-The-Grid</id><content type="html" xml:base="/metis/2018/02/16/Going-Off-The-Grid/">&lt;p&gt;I have a bit of preparation to do…&lt;/p&gt;
-
-&lt;p&gt;Just after I might have considered myself caught up after finding myself having to work remotely for a couple
-of days, I have a pure absence coming up.&lt;/p&gt;
-
-&lt;p&gt;A family issue has arisen that has prompted us to take advantage of the fact the kids are off due to
-President’s Day.  This is problematic for my experience here at Metis for a couple of reasons.  There will
-be a bit of time where I’ll be driving.  But when I’m lucky enough to be a passenger, I might be able to
-do stuff on the laptop… but sans the Internet.&lt;/p&gt;
-
-&lt;p&gt;We talked about this issue early on in the Bootcamp.  David made the comment that the “dirty secret” of the
-industry is that, on average, programmers do one websearch for every ten lines of code.  I really believe it.
-This isn’t even really a bad thing.  You want to avoid reinventing the wheel.  And you want to be able to
-incorporate the discussions or learnings of others rather than repeating all the same mistakes or ignoring
-opportunities.&lt;/p&gt;
-
-&lt;p&gt;I’ve look ahead to challenge sets to ensure I have datasets downloaded, installed or whatever.&lt;/p&gt;
-
-&lt;p&gt;There are some things where I can grab documentation.  I just dp.  But I may also have to shift work around so
-I can plan on doing certain things when I’ll be off the ownloaded huge PDFs for the documentation 
-of scikit learn and matplotlib.  I’m sure these will help.  But I may also have to shift work around so
-I can plan on doing certain things when I’ll be off the grid.&lt;/p&gt;
-
-&lt;p&gt;Just skimming the scikit learn documentation, I confirmed a hunch.  This past week, I subclassed regressors
-to create “dummy” or baseline models for comparative purposes.  This was a bit clumsy.  Part of that
-was because I only iteratively added functions as I found I needed them.  I knew that surely sklearn had
-this already.  But I didn’t bother looking it up.&lt;/p&gt;
-
-&lt;p&gt;This was a good thing, actually.  This forced me to dig a bit deeper into what &lt;strong&gt;should&lt;/strong&gt; be going on
-with some of these functions or behaviors between parts of sklearn (estimators, scorers, metrics, etc.).
-This is one thing that troubles me a bit with sklearn - it’s too powerful.  It gives you so much functionality
-in a standard fashion that you can get addicted to tossing things together without really understanding
-what’s going on underneath.&lt;/p&gt;
-
-&lt;p&gt;Another thing that’s key is avoiding the seduction of working with lots of data.  Sometimes, it’s really
-just more important to work with very small datasets.  I don’t mean just for speed of optimizing.  It
-is really much clearer to &lt;strong&gt;see&lt;/strong&gt; what’s going on when you only have a few rows and columns.&lt;/p&gt;
-
-&lt;p&gt;In any case, I dearly hope I an absence with travel doesn’t prove too costly.  The pressure is on for the
-current project.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">I have a bit of preparation to do…</summary></entry></feed>
+&lt;img src=&quot;/assets/img/Metis_Outing_01.jpg&quot; alt=&quot;alt text&quot; title=&quot;Metis Outing at Minghin Cuisine&quot; /&gt;&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">We just had our first Lunch Outing as a Metis cohort.</summary></entry></feed>
