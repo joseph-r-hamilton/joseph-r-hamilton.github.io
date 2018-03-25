@@ -1,5 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-03-23T14:13:15+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Trouble with Clusters</title><link href="/project/kojak/2018/03/22/Trouble-with-Clusters/" rel="alternate" type="text/html" title="Trouble with Clusters" /><published>2018-03-22T00:00:00+00:00</published><updated>2018-03-22T00:00:00+00:00</updated><id>/project/kojak/2018/03/22/Trouble-with-Clusters</id><content type="html" xml:base="/project/kojak/2018/03/22/Trouble-with-Clusters/">&lt;p&gt;I’m starting to take advantage of clusters on the Cloud for parallel processing power.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-03-25T21:36:22+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Bootcamp - Blogging about Projects</title><link href="/metis/2018/03/25/Blogging-Projects/" rel="alternate" type="text/html" title="Bootcamp - Blogging about Projects" /><published>2018-03-25T00:00:00+00:00</published><updated>2018-03-25T00:00:00+00:00</updated><id>/metis/2018/03/25/Blogging-Projects</id><content type="html" xml:base="/metis/2018/03/25/Blogging-Projects/">&lt;p&gt;It’s a challenge to keep up with the blogging!&lt;/p&gt;
+
+&lt;p&gt;We had an interesting and rather lively feedback session Friday.  We’d been talking about
+doing one for a bit.  So David finally hosted it.&lt;/p&gt;
+
+&lt;p&gt;One of the more interesting things to come out of it was a consistent call that Dask
+should be introduced into the curriculum immediately following Pandas.  This may have been
+about the only thing where the cohort at least had no dissenting views.  Most of the feedback
+was diverse in the sense that not everyone agreed.&lt;/p&gt;
+
+&lt;p&gt;But Dask?  Not everyone had delved into it.  But many had dabbled a bit.  And Alex did give
+a good Investigation presentation on the topic.  Many of us had run into issues throughout
+the bootcamp which this could have addressed.  This main problem is what to do when your
+local machine runs out of memory?  For most of this there have only been two choices:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Reboot after the crash and try again with a smaller data set.&lt;/li&gt;
+  &lt;li&gt;Move it to the cloud somehow.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But moving to the cloud isn’t trivial.  Do you try to create a single EC2 instance with
+a ton of RAM?  Or try out something on EMR with the work spread out?  Both of these weren’t
+something we could have done early on in the bootcamp.  Sometimes you can restructure your
+work so you process a large file one line at a time.  But that’s what Dask does for you!!&lt;/p&gt;
+
+&lt;p&gt;I rolled some swap space.  I’ve now got lots more virtual memory.  So my machine doesn’t
+lock up or crash any longer.  But things get slow once I’m chewing through swap.&lt;/p&gt;
+
+&lt;p&gt;Dask, however, would have a been a natural and straightforward solution many of us could
+have incorporated rather easily even back in Project One.  And Dask would have provided us
+an immediate benefit on a local machine well before taking advantage of its full power on
+a cluster.&lt;/p&gt;
+
+&lt;p&gt;One of the more lively topics of discussion related to the Challenges.  I dutifully completed
+all the required challenges.  I am actually looking forward to doing some of the optional ones
+later… after the conclusion of the bootcamp.  But it seemed pretty clear nobody did the
+optional ones.  Indeed, many didn’t actually complete the required ones.  They just turned
+them incomplete.  Oh well…&lt;/p&gt;
+
+&lt;p&gt;Another thing that became optional halfway through the bootcamp was blogging about the projects.
+This one seems a bit odd.  I mean… that’s pretty much the entire point of the bootcamp - to
+develop a portfolio of projects which you display via your blog and/or GitHub.  In this case,
+the issue is timing.  You can go back and work on your blogs later.  This seems to be what
+a lot of folk do.&lt;/p&gt;
+
+&lt;p&gt;Well… I’ve started to blog to keep a few notes along the way for Project Five.  But I’d not
+yet even really started the blogging for Projects Three and Four… tsk… tsk!  So in between
+some work on Project Five this afternoon I stopped and fluffed out the structure for the remaining
+projects.  Soon I’ll put up the presentations for Project Four.  There’s something I want to go
+back and finish for the final presentation of Project Three.  So I may wait on that.  We’ll see…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Blog" /><category term="Dask" /><summary type="html">It’s a challenge to keep up with the blogging!</summary></entry><entry><title type="html">Trouble with Clusters</title><link href="/project/kojak/2018/03/22/Trouble-with-Clusters/" rel="alternate" type="text/html" title="Trouble with Clusters" /><published>2018-03-22T00:00:00+00:00</published><updated>2018-03-22T00:00:00+00:00</updated><id>/project/kojak/2018/03/22/Trouble-with-Clusters</id><content type="html" xml:base="/project/kojak/2018/03/22/Trouble-with-Clusters/">&lt;p&gt;I’m starting to take advantage of clusters on the Cloud for parallel processing power.&lt;/p&gt;
 
 &lt;p&gt;The problem isn’t that there’s not a way to do this.  The problem is that there are
 so many ways of doing this.  This is a very dynamic field.&lt;/p&gt;
@@ -533,46 +581,4 @@ Learning to Unsupervised Learning.  And no… this has nothing to do with us bei
 Many of us used the experience of Project One to guide our choice of what to do for Project Two.
 But things are different enough for Project Three that we may not quite be as able to choose wisely.&lt;/p&gt;
 
-&lt;p&gt;In any case, I’m having a ball and learning a ton.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">I am incredibly tired.</summary></entry><entry><title type="html">Happy Chinese New Year!!</title><link href="/metis/2018/02/16/Happy-Chinese-New-Year/" rel="alternate" type="text/html" title="Happy Chinese New Year!!" /><published>2018-02-16T00:00:00+00:00</published><updated>2018-02-16T00:00:00+00:00</updated><id>/metis/2018/02/16/Happy-Chinese-New-Year</id><content type="html" xml:base="/metis/2018/02/16/Happy-Chinese-New-Year/">&lt;p&gt;We just had our first Lunch Outing as a Metis cohort.&lt;/p&gt;
-
-&lt;p&gt;Apparently past cohorts had a longer schedule and a longer official Lunch Break.  When
-we really do have the entire afternoon for work on our projects, there’s a fuzzy boundary
-between Lunch and Work.  A lot of feedback about ending the day at 6pm has prompted a
-change to a normally 9-5 shift with an hour for Lunch.  The flip side of this is that
-a lot our Lunches become working Lunches with workshops and stuff squeezed in.&lt;/p&gt;
-
-&lt;p&gt;We had a long stretch of days where we really weren’t getting to work on our projects
-till later in the afternoon.  Between presentations, workshops, reviews and what not,
-we were feeling the crunch and pressure.  For most of us, this just shifts the burden
-to late evenings/nights.&lt;/p&gt;
-
-&lt;p&gt;Don’t get me wrong.  These other things are all worthy things.  We &lt;strong&gt;NEED&lt;/strong&gt; the Career
-Services and related workshops Ashley provides.  And we all benefit a lot from the
-investigation presentations from each other.  The Quiz Review was also beneficial.
-I didn’t do too bad on the quiz.  I got greater than 90%.  I teased the instructors
-that they should have provided us histograms of the scores or other robust visualizations,
-etc.  They did inform us that we didn’t get first place amongst the campuses this year.
-Seattle just barely scraped ahead of us!  David and Alice enumerated about a dozen topics
-on the whiteboard.  One by one, a student got up to discuss, present or teach that topic.
-This proved to be good review and reinforcement, especially for the one presenting.
-I &lt;em&gt;definitely&lt;/em&gt; chickened out angling for easy topics or those where I had more background.
-I ended up with “general questions”.&lt;/p&gt;
-
-&lt;p&gt;Yesterday was our first day in quite a while with the afternoon purely devoted to personal
-project work.  The instructors wander around to check in with folk during this time frame
-to assist, guide or cajole folk as needed.&lt;/p&gt;
-
-&lt;p&gt;But today was a voluntary choice for folk to eat away at time available for project work…
-all in good fun.&lt;/p&gt;
-
-&lt;p&gt;Dean has been pining for some good Chinese Dim Sum for quite a while.  I thought they’d all
-gone after the bowling excursion.  After the bowling a few of us split off to go home
-while the rest were planning on going out for dinner.  But apparently they didn’t go to
-wherever Dean wanted.  And, to be honest, even the choice of bowling was in opposition
-to Dean’s desire.  The group voted between Bowling and Dim Sum and bowling eeked ahead.&lt;/p&gt;
-
-&lt;p&gt;Well, it’s Chinese New Year!!  We have three Chinese: Alice; Dean; Derrick.  So most of
-us joined.&lt;/p&gt;
-
-&lt;p&gt;Here’s a picture:
-&lt;img src=&quot;/assets/img/Metis_Outing_01.jpg&quot; alt=&quot;alt text&quot; title=&quot;Metis Outing at Minghin Cuisine&quot; /&gt;&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">We just had our first Lunch Outing as a Metis cohort.</summary></entry></feed>
+&lt;p&gt;In any case, I’m having a ball and learning a ton.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">I am incredibly tired.</summary></entry></feed>
