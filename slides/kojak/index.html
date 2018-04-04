@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+  
+
+<title>Anomaly Detection with Reddit Users | Joseph Hamilton - Solution Oriented Data Scientist</title>
+<meta name="description" content="Web presentation on Anomaly Detection
+">
+<link rel="canonical" href="/slides/kojak/">
+
+
+  
+    <meta name="keywords" content="Data Science Python">
+  
+
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Joseph Hamilton - Solution Oriented Data Scientist">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<meta name="application-name" content="Joseph Hamilton - Solution Oriented Data Scientist">
+<meta name="msapplication-config" content="/assets/ieconfig.xml">
+
+
+<meta name="theme-color" content="#4fb1ba">
+
+
+<meta name="generator" content="Hydejack v7.5.0">
+
+
+    <!-- Description -->
+    
+      <meta name="description" content="Web presentation on Anomaly Detection" />
+    
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="/assets/reveal.js/css/reveal.css"/>
+    
+      <link rel="stylesheet" href="/assets/reveal.js/css/theme/simple.css" id="theme"/>
+    
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="/assets/reveal.js/lib/css/zenburn.css"/>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '/assets/reveal.js/css/print/pdf.css' : '/assets/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="apple-touch-icon" href="/assets/icons/icon.png" />
+
+    <link rel="canonical" href="/slides/kojak/">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <link rel="stylesheet" href="/assets/css/custom1.css" />
+
+<section>
+  <div class="bbox">
+    <h2>Anomaly Detection<br />Analysis of Reddit Users</h2>
+    <hr class="shadow" />
+    <p class="largefnt" style="text-align: center;">Joseph Hamilton</p>
+    
+  </div>
+</section>
+
+<section>
+  <div class="slideheader">
+    <h3>Anomaly Detection - Definition</h3>
+  </div>
+  <div class="sliderow">
+  <img src="/assets/img/slides/Kojak/flowers.jpg" width="100%" alt="Flowers" />  
+  </div>
+  <div class="slidefooter">
+  </div>
+</section>
+
+<section>
+  <style>
+    .flexrow {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .flexcol {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .flexitem {
+      flex: 1;
+    }
+  </style>
+  <div class="slideheader">
+    <h3>Anomaly Detection - Common Applications</h3>
+  </div>
+  <div class="sliderow">
+  <div class="flexrow">
+  <div class="flexcol" style="flex:2">
+  <div class="flexrow">
+  <img class="fragment" src="/assets/img/slides/Kojak/fraud.jpg" alt="Fraud" />  
+  </div>
+  <div class="flexrow">
+  <img class="fragment" src="/assets/img/slides/Kojak/intrusion.png" alt="Hack" />  
+  </div>
+  </div>
+  <div class="flexcol" style="flex:2">
+  <div class="flexrow">
+  <img class="fragment" src="/assets/img/slides/Kojak/fault.jpg" alt="Fault" />  
+  </div>
+  <div class="flexrow">
+  <img class="fragment" src="/assets/img/slides/Kojak/disease.jpg" alt="Disease" />  
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="slidefooter">
+  </div>
+</section>
+
+<section>
+  <div class="slideheader">
+    <h3>The Problem of Trolls on Reddit</h3>
+  </div>
+  <div class="sliderow">
+  <img src="/assets/img/slides/Kojak/internet-troll.jpg" width="75%" alt="Troll" />  
+  </div>
+  <div class="slidefooter">
+  </div>
+</section>
+
+<section>
+  <div class="slideheader">
+    <h3>Platforms, Tools and Methods</h3>
+  </div>
+  <div class="sliderow">
+  <div class="bbox" style="width:1200px">
+  <img class="fragment fade-down" src="/assets/img/slides/Kojak/Kojak_Tools_01.png" alt="Lotsa Logos" />  
+  </div>
+  </div>
+  <div class="slidefooter">
+  </div>
+</section>
+<section>
+  <div class="slideheader">
+    <h3>Platforms, Tools and Methods</h3>
+  </div>
+  <div class="sliderow">
+  <div class="bbox" style="width:1200px">
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_01.png" alt="Lotsa Logos" />  
+  <img class="fragment fade-down" src="/assets/img/slides/Kojak/Kojak_Tools_02.png" alt="Lotsa Logos" />  
+  </div>
+  </div>
+  <div class="slidefooter">
+  </div>
+</section>
+<section>
+  <div class="slideheader">
+    <h3>Platforms, Tools and Methods</h3>
+  </div>
+  <div class="sliderow">
+  <div class="bbox" style="width:1200px">
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_01.png" alt="Lotsa Logos" />  
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_02.png" alt="Lotsa Logos" />  
+  <img class="fragment fade-down" src="/assets/img/slides/Kojak/Kojak_Tools_03.png" alt="Lotsa Logos" />  
+  </div>
+  </div>
+  <div class="slidefooter">
+  </div>
+</section>
+<section>
+  <div class="slideheader">
+    <h3>Platforms, Tools and Methods</h3>
+  </div>
+  <div class="sliderow">
+  <div class="bbox" style="width:1200px">
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_01.png" alt="Lotsa Logos" />  
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_02.png" alt="Lotsa Logos" />  
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_03.png" alt="Lotsa Logos" />  
+  <img class="fragment fade-down" src="/assets/img/slides/Kojak/Kojak_Tools_04.png" alt="Lotsa Logos" />  
+  </div>
+  </div>
+  <div class="slidefooter">
+  </div>
+</section>
+<section>
+  <div class="slideheader">
+    <h3>Platforms, Tools and Methods</h3>
+  </div>
+  <div class="sliderow">
+  <div class="bbox" style="width:1200px">
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_01.png" alt="Lotsa Logos" />  
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_02.png" alt="Lotsa Logos" />  
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_03.png" alt="Lotsa Logos" />  
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_04.png" alt="Lotsa Logos" />  
+  <img class="fragment fade-down" src="/assets/img/slides/Kojak/Kojak_Tools_05.png" alt="Lotsa Logos" />  
+  </div>
+  </div>
+  <div class="slidefooter">
+  </div>
+</section>
+
+<section data-transition="none-out">
+  <div class="slideheader">
+    <h3>Troll Hunt - General Approach</h3>
+  </div>
+  <div class="sliderow">
+  <img src="/assets/img/slides/Kojak/Flowchart2_0.png" width="1200px" alt="Flow Chart" />  
+  </div>
+  <div class="slidefooter">
+  </div>
+</section>
+<section data-transition="none">
+  <div class="slideheader">
+    <h3>Troll Hunt - General Approach</h3>
+  </div>
+  <div class="sliderow">
+  <img src="/assets/img/slides/Kojak/Flowchart2_1.png" width="1200px" alt="Flow Chart" />  
+  </div>
+  <div class="slidefooter">
+  </div>
+</section>
+<section data-transition="none">
+  <div class="slideheader">
+    <h3>Troll Hunt - General Approach</h3>
+  </div>
+  <div class="sliderow">
+  <img src="/assets/img/slides/Kojak/Flowchart2_2.png" width="1200px" alt="Flow Chart" />  
+  </div>
+  <div class="slidefooter">
+  </div>
+</section>
+<section data-transition="none">
+  <div class="slideheader">
+    <h3>Troll Hunt - General Approach</h3>
+  </div>
+  <div class="sliderow">
+  <img src="/assets/img/slides/Kojak/Flowchart2_3.png" width="1200px" alt="Flow Chart" />  
+  </div>
+  <div class="slidefooter">
+  </div>
+</section>
+<section data-transition="none">
+  <div class="slideheader">
+    <h3>Troll Hunt - General Approach</h3>
+  </div>
+  <div class="sliderow">
+  <img src="/assets/img/slides/Kojak/Flowchart2_4.png" width="1200px" alt="Flow Chart" />  
+  </div>
+  <div class="slidefooter">
+  </div>
+</section>
+<section data-transition="none">
+  <div class="slideheader">
+    <h3>Troll Hunt - General Approach</h3>
+  </div>
+  <div class="sliderow">
+  <img src="/assets/img/slides/Kojak/Flowchart2_5.png" width="1200px" alt="Flow Chart" />  
+  </div>
+  <div class="slidefooter">
+  </div>
+</section>
+
+<section>
+<div class="bbox">
+  <div class="slideheader">
+    <h3>Troll Hunt - Algorithms</h3>
+  </div>
+  <div class="sliderow">
+  <p />
+  <p class="fragment">Agglomerative Clustering</p>
+  <p class="fragment">DBSCAN</p>
+  <p class="fragment">Isolation Forest</p>
+  <p class="fragment">One-Class SVM</p>
+  </div>
+  <div class="slidefooter">
+  </div>
+  </div>
+</section>
+
+<section>
+  <style>
+    .container {
+      display: flex;
+    }
+
+    .col {
+      flex: 3;
+    }
+  </style>
+
+  <div class="bbox">
+    <div class="slideheader">
+      <h3>Troll Hunt - Sample Anomaly</h3>
+    </div>
+    <div class="sliderow">
+      <div class="container">
+        <div class="col">
+        </div>
+        <div class="col">
+          <img src="/assets/img/slides/Kojak/Rob_T_Firefly.png" alt="anomaly" />
+        </div>
+        <div class="col">
+        </div>
+      </div>
+      <div class="slidefooter">
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <style>
+    .container {
+      display: flex;
+    }
+
+    .col {
+      flex: 3;
+    }
+
+table { text-align: center; }
+
+table {border-collapse: collapse;  width: 70%; margin: 0 auto 5rem;}
+
+th, td { padding: 1.5rem; font-size: 1.3rem; }
+
+tr {background: hsl(50, 50%, 80%); }
+
+tr, td { transition: .4s ease-in; } 
+
+tr:first-child {background: hsla(12, 100%, 40%, 0.5); }
+
+tr:nth-child(even) { background: hsla(50, 50%, 80%, 0.7); }
+
+td:empty {background: hsla(50, 25%, 60%, 0.7); }
+
+tr:hover:not(#firstrow), tr:hover td:empty {background: #ff0; pointer-events: visible;}
+tr:hover:not(#firstrow) { transform: scale(1.2); font-weight: 700; box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);}
+
+  </style>
+
+  <div class="bbox">
+    <div class="slideheader">
+      <h3>Troll Hunt - Sample Anomaly</h3>
+    </div>
+    <div class="sliderow">
+      <div class="container">
+        <div class="col">
+          <p class="largefnt fragment" data-fragment-index="2" style="text-align: center;">This is <b>not</b> a troll.</p>
+          <img class="fragment" data-fragment-index="2" src="/assets/img/slides/Kojak/troll_01.png" width="400px" alt="troll" />
+        </div>
+        <div class="col">
+          <img src="/assets/img/slides/Kojak/Rob_T_Firefly_small.png" alt="anomaly" />
+<table class="fragment" data-fragment-index="1" id="anomaly">
+<tr id="firstrow"><td><b>Author</b></td><td>Rob_T_Firefly</td></tr>
+<tr><td><b>Total Comments</b></td><td>231</td></tr>
+<tr><td><b>Total Subreddits</b></td><td>76</td></tr>
+<tr><td><b>Average Score</b></td><td>33.82</td></tr>
+<tr><td><b>Total Gilded</b></td><td>2</td></tr>
+</table>
+        </div>
+        <div class="col">
+          <p class="largefnt fragment" data-fragment-index="3" style="text-align: center;">This is a treasure.</p>
+          <img class="fragment" data-fragment-index="3" src="/assets/img/slides/Kojak/troll_02.jpg" width="400px" alt="treasure" />
+        </div>
+      </div>
+      <div class="slidefooter">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <style>
+    .flexrow {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .flexcol {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .flexitem {
+      flex: 1;
+    }
+  </style>
+  <div class="slideheader">
+    <h3>Anomalies - Not Always Bad!</h3>
+  </div>
+  <div class="sliderow">
+  <div class="flexrow">
+  <div class="flexcol" style="flex:2">
+  <div class="flexrow">
+<right>
+  <img class="fragment" src="/assets/img/slides/Kojak/high_performer.jpg" width="80%" alt="Performer" />  
+</right>
+  </div>
+  <div class="flexrow">
+  </div>
+  </div>
+  <div class="flexcol" style="flex:2">
+  <div class="flexrow">
+  <img class="fragment" src="/assets/img/slides/Kojak/emerging_trends.jpg" alt="Trends" />  
+  </div>
+  <div class="flexrow">
+  </div>
+  </div>
+  </div>
+  <p class="fragment">Sometimes surprises are good!</p>
+  </div>
+  <div class="slidefooter">
+  </div>
+</section>
+
+<section>
+  <style>
+    .container {
+      display: flex;
+    }
+
+    .col {
+      flex: 2;
+    }
+  </style>
+
+  <div class="bbox">
+    <div class="slideheader">
+      <h3>Joseph Hamilton</h3>
+    </div>
+    <div class="sliderow">
+      <div class="container">
+        <div class="col">
+        <img src="/assets/img/slides/Kojak/contact.png" width="400px" alt="stitch in time saves nine" />
+        </div>
+        <div class="col">
+          <img src="/assets/img/slides/Kojak/Joe2.jpg" width="400px" alt="stitch in time saves nine" />
+        </div>
+      </div>
+      <div class="slidefooter">
+      </div>
+    </div>
+  </div>
+</section>
+
+      </div>
+    </div>
+
+    <script src="/assets/reveal.js/lib/js/head.min.js"></script>
+    <script src="/assets/reveal.js/js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        
+        center: false,
+        
+        
+          transition: 'fade',
+        
+        
+        
+          width: '90%',
+        
+        
+          height: '90%',
+        
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '/assets/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/assets/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/assets/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/assets/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/assets/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '/assets/reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+
+    </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115360087-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-115360087-1');
+</script>
+
+
+  </body>
+</html>
