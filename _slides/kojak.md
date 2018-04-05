@@ -101,8 +101,8 @@ center: false
     <h3>Platforms, Tools and Methods</h3>
   </div>
   <div class="sliderow">
-  <div class="bbox" style="width:1200px">
-  <img class="fragment fade-down" src="/assets/img/slides/Kojak/Kojak_Tools_01.png"  alt="Lotsa Logos">  
+  <div class="bbox">
+  <img class="fragment fade-down" src="/assets/img/slides/Kojak/Kojak_Tools_01.png" width="18%" alt="Lotsa Logos">  
   </div>
   </div>
   <div class="slidefooter">
@@ -113,9 +113,9 @@ center: false
     <h3>Platforms, Tools and Methods</h3>
   </div>
   <div class="sliderow">
-  <div class="bbox" style="width:1200px">
-  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_01.png"  alt="Lotsa Logos">  
-  <img class="fragment fade-down" src="/assets/img/slides/Kojak/Kojak_Tools_02.png"  alt="Lotsa Logos">  
+  <div class="bbox">
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_01.png" width="18%" alt="Lotsa Logos">  
+  <img class="fragment fade-down" src="/assets/img/slides/Kojak/Kojak_Tools_02.png" width="18%" alt="Lotsa Logos">  
   </div>
   </div>
   <div class="slidefooter">
@@ -126,10 +126,10 @@ center: false
     <h3>Platforms, Tools and Methods</h3>
   </div>
   <div class="sliderow">
-  <div class="bbox" style="width:1200px">
-  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_01.png"  alt="Lotsa Logos">  
-  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_02.png"  alt="Lotsa Logos">  
-  <img class="fragment fade-down" src="/assets/img/slides/Kojak/Kojak_Tools_03.png"  alt="Lotsa Logos">  
+  <div class="bbox">
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_01.png" width="18%" alt="Lotsa Logos">  
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_02.png" width="18%" alt="Lotsa Logos">  
+  <img class="fragment fade-down" src="/assets/img/slides/Kojak/Kojak_Tools_03.png" width="18%" alt="Lotsa Logos">  
   </div>
   </div>
   <div class="slidefooter">
@@ -140,11 +140,11 @@ center: false
     <h3>Platforms, Tools and Methods</h3>
   </div>
   <div class="sliderow">
-  <div class="bbox" style="width:1200px">
-  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_01.png"  alt="Lotsa Logos">  
-  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_02.png"  alt="Lotsa Logos">  
-  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_03.png"  alt="Lotsa Logos">  
-  <img class="fragment fade-down" src="/assets/img/slides/Kojak/Kojak_Tools_04.png"  alt="Lotsa Logos">  
+  <div class="bbox">
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_01.png" width="18%" alt="Lotsa Logos">  
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_02.png" width="18%" alt="Lotsa Logos">  
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_03.png" width="18%" alt="Lotsa Logos">  
+  <img class="fragment fade-down" src="/assets/img/slides/Kojak/Kojak_Tools_04.png" width="18%" alt="Lotsa Logos">  
   </div>
   </div>
   <div class="slidefooter">
@@ -155,12 +155,12 @@ center: false
     <h3>Platforms, Tools and Methods</h3>
   </div>
   <div class="sliderow">
-  <div class="bbox" style="width:1200px">
-  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_01.png"  alt="Lotsa Logos">  
-  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_02.png"  alt="Lotsa Logos">  
-  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_03.png"  alt="Lotsa Logos">  
-  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_04.png"  alt="Lotsa Logos">  
-  <img class="fragment fade-down" src="/assets/img/slides/Kojak/Kojak_Tools_05.png"  alt="Lotsa Logos">  
+  <div class="bbox">
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_01.png" width="18%" alt="Lotsa Logos">  
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_02.png" width="18%" alt="Lotsa Logos">  
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_03.png" width="18%" alt="Lotsa Logos">  
+  <img style="opacity: 0.125" src="/assets/img/slides/Kojak/Kojak_Tools_04.png" width="18%" alt="Lotsa Logos">  
+  <img class="fragment fade-down" src="/assets/img/slides/Kojak/Kojak_Tools_05.png" width="18%" alt="Lotsa Logos">  
   </div>
   </div>
   <div class="slidefooter">
@@ -173,7 +173,7 @@ center: false
     <h3>Troll Hunt - General Approach</h3>
   </div>
   <div class="sliderow">
-  <img src="/assets/img/slides/Kojak/Flowchart2_0.png" width="1200px" alt="Flow Chart">  
+  <img src="/assets/img/slides/Kojak/Flowchart2_0.png" width="100%" alt="Flow Chart">  
   </div>
   <div class="slidefooter">
   </div>
@@ -183,7 +183,7 @@ center: false
     <h3>Troll Hunt - General Approach</h3>
   </div>
   <div class="sliderow">
-  <img src="/assets/img/slides/Kojak/Flowchart2_1.png" width="1200px" alt="Flow Chart">  
+  <img src="/assets/img/slides/Kojak/Flowchart2_1.png" width="100%" alt="Flow Chart">  
   </div>
   <div class="slidefooter">
   </div>
@@ -193,7 +193,7 @@ center: false
     <h3>Troll Hunt - General Approach</h3>
   </div>
   <div class="sliderow">
-  <img src="/assets/img/slides/Kojak/Flowchart2_2.png" width="1200px" alt="Flow Chart">  
+  <img src="/assets/img/slides/Kojak/Flowchart2_2.png" width="100%" alt="Flow Chart">  
   </div>
   <div class="slidefooter">
   </div>
@@ -203,7 +203,7 @@ center: false
     <h3>Troll Hunt - General Approach</h3>
   </div>
   <div class="sliderow">
-  <img src="/assets/img/slides/Kojak/Flowchart2_3.png" width="1200px" alt="Flow Chart">  
+  <img src="/assets/img/slides/Kojak/Flowchart2_3.png" width="100%" alt="Flow Chart">  
   </div>
   <div class="slidefooter">
   </div>
@@ -213,7 +213,7 @@ center: false
     <h3>Troll Hunt - General Approach</h3>
   </div>
   <div class="sliderow">
-  <img src="/assets/img/slides/Kojak/Flowchart2_4.png" width="1200px" alt="Flow Chart">  
+  <img src="/assets/img/slides/Kojak/Flowchart2_4.png" width="100%" alt="Flow Chart">  
   </div>
   <div class="slidefooter">
   </div>
@@ -223,7 +223,7 @@ center: false
     <h3>Troll Hunt - General Approach</h3>
   </div>
   <div class="sliderow">
-  <img src="/assets/img/slides/Kojak/Flowchart2_5.png" width="1200px" alt="Flow Chart">  
+  <img src="/assets/img/slides/Kojak/Flowchart2_5.png" width="100%" alt="Flow Chart">  
   </div>
   <div class="slidefooter">
   </div>
