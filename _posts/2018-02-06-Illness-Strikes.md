@@ -37,5 +37,5 @@ There may be no "good" time to deck out of this intensive bootcamp.
 But this may be better than other times.  The third project is just beginning.
 I give my first investigation this afternoon.
 
-I just hope I don't the flu myself.  That would be... bad... very bad.
+I just hope I don't get the flu myself.  That would be... bad... very bad.
 
