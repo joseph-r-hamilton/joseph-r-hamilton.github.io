@@ -1,5 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-05-08T16:21:36+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">Status Update</title><link href="/metis/2018/03/25/Status-Update/" rel="alternate" type="text/html" title="Status Update" /><published>2018-03-25T00:00:00+00:00</published><updated>2018-03-25T00:00:00+00:00</updated><id>/metis/2018/03/25/Status-Update</id><content type="html" xml:base="/metis/2018/03/25/Status-Update/">&lt;p&gt;Whew!  The first month post-bootcamp was busy!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-05-11T14:26:13+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">DataCamp - a Beginning</title><link href="/datacamp/2018/05/11/DataCamp/" rel="alternate" type="text/html" title="DataCamp - a Beginning" /><published>2018-05-11T00:00:00+00:00</published><updated>2018-05-11T00:00:00+00:00</updated><id>/datacamp/2018/05/11/DataCamp</id><content type="html" xml:base="/datacamp/2018/05/11/DataCamp/">&lt;p&gt;I’ve started to pursue lessons via DataCamp.&lt;/p&gt;
+
+&lt;p&gt;Training in all sorts of things related to Data Science and Data Engineering is going to keep me relatively
+busy for quite a while.&lt;/p&gt;
+
+&lt;p&gt;I was introduced to HackerRank by Metis.  Metis grads recommended it as a mechanism to prepare for the
+Metis Data Science Bootcamp.  I can now echo that.  And Metis used it for some things.&lt;/p&gt;
+
+&lt;p&gt;But now that I’m past the bootcamp, I’m exploring lots of mechanisms and options for self-training.
+One thing that caught my eye was DataCamp.  It seems to be rather defined.  It’s not necesarily more
+comprehensive than HackerRank.  But it seems more structured in a couple of ways.  First, now that I have
+the experience of the bootcamp, I’m much better able to know what I want to pursue, learn or practice.  In
+a sense, I know how to “read” things.  As such, I can see the structure of Datacamp’s material.  If I want
+to practice algorithm X, I know exactly where to go for it.  HackerRank is more open ended where they give
+problems and you can use anything to solve it.  Next, DataCamp has organized their coursework in career
+tracks.&lt;/p&gt;
+
+&lt;p&gt;Honestly, I’m not sure I’ll prioritize a single career track.  I plan on completing &lt;em&gt;everything&lt;/em&gt; on their site.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Python" /><category term="R" /><category term="SQL" /><summary type="html">I’ve started to pursue lessons via DataCamp.</summary></entry><entry><title type="html">Status Update</title><link href="/metis/2018/03/25/Status-Update/" rel="alternate" type="text/html" title="Status Update" /><published>2018-03-25T00:00:00+00:00</published><updated>2018-03-25T00:00:00+00:00</updated><id>/metis/2018/03/25/Status-Update</id><content type="html" xml:base="/metis/2018/03/25/Status-Update/">&lt;p&gt;Whew!  The first month post-bootcamp was busy!&lt;/p&gt;
 
 &lt;p&gt;Woah.  I got away from blogging once things got really busy towards the end of bootcamp.&lt;/p&gt;
 
@@ -580,56 +597,4 @@ while developing them.&lt;/p&gt;
 we’re getting the practice.  It clouds your mind a bit.  For example, yesterday Kendall chose an approach
 based on strings.  I used math instead.  Many of these could be done a number of ways.  But Kendall has
 a strong Math background.  So I was surprised she chose strings.  When you’re up front, you tend to get
-tunnel vision.  That’s part of why we need the practice.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Pair Programming has given way to Live Programming.</summary></entry><entry><title type="html">Project Fletcher Began</title><link href="/project/fletcher/2018/03/01/Project-Fletcher-Began/" rel="alternate" type="text/html" title="Project Fletcher Began" /><published>2018-03-01T00:00:00+00:00</published><updated>2018-03-01T00:00:00+00:00</updated><id>/project/fletcher/2018/03/01/Project-Fletcher-Began</id><content type="html" xml:base="/project/fletcher/2018/03/01/Project-Fletcher-Began/">&lt;p&gt;Project Fletcher began a while ago…&lt;/p&gt;
-
-&lt;p&gt;I guess you might say as far as blogging goes, the cat caught my tongue.&lt;/p&gt;
-
-&lt;p&gt;I have not yet finished blogging about Project McNulty.&lt;/p&gt;
-
-&lt;p&gt;Which is hilarious because the storytelling part about that project was that some
-nefarious group imprisoned my blog.  Lo and behold if that didn’t happen in effect.&lt;/p&gt;
-
-&lt;p&gt;I often see graduates from previous cohorts milling around the Metis campus.
-It seems very worthwhile to see what they’re up to or to ask them about their
-experiences.  A fair amount of the time, they’re working with Ashley.  Some times,
-they’re just coming in on a regular, if infrequent, basis and they spend their
-time working on some skill or another.  But one high runner for activities is
-polishing up their past projects either in their blog or in their GitHub repositories.&lt;/p&gt;
-
-&lt;p&gt;Heavens, if I’ve not created the same problem for myself.&lt;/p&gt;
-
-&lt;p&gt;I was behind on the last project due to planned and unplanned absences.  The instructors
-gave me a grace day and I presented a day after everyone else.  They were also understanding
-in the sense that they didn’t expect or require me to submit or publish my material on the
-same schedule as everyone else.  But I didn’t realize they weren’t going to wait for that
-to grade my work.  I’m not surprised.  They make the rounds almost every day to check up
-on our progress.  Between that and us pestering them, they have a good sense of what we’re
-doing.  That and the presentation itself is a good metric.&lt;/p&gt;
-
-&lt;p&gt;In any case, the trouble was that my lag on ending Project Three meant I was already bleeding
-into the time where everyone else was working on Project Four.  And if that wasn’t enough
-I have started my research and work leading to my next Investigation.&lt;/p&gt;
-
-&lt;p&gt;My focus is wildly split now.  And Project Three is the only thing where there’s no real pressure.
-The others have deadlines.  Nonetheless, there’s one thing I wish to do before I publish Project
-Three… so it’s gonna linger for a bit…&lt;/p&gt;
-
-&lt;p&gt;In any case, Project Four is NLP and Unsupervised Learning, both of which can be… umm… a
-tad weird.  I chose two optional scopes for the project.  We each had a private meeting with
-the instructors to go over these.  Yet again, I found myself with an incorrect assessment of
-which would be harder.  I knew which would be more direct and in line with the lectures, etc.
-But it’s not just that the other would be a bit harder… apparently it would have been much
-more difficult in the time frame available.  In my scope review meeting with the instructors, I
-asked about how we would measure success for this project.  The previous two projects had various
-metrics.  The response was interesting…&lt;/p&gt;
-
-&lt;p&gt;“When you have something that makes sense.”&lt;/p&gt;
-
-&lt;p&gt;Well… a bit of experimentation with Topic Modeling, and I have a much deeper appreciation for
-that statement.&lt;/p&gt;
-
-&lt;p&gt;Another intriguing aspect of this project is that I may actually take advantage of the AWS servers.
-I may not truly need such if I limit my scope.  But to scale up, it seems very likely I’ll actually
-benefit.  I don’t need an EC2 instance for MongoDB.  I just dumped stuff to my local MongoDB server
-I had running since Project Two.  But, I may need some extra horsepower.  We’ll have to see what I
-can accomplish…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Fletcher began a while ago…</summary></entry></feed>
+tunnel vision.  That’s part of why we need the practice.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Pair Programming has given way to Live Programming.</summary></entry></feed>
