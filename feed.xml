@@ -1,5 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-05-11T14:30:54+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">DataCamp - a Beginning</title><link href="/datacamp/2018/05/11/DataCamp/" rel="alternate" type="text/html" title="DataCamp - a Beginning" /><published>2018-05-11T00:00:00+00:00</published><updated>2018-05-11T00:00:00+00:00</updated><id>/datacamp/2018/05/11/DataCamp</id><content type="html" xml:base="/datacamp/2018/05/11/DataCamp/">&lt;p&gt;I’ve started to pursue lessons via DataCamp.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-05-25T16:37:03+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">IIT Beginnings</title><link href="/iit/2018/05/25/IIT-Beginnings/" rel="alternate" type="text/html" title="IIT Beginnings" /><published>2018-05-25T00:00:00+00:00</published><updated>2018-05-25T00:00:00+00:00</updated><id>/iit/2018/05/25/IIT-Beginnings</id><content type="html" xml:base="/iit/2018/05/25/IIT-Beginnings/">&lt;p&gt;I am a student once again!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Joseph_Hamilton_Juji_Profile.png&quot; alt=&quot;Juji Profile &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I met an IIT grad last night at a meetup.  I told her I was an IIT student.  She thought I meant an alum.&lt;/p&gt;
+
+&lt;p&gt;Nope.  I’m a bona fide IIT &lt;em&gt;student&lt;/em&gt;.  My first course on Recommender Systems starts in early July.&lt;/p&gt;
+
+&lt;p&gt;It is rather clear to me that I will be in mode of some rather serious self-training for quite a while.
+Indeed, in the Data Science arena, constant learning is pretty much required.&lt;/p&gt;
+
+&lt;p&gt;My TRA/TAA program is in an odd state of limbo.  Things are so backwards working with the government.
+I was supposed to have multiple options for comparison.  But for each option I needed to have been
+accepted, registered and have the complete curriculum mapped out such that the institution could send
+the government a letter testifying to such.  Only IIT was nimble enough to make this work for the
+time constraints I faced.&lt;/p&gt;
+
+&lt;p&gt;Call out to &lt;a href=&quot;https://appliedtech.iit.edu/people/nuala-power&quot;&gt;Nuala Power&lt;/a&gt;.  This woman knows how
+to make things happen quickly.&lt;/p&gt;
+
+&lt;p&gt;Depaul was just too slow to get back to me.  Their program would have been better to help me towards
+the Cloudera certs.  But ehh… I’ll do that on my own in time.&lt;/p&gt;
+
+&lt;p&gt;And University of Illinois… chuckle… sheesh those wheels are turning slowly.  But they are turning.
+They’ve sent me an email that they received my application… weeks after they received it.  I think
+this means it bumped from one stage in the process to another.  If I do get accepted, I’ll have to
+determine what to do at that point.  I’ll probably beg for a deferral.  I &lt;strong&gt;will not&lt;/strong&gt; be able to
+do it while under the oversight of TRA.  The government is very clear on this point.  If they’re
+involved and pay for something they approved, thou shalt not pay for anything else, anywhere else
+on your own.&lt;/p&gt;
+
+&lt;p&gt;But, the wrinkle is what happens when I get a job.  I’m getting mixed signals.  But it seems that
+I &lt;em&gt;can&lt;/em&gt; drop everything at my whim.  Or I can complete any courses underway.  However, support for
+completing the previously approved program may end.  Furthermore, because my first IIT course has
+an odd schedule, we’re going to apply for another waiver and then apply for final approval.  This
+is what I mean about things being in limbo.  I have not yet actually been approved.&lt;/p&gt;
+
+&lt;p&gt;So… in theory… if I get a job in the very near future this IIT program may simply evaporate.&lt;/p&gt;
+
+&lt;p&gt;Oh well.&lt;/p&gt;
+
+&lt;p&gt;None of that matters so much to IIT.  They’re comfortable with the odd aspects of these governmental
+things.  So I’m fully registered with my own new IIT email and such.&lt;/p&gt;
+
+&lt;p&gt;The course instructor sent me a request to help him get to know me.  Silly me.  I thought this meant
+send him an email.  No.  He provided a link to a Juji chatbot session.  This was quite a bizarre
+experience.  I essentially had an interview with an AI.  At the end of it, &lt;a href=&quot;https://juji.ai/post-chat/5b080a1e-38a3-43c2-b196-8bcb2e5c3305/share&quot;&gt;Juji provided me an
+assessment of my strengths&lt;/a&gt;. 
+This would be cute on its own.  But it actually dovetails with some of the more rigorous assessments
+I’ve done recently.  So much so that it was creepy if it pulled all that from a short interview.&lt;/p&gt;
+
+&lt;p&gt;For example, here’s a snippet from a Birkman Assessment.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Your Usual Style is the proactive, positive, and adaptable behavior you have learned to
+use to achieve successful outcomes. These strength behaviors help you work
+productively and are often seen as your strengths by others. Strength behaviors are
+comfortable and easy for you to use.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Your Usual Style is:&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Friendly, decisive and energetic&lt;/li&gt;
+    &lt;li&gt;Socially sensitive&lt;/li&gt;
+    &lt;li&gt;Fairly methodical in your approach&lt;/li&gt;
+    &lt;li&gt;Fairly assertive without being domineering&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;&lt;strong&gt;In describing yourself to others indicate that:&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;You are responsive to a variety of demands&lt;/li&gt;
+    &lt;li&gt;You encourage healthy competition&lt;/li&gt;
+    &lt;li&gt;You pay attention to detail and follow through&lt;/li&gt;
+    &lt;li&gt;You spend enough time on decisions that mistakes are not made due to hasty action&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;Hmm…&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Training" /><summary type="html">I am a student once again!</summary></entry><entry><title type="html">DataCamp - a Beginning</title><link href="/datacamp/2018/05/11/DataCamp/" rel="alternate" type="text/html" title="DataCamp - a Beginning" /><published>2018-05-11T00:00:00+00:00</published><updated>2018-05-11T00:00:00+00:00</updated><id>/datacamp/2018/05/11/DataCamp</id><content type="html" xml:base="/datacamp/2018/05/11/DataCamp/">&lt;p&gt;I’ve started to pursue lessons via DataCamp.&lt;/p&gt;
 
 &lt;p&gt;Training in all sorts of things related to Data Science and Data Engineering is going to keep me relatively
 busy for quite a while.&lt;/p&gt;
@@ -538,63 +617,4 @@ you’d baked into the presentation.  It’s a very weird thing.&lt;/p&gt;
 
 &lt;p&gt;Nonetheless, this is a one of the most key benefits of this bootcamp.  We’re learning time management
 and prioritization skills relative to projects overall.  We’re being forced to turning things around in
-an iterative fashion where we can present things at various stages along the way.  This is invaluable.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Fletcher is coming to a close…</summary></entry><entry><title type="html">Bootcamp - Live Programming</title><link href="/metis/2018/03/08/Bootcamp-Live-Programming/" rel="alternate" type="text/html" title="Bootcamp - Live Programming" /><published>2018-03-08T00:00:00+00:00</published><updated>2018-03-08T00:00:00+00:00</updated><id>/metis/2018/03/08/Bootcamp-Live-Programming</id><content type="html" xml:base="/metis/2018/03/08/Bootcamp-Live-Programming/">&lt;p&gt;Pair Programming has given way to Live Programming.&lt;/p&gt;
-
-&lt;p&gt;Pair Programming is a key part of the daily routine in the Metis Data Science Bootcamp.  Almost every day begins with
-approximately half-an-hour devoted to it.  About the only exception to this is any day devoted to Project
-presentations.&lt;/p&gt;
-
-&lt;p&gt;What we &lt;strong&gt;DO&lt;/strong&gt; for Pair Programming varies quite a bit.&lt;/p&gt;
-
-&lt;p&gt;It &lt;strong&gt;FEELS&lt;/strong&gt; almost as if they set things up to catch you off guard.  We’ll go days with what are essentially
-your standard programming tutorial challenges.  Little coding challenges you can find on any website you could
-use to help you learn programming.  The thing here is that once you’ve seen a good number of these, they sort
-of stick in your memory and you can just draw upon that to make things work.  And since you’re in a &lt;strong&gt;pair&lt;/strong&gt;,
-there’s a reasonably good chance one of you can remember what to do.  Then all of a sudden, out of the blue,
-we get a challenge to code one of the algorithms we use for regression or modeling entirely from scratch.&lt;/p&gt;
-
-&lt;p&gt;Another common variant is challenges which are really just walkthroughs.  These are actually harder than they
-seem because of the time constraint.  I quite often come nowhere near finishing those.&lt;/p&gt;
-
-&lt;p&gt;Well, we’ve finally switched` to “Live Programming”.  Rarely Pair Programming has been Solo.  Sometimes they do
-want to ensure you can do it on your own.  Well, Live Programming is entirely Solo… sort of.&lt;/p&gt;
-
-&lt;p&gt;What happens is someone is picked (supposedly) at random.  I say supposedly because it seemed very coincidental
-I got selected immediately after asking whether the sampling was with replacement.  Kendall, who was selected
-yesterday responded with a vehement NO.  This person who was selected must go up front and hook up their laptop
-to the projector.  Between that and the white board, they respond to a challenge given by the instructors.
-Everyone else must work on the same challenge… solo and in silence.  The person on the hot seat, can ask
-question, of course.  But nobody else can and everyone else cannot comment on the work of the one in the
-hot seat, neither to criticize, correct nor congratulate.&lt;/p&gt;
-
-&lt;p&gt;I daresay, if the last two days are anything to go on, we do much better when we’re not the one up front.
-My solution when Kendall was up front was good.  My solution when I went up front was OK.  But Nate had a
-better solution.  He was somewhat shy about it but Alice pushed him to go up and show off his solution.&lt;/p&gt;
-
-&lt;p&gt;We’re all used to going up and presenting after Pair Programming.  That’s usually how Pair Programming
-sessions end.  Times up and anyone who has a working solution can go up and present.  Then anyone else
-who had a solution significantly different can go up and also present.  So we’re used to presenting
-&lt;strong&gt;AFTER&lt;/strong&gt; coding.  It’s presenting &lt;strong&gt;WHILE&lt;/strong&gt; coding that’s the new thing.&lt;/p&gt;
-
-&lt;p&gt;This is all supposed to work to prepare us for all kinds of coding interview experiences.  We get feedback
-from the instructors afterwards.  And sometimes, the instructors change the request or objective of the
-challenge on the fly while you’re in progress.  They’re much more focused on your behavior than they
-are the specific techniques.  For example, I got a little guidance on legible variable names (actually
-sliding constants into variables named descriptively).  But I got called out specifically and majorly
-for two behavioral issues:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;I didn’t make use of the white board despite Alice suggesting I could.&lt;/li&gt;
-  &lt;li&gt;I didn’t pseudo-code first.  A bit later on I started using comments in a pseudo-code like way.
-But I should have started with pseudo-code first.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The feedback isn’t all negative.  Overall they were pleased with my performance.  I did talk a fair
-amount during the process (though I got quiet when wrestling with something in my head - something
-that should have been whiteboarded).  They liked that I tested my functions quickly and repeatedly
-while developing them.&lt;/p&gt;
-
-&lt;p&gt;Being on the hot seat adds a bit of pressure and discomfort for a lot of us.  That’s why, of course,
-we’re getting the practice.  It clouds your mind a bit.  For example, yesterday Kendall chose an approach
-based on strings.  I used math instead.  Many of these could be done a number of ways.  But Kendall has
-a strong Math background.  So I was surprised she chose strings.  When you’re up front, you tend to get
-tunnel vision.  That’s part of why we need the practice.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Pair Programming has given way to Live Programming.</summary></entry></feed>
+an iterative fashion where we can present things at various stages along the way.  This is invaluable.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Fletcher is coming to a close…</summary></entry></feed>
