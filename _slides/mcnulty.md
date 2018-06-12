@@ -3,7 +3,7 @@ title: Classification Analysis of Chicago Crime Statistics
 description: Web presentation on Classification Analysis
 date: 2018-02-20
 layout: slide
-transition: page
+transition: slide
 theme: black_hex
 center: false
 width: 90% 
@@ -23,6 +23,12 @@ display: block;
 }
 .reveal ul{
 text-align: left;
+}
+.reveal .controls .navigate-left, .reveal .controls .navigate-right {
+    color: green;
+}
+.reveal .controls .navigate-down, .reveal .controls .navigate-up {
+    display: none;
 }
 </style>
 
