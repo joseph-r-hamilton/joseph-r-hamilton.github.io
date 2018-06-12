@@ -1,6 +1,6 @@
 ---
-title: Presentation in Jekyll
-description: Web presentation in Jekyll using Reveal.js
+title: Investigation: Docker
+description: Web presentation on Docker
 date: 2018-02-05
 layout: slide
 theme: serif

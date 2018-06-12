@@ -1,6 +1,6 @@
 ---
-title: Luther
-description: Presentation of the Luther Project
+title: Linear Regression - Neighborhood Longevity
+description: Web Presentation of the Luther Project
 date: 2018-02-02T00:00:00.000Z
 layout: slide
 theme: beige

@@ -1,6 +1,6 @@
 ---
-title: Presentation in Jekyll
-description: Web presentation in Jekyll using Reveal.js
+title: Topic Modeling of Reddit Comments
+description: Web Presentation on Topic Modeling
 date: 2018-03-09
 layout: slide
 theme: league

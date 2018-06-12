@@ -1,6 +1,6 @@
 ---
-title: Presentation in Jekyll
-description: Web presentation in Jekyll using Reveal.js
+title: Classification Analysis of Chicago Crime Statistics
+description: Web presentation on Classification Analysis
 date: 2018-02-20
 layout: slide
 transition: page
