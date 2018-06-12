@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html class="ocks-org do-not-copy">
+<meta charset="utf-8">
+<title>D3 + Leaflet</title>
+<style>
+
+@import url(//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.css);
+/*@import url(style.css);*/
+
+#map {
+  width: 360px;
+  height: 500px;
+}
+
+svg {
+  position: relative;
+}
+
+
+path {
+  fill: #000;
+  fill-opacity: .2;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 80px;					
+    height: 35px;					
+    padding: 2px;				
+    font: 10px sans-serif;		
+    background: palegoldenrod;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+</style>
+
+<p id="map">
+<p style="color:white;font-size:12px;text-align:right">Powered by D3.js and Leaflet</p>
+
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/leaflet.js"></script>
+
+<script src="https://d3js.org/d3-color.v1.min.js"></script>
+<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+<script>
+
+var map = new L.Map("map", {center: [41.828, -87.753], zoom: 10})
+    .addLayer(new L.TileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"));
+
+map.doubleClickZoom.disable();
+
+var svg = d3.select(map.getPanes().overlayPane).append("svg"),
+    g = svg.append("g").attr("class", "leaflet-zoom-hide");
+
+var tip_div = d3.select("body").append("div")	
+    .attr("class", "tooltip")				
+    .style("opacity", 0)
+    .style("top", "100px");
+
+var state = 0;
+
+d3.json("Wards_2017.json", function(error, collection) {
+  if (error) throw error;
+
+  var transform = d3.geo.transform({point: projectPoint}),
+      path = d3.geo.path().projection(transform);
+
+  var feature = g.selectAll("path")
+      .data(collection.features)
+    .enter().append("path")
+    .on('mouseenter', function(d) {
+      d3.select(this).style({
+  	'fill-opacity': 1
+      });
+      tip_div.transition()		
+          .duration(200)		
+          .style("opacity", .9);		
+      tip_div.html("Ward " + d.properties.ward + "<br/>"  
+		+ d.properties.reports + " reports <br/> "
+		+ parseFloat(d.properties.arrest_chance*100).toFixed(2) + "% arrests"
+		)	
+          .style("left", (d3.event.pageX - 80) + "px")		
+          .style("top", (d3.event.pageY - 15) + "px");	
+    })
+    .on('mouseout', function() {
+      if (state % 2 == 0) {
+      d3.select(this).style({
+  	'fill-opacity': 0.2
+      });
+      }
+      tip_div.transition()		
+          .duration(200)		
+          .style("opacity", 0);		
+    })
+    .on('click', function(d) {
+      if (state % 4 == 0) {
+      d3.select(this).style({
+       	 fill: d3.interpolateYlGn(d.properties.reports / d.properties.max)
+      })
+      } else if (state % 2 == 0) {
+      d3.select(this).style({
+        fill: d3.interpolateRdBu(1-d.properties.arrest_chance*2)
+      })
+      }
+    })
+    .on('dblclick', function() {
+      d3.selectAll('path').each(function(d){
+      if (state % 4 == 0) {
+      	d3.select(this).style({
+       	 fill: d3.interpolateYlGn(d.properties.reports / d.properties.max)
+      	})
+        d3.select(this).style({
+    	  'fill-opacity': 1
+        })
+      } else if (state % 2 == 1) {
+        d3.select(this).style({
+    	  'fill-opacity': 0.2,
+           fill: '#000'
+        })
+      } else {
+      	d3.select(this).style({
+       	 fill: d3.interpolateRdBu(1-d.properties.arrest_chance*2)
+      	})
+        d3.select(this).style({
+    	  'fill-opacity': 1
+        })
+      }
+      });
+      state += 1;
+	
+    });
+
+  map.on("viewreset", reset);
+  reset();
+
+  // Reposition the SVG to cover the features.
+  function reset() {
+    var bounds = path.bounds(collection),
+        topLeft = bounds[0],
+        bottomRight = bounds[1];
+
+    svg .attr("width", bottomRight[0] - topLeft[0])
+        .attr("height", bottomRight[1] - topLeft[1])
+        .style("left", topLeft[0] + "px")
+        .style("top", topLeft[1] + "px");
+
+    g   .attr("transform", "translate(" + -topLeft[0] + "," + -topLeft[1] + ")");
+
+    feature.attr("d", path);
+  }
+
+  // Use Leaflet to implement a D3 geometric transformation.
+  function projectPoint(x, y) {
+    var point = map.latLngToLayerPoint(new L.LatLng(y, x));
+    this.stream.point(point.x, point.y);
+  }
+});
+
+</script>
+

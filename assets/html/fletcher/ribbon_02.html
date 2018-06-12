@@ -1,0 +1,487 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ribbon 2</title>
+	<script src="/assets/plotly.js/v1.34.0/plotly.min.js"></script>
+</head>
+<body>
+<!-- <div id="ribbon" style="width:600px;height:400px;"></div> -->
+<div id="ribbon" style="width:1000px;height:600px;"></div>
+<script>
+var cs = 'Rainbow'
+var topic = 6
+Plotly.d3.json('/assets/html/fletcher/ribbon-02.json', function(figure){
+        
+  var series0 = {
+      x: figure.data[topic].series[0].x,
+      y: figure.data[topic].series[0].y,
+      z: figure.data[topic].series[0].z,
+      name: figure.data[topic].series[0].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series1 = {
+      x: figure.data[topic].series[1].x,
+      y: figure.data[topic].series[1].y,
+      z: figure.data[topic].series[1].z,
+      name: figure.data[topic].series[1].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series2 = {
+      x: figure.data[topic].series[2].x,
+      y: figure.data[topic].series[2].y,
+      z: figure.data[topic].series[2].z,
+      name: figure.data[topic].series[2].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series3 = {
+      x: figure.data[topic].series[3].x,
+      y: figure.data[topic].series[3].y,
+      z: figure.data[topic].series[3].z,
+      name: figure.data[topic].series[3].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series4 = {
+      x: figure.data[topic].series[4].x,
+      y: figure.data[topic].series[4].y,
+      z: figure.data[topic].series[4].z,
+      name: figure.data[topic].series[4].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series5 = {
+      x: figure.data[topic].series[5].x,
+      y: figure.data[topic].series[5].y,
+      z: figure.data[topic].series[5].z,
+      name: figure.data[topic].series[5].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series6 = {
+      x: figure.data[topic].series[6].x,
+      y: figure.data[topic].series[6].y,
+      z: figure.data[topic].series[6].z,
+      name: figure.data[topic].series[6].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series7 = {
+      x: figure.data[topic].series[7].x,
+      y: figure.data[topic].series[7].y,
+      z: figure.data[topic].series[7].z,
+      name: figure.data[topic].series[7].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series8 = {
+      x: figure.data[topic].series[8].x,
+      y: figure.data[topic].series[8].y,
+      z: figure.data[topic].series[8].z,
+      name: figure.data[topic].series[8].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series9 = {
+      x: figure.data[topic].series[9].x,
+      y: figure.data[topic].series[9].y,
+      z: figure.data[topic].series[9].z,
+      name: figure.data[topic].series[9].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series10 = {
+      x: figure.data[topic].series[10].x,
+      y: figure.data[topic].series[10].y,
+      z: figure.data[topic].series[10].z,
+      name: figure.data[topic].series[10].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series11 = {
+      x: figure.data[topic].series[11].x,
+      y: figure.data[topic].series[11].y,
+      z: figure.data[topic].series[11].z,
+      name: figure.data[topic].series[11].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series12 = {
+      x: figure.data[topic].series[12].x,
+      y: figure.data[topic].series[12].y,
+      z: figure.data[topic].series[12].z,
+      name: figure.data[topic].series[12].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series13 = {
+      x: figure.data[topic].series[13].x,
+      y: figure.data[topic].series[13].y,
+      z: figure.data[topic].series[13].z,
+      name: figure.data[topic].series[13].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series14 = {
+      x: figure.data[topic].series[14].x,
+      y: figure.data[topic].series[14].y,
+      z: figure.data[topic].series[14].z,
+      name: figure.data[topic].series[14].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series15 = {
+      x: figure.data[topic].series[15].x,
+      y: figure.data[topic].series[15].y,
+      z: figure.data[topic].series[15].z,
+      name: figure.data[topic].series[15].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series16 = {
+      x: figure.data[topic].series[16].x,
+      y: figure.data[topic].series[16].y,
+      z: figure.data[topic].series[16].z,
+      name: figure.data[topic].series[16].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series17 = {
+      x: figure.data[topic].series[17].x,
+      y: figure.data[topic].series[17].y,
+      z: figure.data[topic].series[17].z,
+      name: figure.data[topic].series[17].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series18 = {
+      x: figure.data[topic].series[18].x,
+      y: figure.data[topic].series[18].y,
+      z: figure.data[topic].series[18].z,
+      name: figure.data[topic].series[18].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series19 = {
+      x: figure.data[topic].series[19].x,
+      y: figure.data[topic].series[19].y,
+      z: figure.data[topic].series[19].z,
+      name: figure.data[topic].series[19].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series20 = {
+      x: figure.data[topic].series[20].x,
+      y: figure.data[topic].series[20].y,
+      z: figure.data[topic].series[20].z,
+      name: figure.data[topic].series[20].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series21 = {
+      x: figure.data[topic].series[21].x,
+      y: figure.data[topic].series[21].y,
+      z: figure.data[topic].series[21].z,
+      name: figure.data[topic].series[21].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series22 = {
+      x: figure.data[topic].series[22].x,
+      y: figure.data[topic].series[22].y,
+      z: figure.data[topic].series[22].z,
+      name: figure.data[topic].series[22].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series23 = {
+      x: figure.data[topic].series[23].x,
+      y: figure.data[topic].series[23].y,
+      z: figure.data[topic].series[23].z,
+      name: figure.data[topic].series[23].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series24 = {
+      x: figure.data[topic].series[24].x,
+      y: figure.data[topic].series[24].y,
+      z: figure.data[topic].series[24].z,
+      name: figure.data[topic].series[24].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series25 = {
+      x: figure.data[topic].series[25].x,
+      y: figure.data[topic].series[25].y,
+      z: figure.data[topic].series[25].z,
+      name: figure.data[topic].series[25].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series26 = {
+      x: figure.data[topic].series[26].x,
+      y: figure.data[topic].series[26].y,
+      z: figure.data[topic].series[26].z,
+      name: figure.data[topic].series[26].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series27 = {
+      x: figure.data[topic].series[27].x,
+      y: figure.data[topic].series[27].y,
+      z: figure.data[topic].series[27].z,
+      name: figure.data[topic].series[27].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series28 = {
+      x: figure.data[topic].series[28].x,
+      y: figure.data[topic].series[28].y,
+      z: figure.data[topic].series[28].z,
+      name: figure.data[topic].series[28].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series29 = {
+      x: figure.data[topic].series[29].x,
+      y: figure.data[topic].series[29].y,
+      z: figure.data[topic].series[29].z,
+      name: figure.data[topic].series[29].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series30 = {
+      x: figure.data[topic].series[30].x,
+      y: figure.data[topic].series[30].y,
+      z: figure.data[topic].series[30].z,
+      name: figure.data[topic].series[30].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var series31 = {
+      x: figure.data[topic].series[31].x,
+      y: figure.data[topic].series[31].y,
+      z: figure.data[topic].series[31].z,
+      name: figure.data[topic].series[31].subreddit,
+      colorscale: cs,
+      zauto: false,
+      zmin: 0,
+      zmax: figure.data[topic].zmax,
+      type: 'surface',
+      showscale: false
+  }            
+            
+  var data = [series0, series1, series2, series3, series4, series5, series6, series7, series8, series9, series10, series11, series12, series13, series14, series15, series16, series17, series18, series19, series20, series21, series22, series23, series24, series25, series26, series27, series28, series29, series30, series31];
+        
+
+  var layout = {
+    title: 'Topic - Infinity War Trailer',
+    titlefont: {
+	family: 'Old Standard TT, serif',
+	size: 24
+    },	
+   showlegend: false,
+   scene: {
+     xaxis: {
+	title: 'Subreddit',
+	showticklabels: false,
+	titlefont: {
+            family: 'Old Standard TT, serif',
+            size: 18
+        }
+    },
+    yaxis: {
+	title: 'Time',
+	tickvals: [0,4,8,12,16,20,24],
+	titlefont: {
+            family: 'Old Standard TT, serif',
+            size: 18
+        }
+	//type: 'date',
+	//showticklabels: true,
+	//tickformat: '%H:%M',
+	//range: [1517788800000,1517875191000]
+    },
+    zaxis: {
+	title: 'Volume',
+	titlefont: {
+            family: 'Old Standard TT, serif',
+            size: 18
+        }	
+    },
+    width: 1200
+  },
+  margin: {
+    l: 50,
+    r: 50,
+    b: 5,
+    t: 50    
+  },
+  width: 1200
+};
+Plotly.newPlot('ribbon', data, layout);
+}); 
+</script>
+
+</body>
+</html>
+
+        
