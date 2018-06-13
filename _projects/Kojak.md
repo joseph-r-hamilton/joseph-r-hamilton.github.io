@@ -22,5 +22,4 @@ accent_image: /assets/img/projects/Kojak/Kojak_sidebar-bg.jpg
 
 # Project Kojak - Big Data, Unsupervised Learning - Anomaly Detection
 
-## In Progress
-
+* [Final Presentation](/slides/kojak/){:target="_blank"} 

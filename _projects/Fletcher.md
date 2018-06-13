@@ -22,5 +22,4 @@ accent_image: /assets/img/projects/Fletcher/Fletcher_sidebar-bg.jpg
 
 # Project Fletcher - No-SQL Database Management, Unsupervised Learning with a focus on Natural Language Processing (NLP) techniques
 
-## In Progress
-
+* [Final Presentation](/slides/fletcher/){:target="_blank"} 
