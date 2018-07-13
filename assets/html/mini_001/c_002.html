@@ -1,0 +1,625 @@
+<html>
+
+<head>
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="expires" content="-1">
+  <style>
+    circle {
+      /* fill, not color!! */
+      fill: blue;
+    }
+  </style>
+  <!-- Fixed -->
+  <script type="text/javascript" src="https://d3js.org/d3.v5.js"></script>
+  <script type="text/javascript" src="node_modules/d3-transition/dist/d3-transition.js"></script>
+</head>
+
+<body>
+  <script>
+    // Set up things
+    var margin = 50,
+      padding = 0.1,
+      width = 900,
+      height = 600;
+
+    // Setup
+    var svg = d3.select('body')
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height);
+
+    // Scale
+    var x_scale = d3.scaleLinear()
+      .range([margin, width - margin]);
+    var y_scale = d3.scaleLinear()
+      .range([height - margin, margin]);
+
+
+
+    function pad(ex) {
+      return [ex[0] - padding * (ex[1] - ex[0]),
+        ex[1] + padding * (ex[1] - ex[0])
+      ];
+    }
+
+    function alignScales(x, y) {
+      var x_d = x.domain();
+      var x_r = x.range();
+      var y_d = y.domain();
+      var y_r = y.range();
+      var x_ratio = (x_r[1] - x_r[0]) / (x_d[1] - x_d[0]);
+      var y_ratio = (y_r[0] - y_r[1]) / (y_d[1] - y_d[0]);
+      //console.log(`x_d: ${x_d}, x_r: ${x_r}, x_ratio: ${x_ratio}, `);
+      //console.log(`y_d: ${y_d}, y_r: ${y_r}, y_ratio: ${y_ratio}, `);
+
+      if (x_ratio > y_ratio) {
+        // We must reduce x_ratio by increasing domain
+        var more = (x_r[1] - x_r[0]) / y_ratio - (x_d[1] - x_d[0]);
+        x.domain([x_d[0] - more / 2, x_d[1] + more / 2])
+      } else if (y_ratio > x_ratio) {
+        // We must reduce y_ratio by increasing domain
+        var more = (y_r[0] - y_r[1]) / x_ratio - (y_d[1] - y_d[0]);
+        y.domain([y_d[0] - more / 2, y_d[1] + more / 2])
+      }
+    }
+
+    function draw(data) {
+      "use strict";
+
+      console.log(data);
+      var points = svg.selectAll("g")
+        .data(data, function(d) {
+          return d.id;
+        })
+        .enter()
+        .append("g")
+        .attr("class", "point")
+        ;
+      points.append("circle");
+      points.append("text")
+      .attr("text-anchor", "middle")
+      .style("alignment-baseline", "central")
+      ;
+
+      // Extent
+      var x_extent = d3.extent(data, function(d) {
+        return d.x
+      });
+      var y_extent = d3.extent(data, function(d) {
+        return d.y
+      });
+
+      // Scale
+      x_scale.domain(pad(x_extent));
+      y_scale.domain(pad(y_extent));
+
+      alignScales(x_scale, y_scale);
+      //alignScales(x_scale,y_scale);
+
+      // Axis
+      var x_axis = d3.axisBottom(x_scale);
+      d3.select("svg")
+        .append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + (height - margin) + ")")
+        .call(x_axis);
+      var y_axis = d3.axisLeft(y_scale);
+      d3.select("svg")
+        .append("g")
+        .attr("class", "y axis")
+        .attr("transform", "translate(" + margin + ", 0 )")
+        .call(y_axis);
+
+      svg.append("text")
+        .text("X")
+        .attr("transform", "translate(" +
+          width / 2 + "," +
+          (height - margin * .25) +
+          ")")
+        .attr("text-anchor", "middle");
+      svg.append("text")
+        .text("Y")
+        .attr("transform", "rotate(-90) translate(" +
+          (-height / 2) + "," +
+          (margin * .25) +
+          ")")
+        .attr("text-anchor", "middle");
+
+      points
+          .attr("data-x", function(d) {
+            return x_scale(d.x);
+          })
+          .attr("data-y", function(d) {
+            return y_scale(d.y);
+          })
+          .attr("transform", function(d) {
+            return `translate(${x_scale(d.x)},${y_scale(d.y)})`;
+          })
+          ;
+      points.selectAll("circle")
+        .attr("cx", "0")
+        .attr("cy", "0")
+        .attr("r", 10);
+        points.selectAll("text")
+          .style("fill", "white")
+          .text("");
+      return points;
+    }
+
+    function delay(t, v) {
+       return new Promise(function(resolve) {
+           setTimeout(resolve.bind(null, v), t)
+       });
+    }
+    Promise.prototype.delay = function(t) {
+        return this.then(function(v) {
+            return delay(t, v);
+        });
+    }
+
+    function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    function LineDown(points) {
+      // Sort the points so the tweening is efficient
+      var point_nodes = points.sort((a,b) => b.y - a.y || b.x - a.x).nodes();
+      // Mark the bottom most point
+      d3.select(point_nodes[point_nodes.length - 1])
+        .attr("data-type", "vertex");
+      var bottom =  +point_nodes[point_nodes.length - 1]
+        .attributes['data-y'].value;
+
+      var line = svg.append("g")
+        .attr("class", "start_locator")
+        .append("line")
+        .attr("y1", margin).attr("x1", margin)
+        .attr("y2", margin).attr("x2", width - margin)
+        .attr("stroke", "black");
+      var c1, c2;
+      c1 = c2 = 0;
+
+      return new Promise(function(resolve) {
+        line.transition()
+          .duration(1750)
+          .attr("y1", bottom)
+          .attr("y2", bottom)
+          .tween("linedown", function() {
+            //console.log(csn);
+            return function(t) {
+              //console.log(`c1: ${c1}, c2: ${c2}`);
+              //console.log(`${line.attr("y1")}, ${+point_nodes[0].attributes['data-y'].value}`);
+              for (var i = c1; i < point_nodes.length &&
+                +point_nodes[i].attributes['data-y'].value - 10 <= line.attr("y1"); i++
+              ) {
+                //console.log(`On: ${line.attr("y1")}, ${+point_nodes[i].attributes['data-y'].value}`);
+                d3.select(point_nodes[i]).select("circle").style("fill", "red").attr("r", 15);
+                c1 = i + 1;
+              }
+              for (var i = c2; i < point_nodes.length &&
+                +point_nodes[i].attributes['data-y'].value + 15 < line.attr("y1"); i++
+              ) {
+                //console.log(`Off: ${line.attr("y1")}, ${+point_nodes[i].attributes['data-y'].value}`);
+                d3.select(point_nodes[i]).select("circle").style("fill", "blue").attr("r", 10);
+                c2 = i + 1;
+              }
+              //console.log(`c1: ${c1}, c2: ${c2}`);
+            };
+          })
+          .on("end", resolve.bind(null, point_nodes))
+          //.on("end", resolve)
+      });
+    }
+
+    function LineLeft(point_nodes) {
+      // LINE LEFT //
+      var c2 = point_nodes.length - 1;
+      var bottom =  +point_nodes[c2].attributes['data-y'].value;
+      var leftest = +point_nodes[c2].attributes['data-x'].value;
+      for (; +point_nodes[c2].attributes['data-y'].value == bottom; c2--);
+      c2++;
+      var line2 = svg.select("g.start_locator")
+        .append("line")
+        .attr("y1", margin).attr("x1", +point_nodes[c2].attributes['data-x'].value)
+        .attr("y2", height - margin).attr("x2", +point_nodes[c2].attributes['data-x'].value)
+        .attr("stroke", "black");
+
+      return new Promise(function(resolve) {
+
+        line2.transition()
+          .duration(250)
+          .attr("x1", leftest)
+          .attr("x2", leftest)
+          .tween("lineleft", function() {
+            return function(t) {
+              for (var i = c2; i < point_nodes.length &&
+                +point_nodes[i].attributes['data-x'].value > line2.attr("x1"); i++
+              ) {
+                d3.select(point_nodes[i])
+                  .select("circle")
+                    .style("fill", "blue")
+                    .attr("r", 10);
+                c2 = i + 1;
+              }
+            };
+          })
+          .on("end", resolve)
+          ;
+      });
+    }
+
+    function RayRotate() {
+      svg.select("g.start_locator").remove();
+      /* Let's calculate angles and sort the points accordingly. */
+      //var start = cs.filter(".vertex");
+      //var points = cs.filter(".point")
+      var g_points = svg.selectAll("g.point");
+      var start = g_points.filter('[data-type = "vertex"]');
+      start.each( (d) => d['distance'] = d['angle'] = 0 );
+      g_points.filter(':not([data-type = "vertex"])')
+        .each(function(d) {
+          var s = start.datum();
+          d['distance'] = Math.sqrt((d.x - s.x) ** 2 + (d.y - s.y) ** 2);
+          d['angle'] = Math.acos((d.x - s.x) / d.distance);
+        });
+      g_points = g_points
+        .sort(function(a, b) {
+          return a.angle - b.angle || a.distance - b.distance;
+        });
+      var points = g_points.filter(':not([data-type = "vertex"])');
+      points.select("circle")
+        .attr("r", 10)
+        .style("fill", "blue");
+
+      // Ray rotation
+      //console.log(start.node());
+      var ray = svg.append("g")
+        .attr("transform", `translate(${
+          +start.node().attributes['data-x'].value
+        },${
+          +start.node().attributes['data-y'].value
+        })`)
+        .append("line")
+        .attr("stroke", "black")
+        .attr("y1", 0).attr("x1", 0)
+        .attr("y2", 0).attr("x2", width * 2)
+        .attr("transform", "rotate(0)");
+      // How about a scale for a color gradient?
+      // This will do the trick after normalizing the input.
+      //.style("fill", d3.interpolateWarm(0.3))
+
+      //console.log(points.data());
+      //console.log(start.datum());
+      return new Promise(function(resolve) {
+        var newAngle = points.data()[points.data().length-1].angle;
+        ray.transition()
+          .delay(100)
+          .duration(500)
+          .attr("transform", `rotate(${
+            - newAngle * (180/Math.PI)
+          })`)
+          .tween("rayround", function() {
+            c1 = 0;
+            return function(t) {
+              var angle = d3.interpolateNumber(0,newAngle)(t);
+              //console.log(`angle: ${angle}  p: ${points.data()[0].angle}`);
+              for (var i = c1; i < points.data().length &&
+                points.data()[i].angle <= angle; i++
+              ) {
+                d3.select(points.nodes()[i])
+                  .select("circle")
+                  .style('fill', d3.interpolateWarm(
+                    angle / points.data()[points.data().length - 1].angle
+                  ));
+                d3.select(points.nodes()[i])
+                  .select("text")
+                  .text(i+1)
+                  ;
+
+                c1 = i + 1;
+              }
+            }
+          })
+          .transition().delay(1000).remove()
+          .on("end", resolve)
+          ;
+      });
+    }
+    function OutwardBound_old() {
+      // Animate selection of outermost point along any angle
+      var g_points = svg.selectAll("g.point");
+      var start = g_points.filter('[data-type = "vertex"]');
+      var points = g_points.filter(':not([data-type = "vertex"])');
+      var by_angle = {};
+      points.each(function(d){
+        s = String(d.angle);
+        if (by_angle[s]) {
+          by_angle[s].push(this);
+        } else {
+          by_angle[s] = [this];
+        }
+      });
+      //console.log(by_angle);
+      //console.log(Object.entries(by_angle));
+      for (var key in by_angle){
+        for(i=0;i<by_angle[key].length-1;i++) {
+          d3.select(by_angle[key][i])
+            .attr("data-type","inside");
+        }
+        d3.select(by_angle[key][i])
+          .attr("data-type","candidate");
+        svg.append("line")
+          .attr("class", "outbound")
+          .attr("x1",start.attr("data-x"))
+          .attr("x2",start.attr("data-x"))
+          .attr("y1",start.attr("data-y"))
+          .attr("y2",start.attr("data-y"))
+          .attr("stroke", "black");
+          ;
+      }
+      var candidates = g_points.filter('[data-type = "candidate"]');
+      return new Promise(function(resolve) {
+
+        d3.selectAll("line.outbound")
+          .transition()
+            .delay((d,i) => i*200)
+            .duration(1250)
+            .attr("x2", (d,i) => candidates.nodes()[i].attributes["data-x"].value)
+            .attr("y2", (d,i) => candidates.nodes()[i].attributes["data-y"].value)
+            .tween("outbound", (d,i,ns) => function (t) {
+              //console.log(t);
+              var a = String(candidates.data()[i].angle);
+              var d = t * candidates.data()[i].distance;
+              var p = d3.select(by_angle[a][0]);
+              if (p.datum().distance < d){
+                p.select("text").text("");
+                p.select("circle")
+                  .style("fill", "none")
+                  .style("stroke", "black")
+                  ;
+                by_angle[a].shift();
+              }
+              if (t == 1) {
+                p.select("text").text(i+1);
+                p.select("circle")
+                  .style("fill","blue")
+              }
+            })
+          .transition().delay(1000)
+          .on("end", () => {
+            d3.selectAll("line.outbound").remove();
+            resolve();
+          })
+          ;
+      });
+    }
+
+    async function OutwardBound() {
+      // Animate selection of outermost point along any angle
+      var g_points = svg.selectAll("g.point");
+      var start = g_points.filter('[data-type = "vertex"]');
+      var points = g_points.filter(':not([data-type = "vertex"])');
+      var by_angle = {};
+      points.each(function(d){
+        s = String(d.angle);
+        if (by_angle[s]) {
+          by_angle[s].push(this);
+        } else {
+          by_angle[s] = [this];
+        }
+      });
+      //console.log(by_angle);
+      //console.log(Object.entries(by_angle));
+      for (var key in by_angle){
+        for(i=0;i<by_angle[key].length-1;i++) {
+          d3.select(by_angle[key][i])
+            .attr("data-type","inside");
+        }
+        d3.select(by_angle[key][i])
+          .attr("data-type","candidate");
+        svg.append("line")
+          .attr("class", "outbound")
+          .attr("x1",start.attr("data-x"))
+          .attr("x2",start.attr("data-x"))
+          .attr("y1",start.attr("data-y"))
+          .attr("y2",start.attr("data-y"))
+          .attr("stroke", "black");
+          ;
+      }
+      var candidates = g_points.filter('[data-type = "candidate"]');
+      return new Promise(async function(resolve) {
+
+        await d3.selectAll("line.outbound")
+          .transition()
+            .delay((d,i) => i*200)
+            .duration(1250)
+            .attr("x2", (d,i) => candidates.nodes()[i].attributes["data-x"].value)
+            .attr("y2", (d,i) => candidates.nodes()[i].attributes["data-y"].value)
+            .tween("outbound", (d,i,ns) => function (t) {
+              //console.log(t);
+              var a = String(candidates.data()[i].angle);
+              var d = t * candidates.data()[i].distance;
+              var p = d3.select(by_angle[a][0]);
+              if (p.datum().distance < d){
+                p.select("text").text("");
+                p.select("circle")
+                  .style("fill", "none")
+                  .style("stroke", "black")
+                  ;
+                by_angle[a].shift();
+              }
+              if (t == 1) {
+                p.select("text").text(i+1);
+                p.select("circle")
+                  .style("fill","blue")
+              }
+            })
+          .end();
+        d3.selectAll("line.outbound").remove();
+        resolve();
+      });
+    }
+
+    function GrahamAddPoint (close=false) {
+      var vertices = svg.selectAll("g.point[data-type='vertex']");
+      var vn = vertices.nodes();
+
+      var last = d3.select(vn[vn.length-1]);
+      var previous = d3.select(vn[vn.length-2]);
+
+      if (close) {
+        last = d3.select(vn[0]);
+        previous = d3.select(vn[vn.length-1]);
+      }
+
+      var vertex = new Promise(function(resolve) {
+        last.select("text").text("");
+        last.select("circle")
+        .transition()
+        .duration(300)
+        .style("fill", "red")
+        .attr("r",15)
+        .on("end", resolve)
+        ;
+      });
+      var side = new Promise(function(resolve) {
+        svg.select("g.sides")
+          .append("line")
+            .attr("x1", previous.attr("data-x"))
+            .attr("x2", previous.attr("data-x"))
+            .attr("y1", previous.attr("data-y"))
+            .attr("y2", previous.attr("data-y"))
+            .attr("stroke", "black")
+            .attr("stroke-width", "5px")
+          .transition()
+          .duration(300)
+          .attr("x2", last.attr("data-x"))
+          .attr("y2", last.attr("data-y"))
+          .on("end", resolve)
+          ;
+      });
+      return Promise.all([vertex,side]);
+    }
+
+    async function GrahamTestStack () {
+      var vertices = svg.selectAll("g.point[data-type='vertex']");
+      var vn = vertices.nodes();
+      var v_last = d3.select(vn[vn.length-1]);
+      var v_previous = d3.select(vn[vn.length-2]);
+      var sides = svg.selectAll("g.sides line");
+      var sn = sides.nodes();
+      var s_last = d3.select(sn[sn.length-1]);
+      var s_previous = d3.select(sn[sn.length-2]);
+      var p = vertices.data().slice(vn.length-3);
+      var orientation = (p[1].y - p[0].y) * (p[2].x - p[1].x) -
+                        (p[1].x - p[0].x) * (p[2].y - p[1].y);
+      if (orientation != 0) {
+        orientation /= Math.abs(orientation);
+      }
+      s_last.attr("stroke", "orange");
+      v_previous.select("circle").style("fill", "orange");
+      s_previous.attr("stroke", "orange");
+
+      var triangle = svg.select("g.sides")
+        .insert("path","line")
+        .attr("d",`
+          M ${x_scale(p[1].x)},${y_scale(p[1].y)}
+          L ${x_scale(p[1].x)},${y_scale(p[1].y)}
+          L ${x_scale(p[1].x)},${y_scale(p[1].y)}
+          Z`)
+        .attr("fill", orientation == -1 ? "green": "red")
+        ;
+      await triangle.transition()
+        .duration(500)
+        .attr("d",`
+          M ${x_scale(p[0].x)},${y_scale(p[0].y)}
+          L ${x_scale(p[1].x)},${y_scale(p[1].y)}
+          L ${x_scale(p[2].x)},${y_scale(p[2].y)}
+          Z`)
+        .end()
+        ;
+      // Now determine what to do based on orientation...
+      if (orientation == -1) {
+        s_last.attr("stroke", "black");
+        v_previous.select("circle").style("fill", "red");
+        s_previous.attr("stroke", "black");
+      } else {
+        s_last.remove();
+        v_previous
+          .attr("data-type", "inside")
+          .select("circle")
+          .attr("r",10)
+          .style("fill", "none")
+          .style("stroke", "black");
+        s_previous.remove();
+        v_earlier = d3.select(vn[vn.length-3]);
+        svg.select("g.sides")
+          .append("line")
+            .attr("stroke", "black")
+            .attr("stroke-width", "5px")
+            .attr("x1", v_earlier.attr("data-x"))
+            .attr("y1", v_earlier.attr("data-y"))
+            .attr("x2", v_last.attr("data-x"))
+            .attr("y2", v_last.attr("data-y"))
+        ;
+      }
+      await triangle.transition()
+        .duration(500)
+        .attr("d",`
+          M ${x_scale(p[1].x)},${y_scale(p[1].y)}
+          L ${x_scale(p[1].x)},${y_scale(p[1].y)}
+          L ${x_scale(p[1].x)},${y_scale(p[1].y)}
+          Z`)
+        .end()
+        ;
+      triangle.remove();
+      return orientation == -1;
+
+    }
+
+    async function GrahamIteration () {
+      /*
+      Here we do the main iteration.  Add points to the stack and then
+      test the stack for convexity by testing orientation
+      */
+      // NOTE: Assumption - points already sorted as needed
+      svg.insert("g","g.point")
+        .attr("class", "sides");
+
+      // One-by-one, add candidates to the stack
+      for (
+        var candidate = svg.select("g.point[data-type='candidate']"), i=0;
+        candidate.nodes().length;
+        candidate = svg.select("g.point[data-type='candidate']"), i++
+      ) {
+        candidate.attr("data-type", "vertex");
+        await GrahamAddPoint();
+        if (i) {    // only start tests once stack has 3 or more
+          while (! await GrahamTestStack()) {};
+        }
+      }
+      await GrahamAddPoint(true);
+
+    }
+
+  </script>
+  <script>
+    "use strict";
+    d3.json(`c_002.json`)
+      .then(draw)
+      .delay(1250)
+      // Begin animation
+      .then(LineDown)
+      .delay(200)
+      .then(LineLeft)
+      .delay(200)
+      .then(RayRotate)
+      .delay(300)
+      .then(OutwardBound)
+      .delay(200)
+      .then(GrahamIteration)
+      ;
+  </script>
+</body>
+
+</html>

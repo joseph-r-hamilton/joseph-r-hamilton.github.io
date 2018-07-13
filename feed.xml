@@ -1,5 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-06-13T20:39:16+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
-</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">IIT Beginnings</title><link href="/iit/2018/05/25/IIT-Beginnings/" rel="alternate" type="text/html" title="IIT Beginnings" /><published>2018-05-25T00:00:00+00:00</published><updated>2018-05-25T00:00:00+00:00</updated><id>/iit/2018/05/25/IIT-Beginnings</id><content type="html" xml:base="/iit/2018/05/25/IIT-Beginnings/">&lt;p&gt;I am a student once again!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" hreflang="en" /><updated>2018-07-13T19:24:05+00:00</updated><id>/</id><title type="html">Joseph Hamilton - Solution Oriented Data Scientist</title><subtitle>A website by and for Joseph Hamilton. A place to explore projects and pursuits, to chase curiosities and catch dreams.
+</subtitle><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><entry><title type="html">D3 Mini-Project: Convex Hull</title><link href="/training/2018/07/13/D3-Mini-Project-01/" rel="alternate" type="text/html" title="D3 Mini-Project: Convex Hull" /><published>2018-07-13T00:00:00+00:00</published><updated>2018-07-13T00:00:00+00:00</updated><id>/training/2018/07/13/D3-Mini-Project-01</id><content type="html" xml:base="/training/2018/07/13/D3-Mini-Project-01/">&lt;p&gt;Take a look at a recent mini-project I have been playing with.&lt;/p&gt;
+
+&lt;p&gt;A number of things recently converged to prompt me to create a mini project to sharpen some skills.&lt;/p&gt;
+
+&lt;p&gt;I used D3 during the Data Science bootcamp.  I was the first to take advantage of it.  But during a
+recent technical interview, someone asked me how to do a particular thing in Javascript.  My answer
+was truthful, yet likely unsatisfactory.  I simply stated I wouldn’t have done that part in Javascript,
+but in Python and then feed that into Javascript.  That could be as straightforward as creating an
+appropriate Flask-based REST API.  Later upon researching this idea, I’m actually more confident on
+this point.  It’s not just that I only know to do it that way.  It may be important to do it that way
+for security purposes.&lt;/p&gt;
+
+&lt;p&gt;But that got me thinking that I really do need to become a polyglot and know how to do a variety of
+things in different ways using different languages.  Around the same time, I came aross an SQL challenge
+on the CodeSignal (formerly CodeFight) site.  The challenge expected you to use a hard-coded specific
+function to calculate the area of a &lt;a href=&quot;https://www.geeksforgeeks.org/convex-hull-set-2-graham-scan/&quot;&gt;convex hull&lt;/a&gt;.
+During the bootcamp David suggested to us that one way to learn something is to code it by yourself
+from scratch.  For some reason I had just recently reviewed the idea or concept that SQL was elevated
+to become an imperative language despite starting out strictly as a declarative language.  Furthermore,
+not only did SQL have standard functions for this, so too does the Python stack (in scipy).  I wanted
+to see how best to do this using numpy and pandas without scipy.&lt;/p&gt;
+
+&lt;p&gt;After getting Convex Hull working in procedural SQL and python, I decided to create a visualization to
+demonstrate or show the methodology of the Graham algortihm to determine the Convex Hull given a series
+of points.&lt;/p&gt;
+
+&lt;p&gt;This is somewhat of a work-in-progress.  I want to circle back here and polish things up a bit and then
+show the way area is calculated after the convex hull has been determined.  But here it is…&lt;/p&gt;
+
+&lt;p&gt;NOTE: I’ve not yet included buttons or a mechanism to restart or pause the demo.  If you didn’t catch
+it just refresh the page while you have the chart on screen.&lt;/p&gt;
+
+&lt;iframe class=&quot;fragment fade-in&quot; style=&quot;float:center&quot; width=&quot;800&quot; height=&quot;800&quot; src=&quot;/assets/html/mini_001/c_002.html&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;TODO: include Python and SQL code&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Javascript" /><summary type="html">Take a look at a recent mini-project I have been playing with.</summary></entry><entry><title type="html">University of Illinois</title><link href="/uofi/2018/07/10/University-of-Illinois/" rel="alternate" type="text/html" title="University of Illinois" /><published>2018-07-10T00:00:00+00:00</published><updated>2018-07-10T00:00:00+00:00</updated><id>/uofi/2018/07/10/University-of-Illinois</id><content type="html" xml:base="/uofi/2018/07/10/University-of-Illinois/">&lt;p&gt;I’ve been accepted into the &lt;a href=&quot;https://cs.illinois.edu/academics/graduate/professional-mcs-program/mcs-data-science-track&quot;&gt;UofI MSDS program&lt;/a&gt;!!&lt;/p&gt;
+
+&lt;p&gt;And… alas… I cannot do it.&lt;/p&gt;
+
+&lt;p&gt;This Masters in Data Science at University of Illinois Urbana-Champaign was without a shadow of a
+doubt the best thing I could have done to take advantage of the TAA support.&lt;/p&gt;
+
+&lt;p&gt;However, due to some oddities of time constraints of the TAA program, I had some hard deadlines.
+In order to get a TAA program approved you have to be accepted into a program and registered
+for classes.  You have to do this &lt;em&gt;before&lt;/em&gt; getting approval from the government.&lt;/p&gt;
+
+&lt;p&gt;The staff at UofI were helpful to a point.  They were relatively quick to direct me to the proper
+application process.  However, when I explained to them that I needed to be accepted, enrolled and
+registered in approximately two weeks they sort of dropped the issue suggesting this would be
+unfair to other applicants.&lt;/p&gt;
+
+&lt;p&gt;I can sort of understand this.  However, there is one aspect of this leads to believe it need not
+have been this way…  This particular masters program is &lt;em&gt;entirely&lt;/em&gt; online.  Why in the world
+would it have mattered to slip in one more remote student?&lt;/p&gt;
+
+&lt;p&gt;I contacted my career adviser at IDES to discuss options.  I had to fall back to IIT because I
+couldn’t get UofI to move quickly enough.  The staff at IIT know how to move quickly to help
+people in my situation.  It did not seem likely that we would be able to drop that and seek
+another approval.  Furthermore, once you are in a TAA approved program, you may not pay for
+course on your own.  I asked if we could get a waiver for this.  No luck.&lt;/p&gt;
+
+&lt;p&gt;So I had to inform UofI that the best I could do at this point is seek a deferral.  I might be
+able to purse this starting approximately a year from now.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Training" /><summary type="html">I’ve been accepted into the UofI MSDS program!!</summary></entry><entry><title type="html">IIT First Class</title><link href="/iit/2018/07/06/IIT-First-Class/" rel="alternate" type="text/html" title="IIT First Class" /><published>2018-07-06T00:00:00+00:00</published><updated>2018-07-06T00:00:00+00:00</updated><id>/iit/2018/07/06/IIT-First-Class</id><content type="html" xml:base="/iit/2018/07/06/IIT-First-Class/">&lt;p&gt;My first course at IIT has begun.&lt;/p&gt;
+
+&lt;p&gt;But it is not a class on Recommender Systems.  Oh well…&lt;/p&gt;
+
+&lt;p&gt;I had heard from some peers about the hustle one has to go through when you’ve already got
+an IDES/Worknet approved training plan and then the provider cancels the class.  So I wasn’t
+all that surprised when I had to endure the same fate.&lt;/p&gt;
+
+&lt;p&gt;Luckily for me the replacement course had exactly the same title and timeframe.  How can
+that be?  Well, IIT has an “advanced topics” sort of course in which they focus on a particular
+topic in this space: &lt;strong&gt;IIT ITMD 525 - Topics in Data Science and Management&lt;/strong&gt;.  Each semester
+there may be several such courses.  In the system, they all have this number and title.
+IIT cancelled the Recommender Systems course at the last minute supposedly due to low
+enrollment.  But when I bounced around for a replacement, I simply chose the course on
+MongoDB.&lt;/p&gt;
+
+&lt;p&gt;In one sense, I was a bit dismayed.  I felt this was somewhat redundant.  I’ve used MongoDB
+a number of times in the last few years.  However, I’ve learned recently that there is a
+difference between the awareness you get from cursorily using some tool or platform and
+the depth of knowledge you get from a deep dive.  I &lt;em&gt;knew&lt;/em&gt; SQL from years of use.  But I
+now know SQL much better after having the training in the Metis Science Bootcamp followed
+by plowing through the coursework on HackerRank, CodeSignal, DataCamp, etc.  I &lt;em&gt;knew&lt;/em&gt; Python.
+But I now know Python much better.  It’s the same sort of thing here with MongoDB.  There
+are all sorts of aspects of MongoDB you never need to consider for small projects yet which
+are critical for companies using MongoDB.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, after this course, I will prepare for and obtain the
+&lt;a href=&quot;https://university.mongodb.com/certification&quot;&gt;MongoDB certification&lt;/a&gt;.
+Not sure if I could have done anything similar for Recommender Systems.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Training" /><summary type="html">My first course at IIT has begun.</summary></entry><entry><title type="html">IIT Beginnings</title><link href="/iit/2018/05/25/IIT-Beginnings/" rel="alternate" type="text/html" title="IIT Beginnings" /><published>2018-05-25T00:00:00+00:00</published><updated>2018-05-25T00:00:00+00:00</updated><id>/iit/2018/05/25/IIT-Beginnings</id><content type="html" xml:base="/iit/2018/05/25/IIT-Beginnings/">&lt;p&gt;I am a student once again!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/Joseph_Hamilton_Juji_Profile.png&quot; alt=&quot;Juji Profile &quot; /&gt;&lt;/p&gt;
 
@@ -95,7 +184,108 @@ to practice algorithm X, I know exactly where to go for it.  HackerRank is more 
 problems and you can use anything to solve it.  Next, DataCamp has organized their coursework in career
 tracks.&lt;/p&gt;
 
-&lt;p&gt;Honestly, I’m not sure I’ll prioritize a single career track.  I plan on completing &lt;em&gt;everything&lt;/em&gt; on their site.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Python" /><category term="R" /><category term="SQL" /><summary type="html">I’ve started to pursue lessons via DataCamp.</summary></entry><entry><title type="html">Status Update</title><link href="/metis/2018/03/25/Status-Update/" rel="alternate" type="text/html" title="Status Update" /><published>2018-03-25T00:00:00+00:00</published><updated>2018-03-25T00:00:00+00:00</updated><id>/metis/2018/03/25/Status-Update</id><content type="html" xml:base="/metis/2018/03/25/Status-Update/">&lt;p&gt;Whew!  The first month post-bootcamp was busy!&lt;/p&gt;
+&lt;p&gt;Honestly, I’m not sure I’ll prioritize a single career track.  I plan on completing &lt;em&gt;everything&lt;/em&gt; on their site.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Python" /><category term="R" /><category term="SQL" /><summary type="html">I’ve started to pursue lessons via DataCamp.</summary></entry><entry><title type="html">Project Kojak Closing</title><link href="/project/kojak/2018/04/04/Project-Kojak-Closing/" rel="alternate" type="text/html" title="Project Kojak Closing" /><published>2018-04-04T00:00:00+00:00</published><updated>2018-04-04T00:00:00+00:00</updated><id>/project/kojak/2018/04/04/Project-Kojak-Closing</id><content type="html" xml:base="/project/kojak/2018/04/04/Project-Kojak-Closing/">&lt;p&gt;It’s the night before Career Day, and all through the house…&lt;/p&gt;
+
+&lt;p&gt;Wow.  What a ride!&lt;/p&gt;
+
+&lt;p&gt;I have not been blogging much these past couple of weeks.  I may end up back-creating a post or two
+here to describe the overall project.&lt;/p&gt;
+
+&lt;p&gt;At the moment, I’ll just try to describe what happened over the past three weeks.&lt;/p&gt;
+
+&lt;p&gt;I chose to extend Project Four in a loose sense.  The purpose and nature wasn’t really anything like
+the previous project.  The main similarity was the source of the data.&lt;/p&gt;
+
+&lt;p&gt;The goal - find trolls on Reddit.&lt;/p&gt;
+
+&lt;p&gt;I wanted to focus on a few aspects of “Big Data” for this project.&lt;/p&gt;
+
+&lt;p&gt;I wrestled with the instructors a bit over this topic because of a core problem that seems to be
+intrinsic for a lot of Data Science or analytic type projects.  One must be careful whether one is
+chasing a Supervised or Unsupervised problem.  This may seem rather easy.  Either you have labeled
+data or you don’t.  But the temptation to believe you can create labels can be rather strong.
+No matter how much I looked for some, there wasn’t really any way to get a list of known trolls.
+I sort of broke through and won blessing for the topic when I was able to cast it as a study of
+Anomaly Detection and possibly clustering to learn more about trolls.&lt;/p&gt;
+
+&lt;p&gt;So, in a sense the focus shifted a bit away from Trolls and more towards Anomaly Detection.&lt;/p&gt;
+
+&lt;p&gt;The first goal was just to prepare the data.  Back in 2015 someone used the Reddit API to create
+a historical archive of &lt;strong&gt;all&lt;/strong&gt; the past Reddit comments.  This data bounced around to several
+forums or locations.  Kaggle hosted one month’s worth of data for a challenge.  Someone put this
+up in AWS in a S3 bucket.  And, I already knew from Project Four, a file hosting service was
+keeping these archives going with about a one-month lag from current.  So, I wanted to create
+a second S3 bucket to upload the past couple of years.&lt;/p&gt;
+
+&lt;p&gt;This wasn’t much more trouble than just firing up EC2 instances and some scripting to download,
+uncompress and save.  I had to do this in a way that didn’t depend on my connection.  It took a
+while.  Of course, I &lt;strong&gt;could&lt;/strong&gt; have punched in many instances and done this in parallel.  But
+I didn’t feel I needed to rush through this part because I needed to do some research in parallel.&lt;/p&gt;
+
+&lt;p&gt;I grabbed a number of papers and such to learn what folk have done with similar projects on
+Reddit data or anomaly detection algorithms, etc.  And I started to learn Spark and Dask.  I had
+lots of places to start:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;David’s Spark and Zepellin Lecture&lt;/li&gt;
+  &lt;li&gt;Mike’s Isolation Forest Investigation&lt;/li&gt;
+  &lt;li&gt;Tiffany’s Zepellin, GraphX and Graphframes Investigation&lt;/li&gt;
+  &lt;li&gt;Alex’s Dask Investigation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;SOME of these weren’t quite ready when I needed them.  I started reading up on Dask before Alex
+gave his Investigation presentation.  But I was able to grab his Jupyter notebooks after his
+presentation to repeate them personnaly.  Same for GraphX with Tiffany.&lt;/p&gt;
+
+&lt;p&gt;David asked me at one point if I’d settled on Dask or Spark.  I hadn’t yet.  But I think it was
+right about that time that something dawned on me that should have been pretty clear from the
+beginning.  The Reddit archives are comment data only.  But I’m interested not in finding
+Troll &lt;strong&gt;comments&lt;/strong&gt;.  I wanted to find Troll &lt;strong&gt;users&lt;/strong&gt;.  Some of the papers I’d reviewed had
+maintained a focus on the per-comment data.  This wasn’t my goal at all.  I think I’d imagined
+that I would be using Feature Engineering in order to add a few extra features to the existing
+features in the data set.  There was a small eureka moment when it became very clear to me that
+I wasn’t adding features - I was creating them… all of them.  That is, I had per-comment data but for my
+modeling I needed per-user data.&lt;/p&gt;
+
+&lt;p&gt;It then seemed important not to choose between Spark and Dask but to use both of them for their
+respective advantages.  One paper I’d reviewed described using graph-based features.  It seemed I
+could do this with GraphX/Graphframes.  So, that’d push me towards Spark.  But Dask’s rather native
+tie-in with Python would facilitate use of SKLearn.  At that point, I chose to use both.
+All I needed to do next was choose how to store data in a way that would work well for both.
+I settled in on Parquet.&lt;/p&gt;
+
+&lt;p&gt;Time was the ever-present pressing problem.  There was never really enough of it.  In one sense, I
+was well ahead of schedule having my data pulled into the S3 bucket before the informal deadline of
+“Data Collected”.  But… this was somewhat of an illusion since my modeling would only be based on
+the result of the feature engineering.  And I had several things I had to learn simultaneously:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spark&lt;/li&gt;
+  &lt;li&gt;Zeppelin&lt;/li&gt;
+  &lt;li&gt;EMR clusters&lt;/li&gt;
+  &lt;li&gt;GraphX/Graphframes&lt;/li&gt;
+  &lt;li&gt;Dask&lt;/li&gt;
+  &lt;li&gt;Dask clusters (which eventually meant Kubernetes)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The other interesting aspect of this project was that we formed small accountability groups.
+Within these we orderd in such a way that everyone was responsible for another.  In my group,
+I was responsbile for Tiffany who was responsible for Chris who was responsible for me.&lt;/p&gt;
+
+&lt;p&gt;So, I had to pay attention to Tiffany’s status as she progressed through her project.  When I heard
+she was having issues due to getting kicked out of her SSH connection to her EC2 instance, I arranged
+a quick tutorial session where I showed her how to take advantage of redirects, background jobs and
+nohup to ensure her data scraping jobs persisted regardless of the connection.  This was essentially
+what I had done with my EC2 instances for extracting and storing data in the S3 bucket.&lt;/p&gt;
+
+&lt;p&gt;Then later on when I was working through the Zeppelin notebook she created for her GraphX investigation,
+I ran into the same roadblock she’d found with regards to getting Graphframes.  There’s something a tad
+messed up at the moment with regards to installing it for use with Zeppelin.  I found a way to get it
+workign and quickly shared it with her.  She promised to help me with Tableau later on… but alas…
+there’s really not that much to visualize with Anomaly Detection.&lt;/p&gt;
+
+&lt;p&gt;There came a point where we had to end the modeling and start working on a presentation.  Tiffany, Chris
+and I met to discuss strategies.  And then later David and Alice met with our team.  As they’d told us
+they would, they didn’t ask each of us to describe our approach for our project.  Instead we had to describe
+the project and presentation strategy for the person we were responsible for.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">It’s the night before Career Day, and all through the house…</summary></entry><entry><title type="html">Status Update</title><link href="/metis/2018/03/25/Status-Update/" rel="alternate" type="text/html" title="Status Update" /><published>2018-03-25T00:00:00+00:00</published><updated>2018-03-25T00:00:00+00:00</updated><id>/metis/2018/03/25/Status-Update</id><content type="html" xml:base="/metis/2018/03/25/Status-Update/">&lt;p&gt;Whew!  The first month post-bootcamp was busy!&lt;/p&gt;
 
 &lt;p&gt;Woah.  I got away from blogging once things got really busy towards the end of bootcamp.&lt;/p&gt;
 
@@ -477,144 +667,4 @@ conda install &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; seaborn pandas re
 
 &lt;p&gt;And browse to:&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;http://ec2-18-218-45-180.us-east-2.compute.amazonaws.com:8890/&lt;/code&gt;&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Kubernetes" /><category term="AWS" /><category term="EMR" /><category term="Hadoop" /><summary type="html">I’m starting to take advantage of clusters on the Cloud for parallel processing power.</summary></entry><entry><title type="html">Bootcamp - Investigations Conclude</title><link href="/metis/2018/03/21/Investigations-Conclude/" rel="alternate" type="text/html" title="Bootcamp - Investigations Conclude" /><published>2018-03-21T00:00:00+00:00</published><updated>2018-03-21T00:00:00+00:00</updated><id>/metis/2018/03/21/Investigations-Conclude</id><content type="html" xml:base="/metis/2018/03/21/Investigations-Conclude/">&lt;p&gt;We’re all done with Investigations!&lt;/p&gt;
-
-&lt;p&gt;Alas.  No more investigations.  No more competing fancies to vie for our time.&lt;/p&gt;
-
-&lt;p&gt;True to form, the instructors held our feet to the fire and we did indeed wrap up all our Investigations
-before Lunch on Monday.&lt;/p&gt;
-
-&lt;p&gt;And, I was still the last one to present for whatever that’s worth.&lt;/p&gt;
-
-&lt;p&gt;This ended up being like a project presentation day because so many were presenting back-to-back.
-But it was a lot more relaxed and fun because we weren’t being evaluated.&lt;/p&gt;
-
-&lt;p&gt;Tiffany had given one on GraphX Friday.  And Michael explored Time Series.  Monday Alex did Dask. 
-Amy did Spacey.  Adam did… something
-I cannot quite describe in one word.  It was a method of using a CNN to apply artistic styles
-to images.  And I gave a &lt;a href=&quot;/slides/reinforcement/&quot; target=&quot;_blank&quot;&gt; presentation on reinforcement learning &lt;/a&gt;
- with a focus on bots playing games.&lt;/p&gt;
-
-&lt;p&gt;Adam and I both had sort of transitioned an idea or hope for the Passion Project into an investigation
-instead.  I started hearing an odd phrase recently… “Business Applicability”.  It has become expected
-that we take ideas to the instructors (David and Alice) and have them shot down for one reason or another,
-often due to things like too complex, too simple, inapplicable use of modeling assumptions, etc.  But lately
-there seemed to be folk incorporating the Career Advisor (Ashley) into this discussion.  I guess the
-discussions were someting like “yeah… that’s cool… but… what’s the &lt;strong&gt;business applicaton&lt;/strong&gt;”.  There
-are often ways to answer that question.  Sometimes there is value in the method of approach overall even
-if the end goal has less direct applicability.  But… things like weird picture generation or better AI bots
-for games… well… better to have fun with it as an Investgiation.&lt;/p&gt;
-
-&lt;p&gt;The really good thing about having everyone do investigations like this is that we all get more exposure
-to what’s out there.  You can grab the work another student did whenever you need it.  This saves you a bit
-of time you’d have spent wandering around the web exploring the topic.&lt;/p&gt;
-
-&lt;p&gt;For example, I could see myself using any of these investigations during Project Five:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Dask&lt;/li&gt;
-  &lt;li&gt;GraphX&lt;/li&gt;
-  &lt;li&gt;Spacey&lt;/li&gt;
-  &lt;li&gt;Docker&lt;/li&gt;
-  &lt;li&gt;Isolation Forest&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Reinforcement_Learning" /><summary type="html">We’re all done with Investigations!</summary></entry><entry><title type="html">Project Kojak Begins</title><link href="/project/kojak/2018/03/15/Project-Kojak-Begins/" rel="alternate" type="text/html" title="Project Kojak Begins" /><published>2018-03-15T00:00:00+00:00</published><updated>2018-03-15T00:00:00+00:00</updated><id>/project/kojak/2018/03/15/Project-Kojak-Begins</id><content type="html" xml:base="/project/kojak/2018/03/15/Project-Kojak-Begins/">&lt;p&gt;We’re finally here… we’ve crossed into Passion Project territory.&lt;/p&gt;
-
-&lt;p&gt;And… in many ways, it’s just like the previous projects.  We’ve got till Friday to post our
-two project ideas on projects slack channel.  We need to try to “fail fast” and switch to the
-alternative idea if the first one proves not to be viable.&lt;/p&gt;
-
-&lt;p&gt;But there are many rather significant differences this time.  First of all, there’s next to
-no guidance or restrictions.  Unlike the previous projects, there’s no focus on Supervised vs.
-Unsupervised.  There’s no requirement to use SQL or NoSQL.  No goal to incorporate visualizations.
-Instead, it’s all of the above in whatever way we want.&lt;/p&gt;
-
-&lt;p&gt;Except…&lt;/p&gt;
-
-&lt;p&gt;The instructors are very actively involved in helping us choose projects.  This is in two primary
-forms.  First, they would &lt;strong&gt;like&lt;/strong&gt; to create some sort of balance across the cohort.  For Project
-Four, David made the comment that he’d very rarely, if ever, seen word clouds in project presentations.
-However for some odd reason, a large percentage of us included word clouds.  They were artfully done.
-But as a whole cohort it was essentially overdone.  They don’t want half of us chasing the same topic,
-area or toolset for Project 5.  So, they listed about a dozen general areas and suggested to us
-those which might appear more to employers.&lt;/p&gt;
-
-&lt;p&gt;Ah yes… employers.  For Project 4 we had to hold a microphone while presenting.  It was weird.
-This was to prepare us because Project 5 presentations will be livestreamed.  The primary audience
-for Project 5 presentations will be employers and recruiters, both present and remote.&lt;/p&gt;
-
-&lt;p&gt;So… if feels the instructors are even more rigorous in helping us avoid “bad” projects.  Our ideas
-are getting shot down quickly.  If our ideas involve circular logic, weak assumptions, untenable
-goals, etc., we’re redirected accordingly.&lt;/p&gt;
-
-&lt;p&gt;Finally, it would &lt;strong&gt;seem&lt;/strong&gt; we have more time for this final project.  But that’s all somewhat of an
-illusion.  This first week is devoted to helping us &lt;strong&gt;choose&lt;/strong&gt; a project (two projects, actually -
-we need a viable alternative as well).  And the last week is earmarked for presentation refinement.
-Oh yes.  There absolutely &lt;strong&gt;WILL NOT&lt;/strong&gt; be any presentations given on Career Day that were actually
-tossed together or wrapped up within twelve hours of the presentation.  Oh no no no.  We’ll be
-presenting internally a full week ahead of time and going through &lt;em&gt;several&lt;/em&gt; iterations for refinement.&lt;/p&gt;
-
-&lt;p&gt;That puts much more pressure on us overall.&lt;/p&gt;
-
-&lt;p&gt;I finally selected an alternative yesterday afternoon and posted my two ideas.  I’ve been moving large
-amounts of data into an AWS S3 bucket for the purpose of EDA.  So, I’ve begun.  But my focus will be
-split for a few days as I prepare the final Investigation.&lt;/p&gt;
-
-&lt;p&gt;It seems I wasn’t the only one hoping to postpone delivery/presentation of the final Investigation.
-I thought I was “safe” in this since I had the last slot on the official schedule.  But that means
-little when about half the cohort was trying to push this off as well.  Alice was quite lenient in
-granting these postponement requests.  But it now appears there was something missed in interpretation.
-The students meant postponements on the order of a week (I’d’ve preferred a month).  She probably meant
-something like a day tops.  So Alice laid down the law and declared &lt;strong&gt;ALL&lt;/strong&gt; Investigation presentations
-must be completed by Monday.  This is creating a traffic jam and we’ll have something like a Project
-Presentation Day because so many of us will be giving these Investigations back-to-back.&lt;/p&gt;
-
-&lt;p&gt;Her motive is clear.  She wants us focused on Project Five.  And I see why.  I’m having lots of fun
-with my Investigation.  It really is now a competing focus.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">We’re finally here… we’ve crossed into Passion Project territory.</summary></entry><entry><title type="html">HackerRank Targets: RegEx and NLP</title><link href="/hackerrank/2018/03/15/NLP-on-HackerRank/" rel="alternate" type="text/html" title="HackerRank Targets: RegEx and NLP" /><published>2018-03-15T00:00:00+00:00</published><updated>2018-03-15T00:00:00+00:00</updated><id>/hackerrank/2018/03/15/NLP-on-HackerRank</id><content type="html" xml:base="/hackerrank/2018/03/15/NLP-on-HackerRank/">&lt;p&gt;I’ve identified tracks in HackerRank to coincide with Project 4.&lt;/p&gt;
-
-&lt;p&gt;Similar to Project Three, I thought it would be useful to progress through the related material
-on HackerRank.  And as before, it was indeed uScores seful.  You don’t get the whizbang toolsets to
-help you.  No SciKit Learn… No Gensim… No NLTK.  Nope.  It really does help to learn things
-if you are forced to fall back and essentially code things from scratch.  And, you may learn
-a lot more along the way.&lt;/p&gt;
-
-&lt;p&gt;For example, as I coded TF-IDF from scratch, I read the Wikipedia page on TF-IDF.  Nothing
-previous had underscored that there really isn’t just one TF-IDF algorithm.  There are many
-variations.
-Scores 
-So, I chose the Regular Expression (Regex) track and the Natural Language Processing (NLP) section
-withing the Machine Learning track.&lt;/p&gt;
-
-&lt;p&gt;Alas… although it was and is helpful, it was also robust enough I couldn’t finish in the
-time frame of Project 4.  I plowed all through the “learning” challenge sections for RegEx.  But
-the last section is full of near-real-world applications.  I just couldn’t devote the time.
-And the NLP section… sheesh.  That’s really going to take some time.&lt;/p&gt;
-
-&lt;p&gt;I’m accumulating no small amount of curiosities and goals for things to pursue after the Metis
-bootcamp.&lt;/p&gt;
-
-&lt;p&gt;For Project 5, I’m starting to use Spark which depends on Scala.  So, in the same spirit, I
-should jump on the Functional Programming track on Hacker Rank.  But… it’s going to have to wait.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Regex" /><category term="NLP" /><summary type="html">I’ve identified tracks in HackerRank to coincide with Project 4.</summary></entry><entry><title type="html">Project Fletcher Closing</title><link href="/project/fletcher/2018/03/09/Project-Fletcher-Closing/" rel="alternate" type="text/html" title="Project Fletcher Closing" /><published>2018-03-09T00:00:00+00:00</published><updated>2018-03-09T00:00:00+00:00</updated><id>/project/fletcher/2018/03/09/Project-Fletcher-Closing</id><content type="html" xml:base="/project/fletcher/2018/03/09/Project-Fletcher-Closing/">&lt;p&gt;Project Fletcher is coming to a close…&lt;/p&gt;
-
-&lt;p&gt;I’m on the train commuting down to Project Presentation Day.&lt;/p&gt;
-
-&lt;p&gt;And I have just been reminded of an significant risk I’ve been running - I’m incredibly dependent upon
-access to the Internet to give my presentations.  It’s not just something like developing a presentation
-in Google Slides or Slides.com and never downloading an offline copy.  My presentations are live.
-They are run from a local web server (on the laptop).  Although I keep trying to ensure all javascript
-libraries are served locally, I’m not catching everything.  In a more perfect world, I would/should
-have a completely static copy in some format or another as a backup or failsafe.&lt;/p&gt;
-
-&lt;p&gt;Things seem to work… more or less… eventually.  But it sometimes requires reloading, kicking it, waiting.
-I CAN reload the presentation now on the train with no internet access.  Not quite what I’d want while
-under a strict time constraint.  Next, I need to make a note to check into something else.  I’ve now got
-half a dozen slides or more with iframes pulling other pages.  Somehow, for some reason, these seem to be
-falling out of cache.  Sigh…&lt;/p&gt;
-
-&lt;p&gt;The trouble with these projects is that you are SUPPOSED to stop your exploration, your analysis, etc.,
-and then have time focused just on creation and refining the presentation.  But most of us keep at it.
-Sometimes, you’re really close to finishing something and once you’ve got it then that opens up a floodgate
-of further analysis or insight… sometimes invalidating or overtuning previous ideas or observations
-you’d baked into the presentation.  It’s a very weird thing.&lt;/p&gt;
-
-&lt;p&gt;Nonetheless, this is a one of the most key benefits of this bootcamp.  We’re learning time management
-and prioritization skills relative to projects overall.  We’re being forced to turning things around in
-an iterative fashion where we can present things at various stages along the way.  This is invaluable.&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><summary type="html">Project Fletcher is coming to a close…</summary></entry></feed>
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;http://ec2-18-218-45-180.us-east-2.compute.amazonaws.com:8890/&lt;/code&gt;&lt;/p&gt;</content><author><name>Joseph Hamilton</name><email>hamilton.joseph.r@gmail.com</email></author><category term="Kubernetes" /><category term="AWS" /><category term="EMR" /><category term="Hadoop" /><summary type="html">I’m starting to take advantage of clusters on the Cloud for parallel processing power.</summary></entry></feed>
