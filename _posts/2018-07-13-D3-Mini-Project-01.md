@@ -21,7 +21,7 @@ for security purposes.
 But that got me thinking that I really do need to become a polyglot and know how to do a variety of
 things in different ways using different languages.  Around the same time, I came aross an SQL challenge
 on the CodeSignal (formerly CodeFight) site.  The challenge expected you to use a hard-coded specific
-function to calculate the area of a [convex hull](://www.geeksforgeeks.org/convex-hull-set-2-graham-scan/).
+function to calculate the area of a [convex hull](https://www.geeksforgeeks.org/convex-hull-set-2-graham-scan/).
 During the bootcamp David suggested to us that one way to learn something is to code it by yourself
 from scratch.  For some reason I had just recently reviewed the idea or concept that SQL was elevated
 to become an imperative language despite starting out strictly as a declarative language.  Furthermore,
